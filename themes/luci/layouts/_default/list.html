@@ -1,0 +1,92 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="prose mt-1">{{ . }}</div>{{ end }}
+  </div>
+
+  <!-- News list -->
+  {{ if eq .Section "news" }}
+  <ul class="news-list">
+    {{ range .Pages }}
+    <li class="news-item">
+      <span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span>
+      <div>
+        <p class="news-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        <p class="news-excerpt">{{ .Summary | truncate 200 }}</p>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  <!-- Seminars list -->
+  {{ if eq .Section "seminars" }}
+  <ul class="seminar-list">
+    {{ range .Pages }}
+    <li class="seminar-item">
+      <div class="seminar-meta">
+        <strong>{{ .Date.Format "Mon 2 Jan 2006" }}</strong>
+        {{ .Params.time }}<br>
+        {{ with .Params.venue }}{{ . }}{{ end }}
+      </div>
+      <div>
+        <p class="seminar-speaker">{{ .Params.speaker }}</p>
+        {{ with .Params.affiliation }}<p class="seminar-affil">{{ . }}</p>{{ end }}
+        <p class="seminar-talk"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        {{ with .Params.abstract }}<p class="seminar-abstract">{{ . | truncate 250 }}</p>{{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  <!-- Members list -->
+  {{ if eq .Section "members" }}
+    <!-- Permanent members -->
+    {{ $permanent := where .Pages "Params.role" "Permanent Member" }}
+    {{ with $permanent }}
+    <p class="section__label mt-2">Permanent Members</p>
+    <div class="members-grid">
+      {{ range . }}
+      {{ partial "member-card.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ $postdoc := where .Pages "Params.role" "Postdoctoral Researcher" }}
+    {{ with $postdoc }}
+    <p class="section__label mt-3">Postdoctoral Researchers</p>
+    <div class="members-grid">
+      {{ range . }}
+      {{ partial "member-card.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ $phd := where .Pages "Params.role" "PhD Student" }}
+    {{ with $phd }}
+    <p class="section__label mt-3">PhD Students</p>
+    <div class="members-grid">
+      {{ range . }}
+      {{ partial "member-card.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
+  <!-- Research list -->
+  {{ if eq .Section "research" }}
+  <ul class="research-areas">
+    {{ range .Pages }}
+    <li class="research-area">
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Summary }}</p>
+      <a href="{{ .RelPermalink }}" style="font-family:var(--mono);font-size:0.7rem;color:var(--accent);text-decoration:none;letter-spacing:0.08em;">Read more →</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+</div>
+{{ end }}

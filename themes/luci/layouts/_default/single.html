@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-header">
+    {{ if .Params.speaker }}
+      <p style="font-family:var(--mono);font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:0.75rem;">
+        Seminar — {{ .Date.Format "2 January 2006" }}{{ with .Params.time }}, {{ . }}{{ end }}
+      </p>
+      <h1>{{ .Title }}</h1>
+      <p style="font-size:1.1rem;margin-top:0.5rem;">
+        <strong>{{ .Params.speaker }}</strong>
+        {{ with .Params.affiliation }} — <em style="color:var(--dim)">{{ . }}</em>{{ end }}
+      </p>
+      {{ with .Params.venue }}
+      <p style="font-family:var(--mono);font-size:0.7rem;color:var(--dim);margin-top:0.5rem;">{{ . }}</p>
+      {{ end }}
+    {{ else }}
+      {{ with .Params.date }}
+      <p style="font-family:var(--mono);font-size:0.7rem;letter-spacing:0.1em;color:var(--dim);margin-bottom:0.5rem;">{{ $.Date.Format "2 January 2006" }}</p>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
+  </div>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  <p style="margin-top:3rem;">
+    <a href="{{ .CurrentSection.RelPermalink }}" style="font-family:var(--mono);font-size:0.7rem;color:var(--dim);text-decoration:none;letter-spacing:0.08em;">← Back</a>
+  </p>
+</div>
+{{ end }}

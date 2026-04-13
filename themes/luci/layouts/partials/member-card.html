@@ -1,0 +1,7 @@
+<div class="member-card">
+  <p class="member-role">{{ .Params.role }}</p>
+  <p class="member-name">
+    {{ with .Params.website }}<a href="{{ . }}" target="_blank">{{ $.Title }}</a>{{ else }}{{ .Title }}{{ end }}
+  </p>
+  {{ with .Params.interests }}<p class="member-interests">{{ . }}</p>{{ end }}
+</div>

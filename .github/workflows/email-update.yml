@@ -1,0 +1,45 @@
+name: Email Content Update
+
+# Triggered via repository_dispatch from Zapier
+# Zapier POSTs to: https://api.github.com/repos/OWNER/REPO/dispatches
+# with the parsed email fields in client_payload
+
+on:
+  repository_dispatch:
+    types: [email-update]
+
+permissions:
+  contents: write
+
+jobs:
+  create-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CONTENT_PAT }}
+
+      - name: Write content file
+        env:
+          SECTION:  ${{ github.event.client_payload.section }}
+          SLUG:     ${{ github.event.client_payload.slug }}
+          TITLE:    ${{ github.event.client_payload.title }}
+          DATE:     ${{ github.event.client_payload.date }}
+          BODY:     ${{ github.event.client_payload.body }}
+          # Seminar-specific (optional)
+          SPEAKER:      ${{ github.event.client_payload.speaker }}
+          AFFILIATION:  ${{ github.event.client_payload.affiliation }}
+          TALK_TIME:    ${{ github.event.client_payload.time }}
+          VENUE:        ${{ github.event.client_payload.venue }}
+          ABSTRACT:     ${{ github.event.client_payload.abstract }}
+        run: |
+          node scripts/write-content.js
+
+      - name: Commit and push
+        run: |
+          git config user.name  "LUCI Bot"
+          git config user.email "bot@luci.unimi.it"
+          git add content/
+          git diff --staged --quiet || git commit -m "content: add '${{ github.event.client_payload.title }}' via email"
+          git push

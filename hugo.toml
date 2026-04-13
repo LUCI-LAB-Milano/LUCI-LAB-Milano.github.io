@@ -1,0 +1,34 @@
+baseURL = "https://luci.unimi.it/"
+languageCode = "en-us"
+title = "LUCI Lab"
+theme = "luci"
+paginate = 10
+
+[params]
+  description = "Logic, Uncertainty, Computation and Information Lab — University of Milan"
+  department = "Department of Philosophy \"Piero Martinetti\""
+  university = "Università degli Studi di Milano"
+  email = "updates@luci.unimi.it"
+  tagline = "We ask what should follow from knowledge while it is still in the making."
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 1
+  [[menu.main]]
+    name = "Members"
+    url = "/members/"
+    weight = 2
+  [[menu.main]]
+    name = "Seminars"
+    url = "/seminars/"
+    weight = 3
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 4
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true

@@ -1,0 +1,79 @@
+{{ define "main" }}
+<div class="container">
+
+  <!-- Hero -->
+  <section class="hero">
+    <p class="hero__label">Logic · Uncertainty · Computation · Information</p>
+    <h1 class="hero__title">
+      We ask what should follow from knowledge<br>
+      <em>while it is still in the making.</em>
+    </h1>
+    <p class="hero__body">
+      At LUCI Lab we develop logics that play a key role in hybrid- and human-centred AI.
+      We investigate when data-driven hypotheses yield valid scientific inferences,
+      and under what conditions we should trust machine learning algorithms.
+    </p>
+  </section>
+
+  <!-- Three pillars -->
+  <div class="pillars">
+    <div class="pillar">
+      <p class="pillar__word">Logic</p>
+      <p class="pillar__text">Logic as a research mindset: from Boole's general method for uncertain premisses to today's formal epistemology and trustworthy AI.</p>
+    </div>
+    <div class="pillar">
+      <p class="pillar__word">Uncertainty</p>
+      <p class="pillar__text">Quantitative and qualitative tools for reasoning under uncertainty — from many-valued logics to probabilistic and epistemic frameworks.</p>
+    </div>
+    <div class="pillar">
+      <p class="pillar__word">Computation</p>
+      <p class="pillar__text">Proof-theoretic and computational-logic tools applied to problems of key societal impact, including bias detection in machine learning.</p>
+    </div>
+  </div>
+
+  <!-- Latest news -->
+  {{ $news := (where .Site.RegularPages "Section" "news") | first 4 }}
+  {{ with $news }}
+  <section class="section">
+    <p class="section__label">Latest News</p>
+    <ul class="news-list">
+      {{ range . }}
+      <li class="news-item">
+        <span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span>
+        <div>
+          <p class="news-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+          <p class="news-excerpt">{{ .Summary | truncate 160 }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  <!-- Upcoming seminars -->
+  {{ $seminars := (where .Site.RegularPages "Section" "seminars") | first 3 }}
+  {{ with $seminars }}
+  <section class="section">
+    <p class="section__label">Upcoming Seminars</p>
+    <ul class="seminar-list">
+      {{ range . }}
+      <li class="seminar-item">
+        <div class="seminar-meta">
+          <strong>{{ .Date.Format "Mon 2 Jan" }}</strong>
+          {{ .Params.time }}<br>
+          {{ with .Params.venue }}<span>{{ . }}</span>{{ end }}
+        </div>
+        <div>
+          <p class="seminar-speaker">{{ .Params.speaker }}</p>
+          {{ with .Params.affiliation }}<p class="seminar-affil">{{ . }}</p>{{ end }}
+          <p class="seminar-talk">{{ .Title }}</p>
+          {{ with .Params.abstract }}<p class="seminar-abstract">{{ . | truncate 200 }}</p>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}
