@@ -1,4 +1,7 @@
 ---
 title: "Seminars"
+aliases:
+  - /luci-seminars/
 ---
-The LUCI Lab seminar series meets on Wednesdays at 14:30 CET. All talks are held online via Teams unless otherwise noted.
+
+The LUCI seminar series archive. Seminar entries use the same image-ready page-bundle pattern as events, with dedicated fields for speaker, affiliation, time, and venue.

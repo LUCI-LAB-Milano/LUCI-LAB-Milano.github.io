@@ -1,115 +1,111 @@
 /**
- * ZAPIER CODE STEP (JavaScript)
- * ─────────────────────────────
- * Place this as a "Code by Zapier" step after the "Email Parser by Zapier" trigger.
+ * Zapier Code step for LUCI email publishing.
  *
- * Expected email format sent to updates@luci.unimi.it:
- * ─────────────────────────────────────────────────────
- * Subject: [news] Workshop on Bounded Rationality
+ * Subject patterns:
+ *   [news] Title
+ *   [event] Title
+ *   [seminar] Title
+ *   [member] Full Name
  *
- * date: 2026-04-15
- * body:
- * We are pleased to announce the workshop…
- *
- * ─── For seminars, use subject [seminar] and add: ───
- * Subject: [seminar] Counterfactuals: an Algebraic View
- *
- * date: 2026-05-07
- * time: 14:30 CET
- * venue: Online via Teams
- * speaker: Sara Ugolini
- * affiliation: IIIA – CSIC, Barcelona
- * abstract: A counterfactual conditional is a statement…
- * body:
- * Full seminar description here…
- *
- * INPUT FIELDS FROM EMAIL PARSER STEP:
- *   inputData.subject  — email subject line
- *   inputData.body     — full email body text
- *
- * ZAPIER INPUT DATA (set in Code step):
- *   GITHUB_TOKEN  — your Personal Access Token (repo scope)
- *   GITHUB_OWNER  — your GitHub username or org
- *   GITHUB_REPO   — repository name, e.g. "luci-site"
+ * Body fields (all optional except body for normal posts):
+ *   date: 2026-04-15
+ *   summary: Short teaser
+ *   time: 14:30 CET
+ *   location: Online via Teams
+ *   speaker: Sara Ugolini
+ *   affiliation: IIIA – CSIC Barcelona
+ *   abstract: ...
+ *   role: Postdoctoral Researcher
+ *   interests: ...
+ *   website: https://...
+ *   image_url: https://...
+ *   body:
+ *   Full markdown body here...
  */
 
 const GITHUB_TOKEN = inputData.GITHUB_TOKEN;
 const GITHUB_OWNER = inputData.GITHUB_OWNER;
-const GITHUB_REPO  = inputData.GITHUB_REPO;
+const GITHUB_REPO = inputData.GITHUB_REPO;
+const subject = (inputData.subject || '').trim();
+const bodyText = inputData.body || '';
+const senderEmail = (inputData.from_email || inputData.sender_email || '').trim();
 
-// ── Parse section from subject ──────────────────────────────
-const subject = inputData.subject || '';
-const sectionMatch = subject.match(/^\[(news|seminar|member)\]\s*/i);
+const sectionMatch = subject.match(/^\[(news|event|seminar|member)\]\s*(.+)$/i);
 if (!sectionMatch) {
-  throw new Error(`Subject must start with [news], [seminar], or [member]. Got: "${subject}"`);
+  throw new Error(`Subject must start with [news], [event], [seminar], or [member]. Got: ${subject}`);
 }
-const section = sectionMatch[1].toLowerCase() === 'seminar' ? 'seminars'
-              : sectionMatch[1].toLowerCase() === 'member'  ? 'members'
-              : 'news';
-const title = subject.replace(/^\[.*?\]\s*/, '').trim();
 
-// ── Parse key:value fields from body ──────────────────────────
-const rawBody = inputData.body || '';
-const fields  = {};
-let   prose   = '';
-let   inBody  = false;
+const rawSection = sectionMatch[1].toLowerCase();
+const title = sectionMatch[2].trim();
+const section = rawSection === 'event' ? 'events' : rawSection === 'seminar' ? 'seminars' : rawSection === 'member' ? 'members' : 'news';
+const eventType = rawSection === 'event' ? 'event' : rawSection === 'seminar' ? 'seminar' : rawSection;
 
-for (const line of rawBody.split('\n')) {
+const fields = {};
+let prose = '';
+let inBody = false;
+for (const line of bodyText.split('
+')) {
   if (inBody) {
-    prose += line + '\n';
+    prose += line + '
+';
     continue;
   }
   if (line.trim().toLowerCase() === 'body:') {
     inBody = true;
     continue;
   }
-  const kv = line.match(/^(\w+):\s*(.+)$/);
-  if (kv) {
-    fields[kv[1].toLowerCase()] = kv[2].trim();
-  }
+  const kv = line.match(/^([a-zA-Z_]+):\s*(.+)$/);
+  if (kv) fields[kv[1].toLowerCase()] = kv[2].trim();
 }
 
-// ── Build slug ─────────────────────────────────────────────────
-const today = fields.date || new Date().toISOString().split('T')[0];
-const slug  = (section === 'seminars' && fields.speaker)
-  ? `${fields.speaker.split(' ').pop().toLowerCase()}-${today}`
-  : title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').slice(0, 50);
+const today = fields.date || new Date().toISOString().slice(0, 10);
+const slugBase = rawSection === 'member'
+  ? title.toLowerCase()
+  : (fields.speaker ? `${fields.speaker.split(' ').slice(-1)[0]}-${today}` : title);
+const slug = slugBase
+  .normalize('NFD')
+  .replace(/[̀-ͯ]/g, '')
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/(^-|-$)/g, '')
+  .slice(0, 80);
 
-// ── Build payload ──────────────────────────────────────────────
 const payload = {
   event_type: 'email-update',
   client_payload: {
     section,
     slug,
     title,
-    date:        today,
-    body:        prose.trim(),
-    speaker:     fields.speaker     || '',
+    date: today,
+    body: prose.trim(),
+    summary: fields.summary || '',
+    event_type: eventType,
+    speaker: fields.speaker || '',
     affiliation: fields.affiliation || '',
-    time:        fields.time        || '14:30 CET',
-    venue:       fields.venue       || 'Online via Teams',
-    abstract:    fields.abstract    || '',
-  }
+    time: fields.time || '',
+    location: fields.location || fields.venue || '',
+    abstract: fields.abstract || '',
+    role: fields.role || '',
+    interests: fields.interests || '',
+    website: fields.website || '',
+    image_url: fields.image_url || '',
+    sender_email: senderEmail,
+  },
 };
 
-// ── POST to GitHub ─────────────────────────────────────────────
-const response = await fetch(
-  `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/dispatches`,
-  {
-    method:  'POST',
-    headers: {
-      'Accept':        'application/vnd.github+json',
-      'Authorization': `Bearer ${GITHUB_TOKEN}`,
-      'X-GitHub-Api-Version': '2022-11-28',
-      'Content-Type':  'application/json',
-    },
-    body: JSON.stringify(payload),
-  }
-);
+const response = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/dispatches`, {
+  method: 'POST',
+  headers: {
+    'Accept': 'application/vnd.github+json',
+    'Authorization': `Bearer ${GITHUB_TOKEN}`,
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(payload),
+});
 
 if (!response.ok) {
-  const text = await response.text();
-  throw new Error(`GitHub API error ${response.status}: ${text}`);
+  throw new Error(`GitHub API error ${response.status}: ${await response.text()}`);
 }
 
 return { status: 'ok', section, slug, title };

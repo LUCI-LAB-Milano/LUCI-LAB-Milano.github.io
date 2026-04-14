@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <article class="article-shell">
+    <header class="page-head">
+      <div class="container narrow">
+        <p class="eyebrow">{{ if .Section }}{{ .Section | humanize }}{{ else }}Page{{ end }}</p>
+        <h1>{{ .Title }}</h1>
+        <div class="article-meta">
+          {{ if not .Date.IsZero }}<span>{{ .Date.Format "2 Jan 2006" }}</span>{{ end }}
+          {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.speaker }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.location }}<span>{{ . }}</span>{{ end }}
+        </div>
+      </div>
+    </header>
+
+    <div class="container narrow">
+      {{ with .Params.image }}
+        <figure class="hero-image-frame">
+          <img class="hero-image" src="{{ . }}" alt="Graphic for {{ $.Title }}">
+        </figure>
+      {{ end }}
+
+      {{ if eq .Section "members" }}
+        <div class="member-profile card">
+          <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+          <div>
+            {{ with .Params.interests }}<p><strong>Research interests.</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.website }}<p><a href="{{ . }}">Visit personal page</a></p>{{ end }}
+            {{ with .Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+          </div>
+        </div>
+      {{ else if or (eq .Section "events") (eq .Section "seminars") }}
+        <div class="card event-facts">
+          <div><strong>Date</strong><span>{{ .Date.Format "2 Jan 2006" }}</span></div>
+          {{ with .Params.time }}<div><strong>Time</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.location }}<div><strong>Location</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.speaker }}<div><strong>Speaker</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.affiliation }}<div><strong>Affiliation</strong><span>{{ . }}</span></div>{{ end }}
+        </div>
+      {{ end }}
+
+      <div class="article-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+{{ end }}

@@ -1,0 +1,122 @@
+{{ define "main" }}
+  {{ $members := first 8 (sort (where site.RegularPages "Section" "members") "Params.weight") }}
+  {{ $news := first 3 (where site.RegularPages "Section" "news") }}
+  {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }}
+  {{ $seminars := first 3 (sort (where site.RegularPages "Section" "seminars") "Date") }}
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Logic · Uncertainty · Computation · Information</p>
+        <h1>{{ site.Params.tagline }}</h1>
+        <p class="lede">At LUCI Lab, logic is primarily a research mindset. We develop logics for scientific inference, trustworthy AI, bounded rationality, and information processing in human and machine systems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/research/">Explore research</a>
+          <a class="button" href="/members/">Meet the group</a>
+        </div>
+      </div>
+      <aside class="hero-panel card">
+        <h2>At a glance</h2>
+        <ul class="stat-list">
+          <li><strong>{{ len (where site.RegularPages "Section" "members") }}</strong><span>member profiles with photos</span></li>
+          <li><strong>{{ add (len (where site.RegularPages "Section" "events")) (len (where site.RegularPages "Section" "seminars")) }}</strong><span>event pages with graphics</span></li>
+          <li><strong>Email → GitHub</strong><span>publishing workflow for lab updates</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Research directions</h2>
+        <a href="/research/">See all topics</a>
+      </div>
+      <div class="card-grid thirds">
+        {{ range first 4 (where site.RegularPages "Section" "research") }}
+          <article class="card topic-card">
+            <p class="eyebrow">Research</p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="container">
+      <div class="section-head">
+        <h2>Members</h2>
+        <a href="/members/">Full directory</a>
+      </div>
+      <div class="card-grid quarters">
+        {{ range $members }}
+          <article class="card member-card compact">
+            <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+            <div>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p class="meta">{{ .Params.role }}</p>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-column">
+      <div>
+        <div class="section-head">
+          <h2>Featured events</h2>
+          <a href="/events/">All events</a>
+        </div>
+        <div class="stack">
+          {{ range $events }}
+            <article class="card media-card horizontal">
+              <img src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}">
+              <div>
+                <p class="eyebrow">{{ .Params.event_type | default "Event" }} · {{ .Date.Format "2 Jan 2006" }}</p>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Summary }}</p>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+      <div>
+        <div class="section-head">
+          <h2>Upcoming seminars</h2>
+          <a href="/seminars/">Seminar archive</a>
+        </div>
+        <div class="stack">
+          {{ range $seminars }}
+            <article class="card seminar-row">
+              <p class="eyebrow">{{ .Date.Format "Mon 2 Jan 2006" }}{{ with .Params.time }} · {{ . }}{{ end }}</p>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p><strong>{{ .Params.speaker }}</strong>{{ with .Params.affiliation }} — {{ . }}{{ end }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="container">
+      <div class="section-head">
+        <h2>Latest news</h2>
+        <a href="/news/">News archive</a>
+      </div>
+      <div class="card-grid thirds">
+        {{ range $news }}
+          <article class="card news-card">
+            <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}</p>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
