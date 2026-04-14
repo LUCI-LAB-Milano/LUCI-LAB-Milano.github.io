@@ -1,34 +1,58 @@
 baseURL = "https://luci.unimi.it/"
 languageCode = "en-us"
 title = "LUCI Lab"
-theme = "luci"
-paginate = 10
+enableRobotsTXT = true
+paginate = 12
+summaryLength = 30
 
 [params]
   description = "Logic, Uncertainty, Computation and Information Lab — University of Milan"
-  department = "Department of Philosophy \"Piero Martinetti\""
+  department = "Department of Philosophy "Piero Martinetti""
   university = "Università degli Studi di Milano"
+  location = "Via Festa del Perdono, 7 — 20122 Milan"
   email = "updates@luci.unimi.it"
   tagline = "We ask what should follow from knowledge while it is still in the making."
-
-[menu]
-  [[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 1
-  [[menu.main]]
-    name = "Members"
-    url = "/members/"
-    weight = 2
-  [[menu.main]]
-    name = "Seminars"
-    url = "/seminars/"
-    weight = 3
-  [[menu.main]]
-    name = "News"
-    url = "/news/"
-    weight = 4
+  instagram = "https://www.instagram.com/logicgroupmilano/"
+  linkedin = "https://www.linkedin.com/"
+  youtube = "https://www.youtube.com/"
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 1
+[[menu.main]]
+  name = "Members"
+  url = "/members/"
+  weight = 2
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 3
+[[menu.main]]
+  name = "Seminars"
+  url = "/seminars/"
+  weight = 4
+[[menu.main]]
+  name = "News"
+  url = "/news/"
+  weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 6
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 7
+[[menu.main]]
+  name = "Open Positions"
+  url = "/open-positions/"
+  weight = 8
+[[menu.main]]
+  name = "Research Grants"
+  url = "/grants/"
+  weight = 9

@@ -1,0 +1,53 @@
+{{ define "main" }}
+  <section class="page-head">
+    <div class="container narrow">
+      <p class="eyebrow">{{ .Section | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="lead-content">{{ . }}</div>{{ end }}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {{ if eq .Section "members" }}
+        <div class="card-grid thirds">
+          {{ range sort .Pages "Params.weight" }}
+            <article class="card member-card">
+              <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+              <div>
+                <p class="eyebrow">{{ .Params.role }}</p>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ with .Params.interests }}<p>{{ . }}</p>{{ end }}
+                {{ with .Params.website }}<p><a href="{{ . }}">Personal page</a></p>{{ end }}
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      {{ else if or (eq .Section "events") (eq .Section "seminars") }}
+        <div class="stack">
+          {{ range sort .Pages "Date" "desc" }}
+            <article class="card media-card horizontal">
+              <img src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}">
+              <div>
+                <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}{{ with .Params.event_type }} · {{ . | title }}{{ end }}</p>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ with .Params.location }}<p class="meta">{{ . }}</p>{{ end }}
+                <p>{{ .Summary }}</p>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="stack">
+          {{ range sort .Pages "Date" "desc" }}
+            <article class="card generic-row">
+              <p class="eyebrow">{{ if .Date.IsZero }}Page{{ else }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</p>
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              <p>{{ .Summary }}</p>
+            </article>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
