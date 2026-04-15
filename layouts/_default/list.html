@@ -13,7 +13,7 @@
         <div class="card-grid thirds">
           {{ range sort .Pages "Params.weight" }}
             <article class="card member-card">
-              <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+              <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
               <div>
                 <p class="eyebrow">{{ .Params.role }}</p>
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
@@ -27,7 +27,7 @@
         <div class="stack">
           {{ range sort .Pages "Date" "desc" }}
             <article class="card media-card horizontal">
-              <img src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}">
+              <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
               <div>
                 <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}{{ with .Params.event_type }} · {{ . | title }}{{ end }}</p>
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

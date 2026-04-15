@@ -7,5 +7,3 @@ aliases:
 ---
 
 Reasoning with Data foregrounds the lab’s work on methodological foundations for data-intensive science and AI.
-
-This migrated entry is intentionally concise. It preserves the legacy URL and gives the lab a clean place to expand or replace the older WordPress-era text.

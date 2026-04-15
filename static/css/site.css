@@ -45,7 +45,7 @@ img { max-width: 100%; display: block; }
 .site-nav { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: flex-end; }
 .site-nav a { color: var(--text); font-weight: 600; }
 .hero, .page-head { padding: 4rem 0 2rem; }
-.hero-grid { display: grid; gap: 2rem; grid-template-columns: 1.5fr 1fr; align-items: end; }
+.hero-grid { display: grid; gap: 2rem; grid-template-columns: minmax(0, 760px); align-items: end; }
 .hero h1, .page-head h1 { font-size: clamp(2.3rem, 4vw, 4.6rem); line-height: 1.02; margin: .2rem 0 1rem; }
 .lede, .lead-content { font-size: 1.15rem; color: var(--muted); }
 .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; color: var(--accent); font-weight: 700; }

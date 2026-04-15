@@ -1,9 +1,8 @@
 ---
 title: "Ekaterina Kubyshkina"
 role: "Postdoctoral Researcher"
-interests: "Formal epistemology, AI-related logic, and fair and trustworthy AI."
-image: "./portrait.svg"
+interests: "Formal epistemology, logic for AI, and fair and trustworthy AI."
+image: "https://apps.unimi.it/ws/chiedove/media/image/ekaterina_kubyshkina"
+website: "https://www.unimi.it/en/ugov/person/ekaterina-kubyshkina"
 weight: 14
 ---
-
-Ekaterina Kubyshkina is represented here with the new member-page structure: portrait, role, research interests, optional biography, and external profile links can live in one self-contained bundle.

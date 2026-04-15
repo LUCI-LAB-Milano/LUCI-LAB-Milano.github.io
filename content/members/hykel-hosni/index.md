@@ -1,10 +1,8 @@
 ---
 title: "Hykel Hosni"
 role: "Permanent Member"
-interests: "Uncertain reasoning, many-valued logics, logical argumentation theory, game theory, and theoretical computer science."
-image: "./portrait.svg"
-website: "https://sites.unimi.it/hhosni/"
+interests: "Uncertain reasoning, scientific inference, probability, and logic in data-driven science."
+image: "https://apps.unimi.it/ws/chiedove/media/image/hykel_hosni"
+website: "https://www.unimi.it/it/ugov/person/hykel-hosni"
 weight: 1
 ---
-
-Hykel Hosni is represented here with the new member-page structure: portrait, role, research interests, optional biography, and external profile links can live in one self-contained bundle.

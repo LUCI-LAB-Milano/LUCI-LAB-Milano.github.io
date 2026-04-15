@@ -7,5 +7,3 @@ aliases:
 ---
 
 LUCI contributed to World Logic Day activities, connecting public outreach to the lab’s research mission.
-
-This migrated entry is intentionally concise. It preserves the legacy URL and gives the lab a clean place to expand or replace the older WordPress-era text.
