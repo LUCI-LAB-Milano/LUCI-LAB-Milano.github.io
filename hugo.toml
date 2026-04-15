@@ -7,7 +7,7 @@ summaryLength = 30
 
 [params]
   description = "Logic, Uncertainty, Computation and Information Lab — University of Milan"
-  department = "Department of Philosophy "Piero Martinetti""
+  department = 'Department of Philosophy "Piero Martinetti"'
   university = "Università degli Studi di Milano"
   location = "Via Festa del Perdono, 7 — 20122 Milan"
   email = "updates@luci.unimi.it"

@@ -16,13 +16,13 @@
     <div class="container narrow">
       {{ with .Params.image }}
         <figure class="hero-image-frame">
-          <img class="hero-image" src="{{ . }}" alt="Graphic for {{ $.Title }}">
+          <img class="hero-image" loading="lazy" src="{{ . }}" alt="Graphic for {{ $.Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
         </figure>
       {{ end }}
 
       {{ if eq .Section "members" }}
         <div class="member-profile card">
-          <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+          <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
           <div>
             {{ with .Params.interests }}<p><strong>Research interests.</strong> {{ . }}</p>{{ end }}
             {{ with .Params.website }}<p><a href="{{ . }}">Visit personal page</a></p>{{ end }}

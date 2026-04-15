@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $members := first 8 (sort (where site.RegularPages "Section" "members") "Params.weight") }}
+  {{ $members := first 12 (sort (where site.RegularPages "Section" "members") "Params.weight") }}
   {{ $news := first 3 (where site.RegularPages "Section" "news") }}
   {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }}
   {{ $seminars := first 3 (sort (where site.RegularPages "Section" "seminars") "Date") }}
@@ -15,14 +15,7 @@
           <a class="button" href="/members/">Meet the group</a>
         </div>
       </div>
-      <aside class="hero-panel card">
-        <h2>At a glance</h2>
-        <ul class="stat-list">
-          <li><strong>{{ len (where site.RegularPages "Section" "members") }}</strong><span>member profiles with photos</span></li>
-          <li><strong>{{ add (len (where site.RegularPages "Section" "events")) (len (where site.RegularPages "Section" "seminars")) }}</strong><span>event pages with graphics</span></li>
-          <li><strong>Email → GitHub</strong><span>publishing workflow for lab updates</span></li>
-        </ul>
-      </aside>
+
     </div>
   </section>
 
@@ -53,7 +46,7 @@
       <div class="card-grid quarters">
         {{ range $members }}
           <article class="card member-card compact">
-            <img src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}">
+            <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
             <div>
               <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
               <p class="meta">{{ .Params.role }}</p>
@@ -74,7 +67,7 @@
         <div class="stack">
           {{ range $events }}
             <article class="card media-card horizontal">
-              <img src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}">
+              <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
               <div>
                 <p class="eyebrow">{{ .Params.event_type | default "Event" }} · {{ .Date.Format "2 Jan 2006" }}</p>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
