@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $members := first 12 (sort (where site.RegularPages "Section" "members") "Params.weight") }}
+  {{ $members := first 12 (sort site.Data.members "sort_name") }}
   {{ $news := first 3 (where site.RegularPages "Section" "news") }}
   {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }}
   {{ $seminars := first 3 (sort (where site.RegularPages "Section" "seminars") "Date") }}
@@ -45,13 +45,7 @@
       </div>
       <div class="card-grid quarters">
         {{ range $members }}
-          <article class="card member-card compact">
-            <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
-            <div>
-              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-              <p class="meta">{{ .Params.role }}</p>
-            </div>
-          </article>
+          {{ partial "member-card-data.html" (dict "member" . "compact" true) }}
         {{ end }}
       </div>
     </div>

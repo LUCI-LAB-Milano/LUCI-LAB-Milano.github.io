@@ -10,17 +10,24 @@
   <section class="section">
     <div class="container">
       {{ if eq .Section "members" }}
-        <div class="card-grid thirds">
-          {{ range sort .Pages "Params.weight" }}
-            <article class="card member-card">
-              <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
+        {{ $labels := dict "permanent" "Permanent members" "postdoc" "Postdocs" "phd" "PhD students" "affiliated" "Affiliated researchers" }}
+        {{ $order := slice "permanent" "postdoc" "phd" "affiliated" }}
+        <div class="stack">
+          {{ range $order }}
+            {{ $category := . }}
+            {{ $members := sort (where site.Data.members "category" $category) "sort_name" }}
+            {{ if gt (len $members) 0 }}
               <div>
-                <p class="eyebrow">{{ .Params.role }}</p>
-                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-                {{ with .Params.interests }}<p>{{ . }}</p>{{ end }}
-                {{ with .Params.website }}<p><a href="{{ . }}">Personal page</a></p>{{ end }}
+                <div class="section-head">
+                  <h2>{{ index $labels $category }}</h2>
+                </div>
+                <div class="card-grid thirds">
+                  {{ range $members }}
+                    {{ partial "member-card-data.html" (dict "member" .) }}
+                  {{ end }}
+                </div>
               </div>
-            </article>
+            {{ end }}
           {{ end }}
         </div>
       {{ else if or (eq .Section "events") (eq .Section "seminars") }}
