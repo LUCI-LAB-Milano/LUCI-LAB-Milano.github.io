@@ -10,11 +10,10 @@ summaryLength = 30
   department = 'Department of Philosophy "Piero Martinetti"'
   university = "Università degli Studi di Milano"
   location = "Via Festa del Perdono, 7 — 20122 Milan"
-  email = "updates@luci.unimi.it"
-  tagline = "We ask what should follow from knowledge while it is still in the making."
+  tagline = ""
   instagram = "https://www.instagram.com/logicgroupmilano/"
-  linkedin = "https://www.linkedin.com/"
-  youtube = "https://www.youtube.com/"
+  linkedin = "https://www.linkedin.com/company/logic-uncertainty-computation-and-information-luci-lab/"
+  youtube = "https://www.youtube.com/@lucigroup5155"
 
 [markup]
   [markup.goldmark.renderer]
