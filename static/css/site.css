@@ -23,7 +23,7 @@ body {
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
-img { max-width: 100%; display: block; }
+img { max-width: 60%; display: block; }
 .container { width: min(var(--container), calc(100% - 2rem)); margin: 0 auto; }
 .narrow { width: min(760px, calc(100% - 2rem)); }
 .page-shell { min-height: 60vh; }
