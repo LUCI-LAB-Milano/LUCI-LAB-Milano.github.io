@@ -12,4 +12,3 @@ aliases:
 
 The workshop explores current themes at the intersection of neurosymbolic AI, logical reasoning, and formal verification.
 
-This page bundle is designed to store the event graphic next to the content so organisers can update a single folder for each seminar or workshop.
