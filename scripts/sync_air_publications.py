@@ -136,6 +136,28 @@ ABSTRACT_KEYS = normalized_keys(
     "dc.description.abstract",
 )
 
+PAGE_ABSTRACT_KEYS = normalized_keys(
+    "citation_abstract",
+    "dc.description.abstract",
+    "dc.description.abstracteng",
+    "dc.description.abstractita",
+    "description",
+    "abstract",
+)
+
+PAGE_SOURCE_KEYS = normalized_keys(
+    "citation_journal_title",
+    "citation_conference_title",
+    "citation_book_title",
+    "dc.source",
+    "dc.identifier.citation",
+)
+
+PAGE_PUBLISHER_KEYS = normalized_keys(
+    "citation_publisher",
+    "dc.publisher",
+)
+
 TYPE_MARKERS = [
     "Article (author)",
     "Article (editor)",
@@ -328,23 +350,32 @@ def extract_doi(row: dict[str, Any]) -> str | None:
     return None
 
 
+NOISE_FRAGMENTS = (
+    "macrotipologie & tipologie",
+    "pubblicazioni selezionate",
+    "home sfoglia autore titolo riviste serie settore scientifico disciplinare tipologia",
+    "esportazione ris endnote bibtex excel csv refworks",
+    "mostra 20 30 50 100 records",
+    "risultati 1 - 20 di",
+    "simulazione asn",
+    "autorizzazione necessaria",
+    "il report seguente simula gli indicatori",
+    "export in csv",
+    "ultime pubblicazioni",
+    "ricerca per:",
+)
+
 def looks_like_noise(text: str) -> bool:
     lower = normalize_space(text).lower()
     if not lower:
         return True
-    if lower.startswith("tutti ("):
+    if any(fragment in lower for fragment in NOISE_FRAGMENTS):
         return True
-    if "export in csv" in lower:
-        return True
-    if "ultime pubblicazioni" in lower:
-        return True
-    if "ricerca per:" in lower:
+    if lower.startswith("tutti (") or lower.startswith("home "):
         return True
     if len(lower) > 400:
         return True
     return False
-
-
 def build_item(
     *,
     title: str | None,
@@ -362,14 +393,13 @@ def build_item(
     if not title or looks_like_noise(title):
         return None
 
-    abstract = normalize_space(abstract)
-    if looks_like_noise(abstract):
-        abstract = ""
-
-    authors = normalize_space(authors)
+    abstract = clean_abstract(abstract)
+    authors = clean_authors(authors)
     pub_type = normalize_space(pub_type)
-    journal_or_publisher = normalize_space(journal_or_publisher)
-    doi = normalize_space(doi)
+    journal_or_publisher = normalize_space(journal_or_publisher).strip(" ,;:-")
+
+    if looks_like_noise(journal_or_publisher):
+        journal_or_publisher = ""doi = normalize_space(doi)
     year = parse_year(year_text or "")
     final_url = clean_url(air_url, base_url) or base_url
 
@@ -657,7 +687,95 @@ def fetch_ris_export(url: str, member_name: str, base_url: str) -> list[dict[str
 
     raise SyncError(f"RIS export for {member_name} did not yield any items")
 
+def extract_metadata_from_full_page(soup: BeautifulSoup) -> dict[str, list[str]]:
+    metadata: dict[str, list[str]] = {}
 
+    for meta in soup.find_all("meta"):
+        add_metadata_value(metadata, meta.get("name") or meta.get("property"), meta.get("content"))
+
+    for row in soup.select("tr"):
+        cells = row.find_all(["td", "th"])
+        if len(cells) < 2:
+            continue
+        label = normalize_space(cells[0].get_text(" ", strip=True)).strip(" :-*")
+        value = normalize_space(cells[-1].get_text(" ", strip=True))
+        add_metadata_value(metadata, label, value)
+
+    page_text = normalize_space(soup.get_text(" ", strip=True))
+    patterns = {
+        "dc.description.abstracteng": r"dc\.description\.abstracteng\s+(.*?)(?=\s+dc\.[a-z]|\s*$)",
+        "dc.description.abstract": r"dc\.description\.abstract\s+(.*?)(?=\s+dc\.[a-z]|\s*$)",
+        "dc.source": r"dc\.source\s+(.*?)(?=\s+dc\.[a-z]|\s*$)",
+        "dc.publisher": r"dc\.publisher\s+(.*?)(?=\s+dc\.[a-z]|\s*$)",
+        "dc.identifier.citation": r"dc\.identifier\.citation\s+(.*?)(?=\s+dc\.[a-z]|\s*$)",
+    }
+
+    for key, pattern in patterns.items():
+        match = re.search(pattern, page_text, flags=re.IGNORECASE)
+        if match:
+            add_metadata_value(metadata, key, match.group(1))
+
+    return metadata
+
+
+def fetch_item_page_details(url: str | None, cache: dict[str, dict[str, str]]) -> dict[str, str]:
+    handle_url = clean_url(url)
+    if not handle_url or "/handle/" not in handle_url:
+        return {}
+
+    if handle_url in cache:
+        return cache[handle_url]
+
+    details = {
+        "journal_or_publisher": "",
+        "abstract": "",
+    }
+
+    for variant in (add_query_parameter(handle_url, "mode", "full"), handle_url):
+        try:
+            resp = session_get(variant)
+        except Exception:
+            continue
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        metadata = extract_metadata_from_full_page(soup)
+
+        venue = normalize_space(
+            first_metadata_value(metadata, PAGE_SOURCE_KEYS)
+            or first_metadata_value(metadata, PAGE_PUBLISHER_KEYS)
+        )
+        abstract = clean_abstract(first_metadata_value(metadata, PAGE_ABSTRACT_KEYS))
+
+        if venue and not looks_like_noise(venue):
+            details["journal_or_publisher"] = venue
+        if abstract:
+            details["abstract"] = abstract
+
+        if details["journal_or_publisher"] and details["abstract"]:
+            break
+
+    cache[handle_url] = details
+    return details
+
+
+def enrich_items_from_item_pages(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    cache: dict[str, dict[str, str]] = {}
+
+    for item in items:
+        if item.get("abstract") and item.get("journal_or_publisher"):
+            continue
+
+        details = fetch_item_page_details(item.get("air_url"), cache)
+        if not details:
+            continue
+
+        if not item.get("journal_or_publisher") and details.get("journal_or_publisher"):
+            item["journal_or_publisher"] = details["journal_or_publisher"]
+
+        if not item.get("abstract") and details.get("abstract"):
+            item["abstract"] = details["abstract"]
+
+    return items
 def infer_type(text: str) -> str:
     for marker in TYPE_MARKERS:
         if marker.lower() in text.lower():
@@ -694,9 +812,12 @@ def scrape_html_items(html: str, base_url: str, member_name: str) -> list[dict[s
         pub_type = infer_type(text)
         air_url = clean_url(title_link.get("href"), base_url) or base_url
 
-        if air_url.rstrip("/") == base_url.rstrip("/"):
+        if air_url = clean_url(title_link.get("href"), base_url) or base_url
+
+        if "/handle/" not in air_url:
             continue
 
+        
         cleaned = text.replace(title, " ")
         if year:
             cleaned = re.sub(rf"\b{year}\b", " ", cleaned)
@@ -826,7 +947,12 @@ def main() -> int:
             warnings.append(f"{member.name}: failed ({exc})")
             print(f"{member.name}: failed", file=sys.stderr)
 
-    deduped = dedupe_items(all_items)
+        deduped = [
+        item
+        for item in dedupe_items(all_items)
+        if not looks_like_noise(item.get("title", ""))
+    ]
+    deduped = enrich_items_from_item_pages(deduped)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
