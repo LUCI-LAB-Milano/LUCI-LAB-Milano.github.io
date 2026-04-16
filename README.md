@@ -1,49 +1,74 @@
-# LUCI Lab website redesign and migration scaffold
+# LUCI AIR publications automation
 
-This package is a drop-in Hugo replacement for the current LUCI GitHub Pages repository.
+This bundle turns `/publications/` into a page generated from AIR researcher pages.
 
 ## What is included
 
-- a cleaner information architecture,
-- page-bundle based member pages with portraits,
-- page-bundle based events and seminar pages with graphics,
-- a modern custom layout and stylesheet,
-- legacy URL aliases for key public WordPress pages,
-- a hardened email-to-publish workflow for GitHub Actions.
+- `scripts/sync_air_publications.py`
+  - fetches each configured AIR researcher page
+  - looks for AIR export links on the page
+  - prefers a CSV export when AIR exposes one
+  - falls back to scraping the rendered HTML when a CSV export is not available
+  - merges and deduplicates publications across LUCI co-authors
+  - writes `data/publications.json`
+- `data/air_members.json`
+  - seed list of current LUCI members with confirmed AIR researcher URLs where available
+- `layouts/publications/list.html`
+  - Hugo section template for `/publications/`
+- `content/publications/_index.md`
+  - replacement section intro
+- `.github/workflows/sync-publications.yml`
+  - weekly and manual GitHub Actions sync
 
-## Key structural changes
+## One-time installation
 
-### Members
+Copy these files into the root of the website repository, preserving the paths.
 
-Each member now lives in:
+Then commit and push.
 
-```text
-content/members/<slug>/index.md
-content/members/<slug>/portrait.(svg|jpg|png)
-```
+## First run
 
-### Events and seminars
+In GitHub:
 
-Each event or seminar now lives in:
+1. open **Actions**
+2. open **Sync AIR publications**
+3. click **Run workflow**
 
-```text
-content/events/<slug>/index.md
-content/events/<slug>/cover.(svg|jpg|png)
-content/seminars/<slug>/index.md
-content/seminars/<slug>/cover.(svg|jpg|png)
-```
+The workflow will update `data/publications.json` and commit the refreshed data back to `main`.
+Your existing deploy workflow should then rebuild the site automatically.
 
-This makes image management straightforward and keeps content, metadata, and visuals together.
+## AIR researcher pages already configured
 
-## Email posting
+The seed config already includes confirmed AIR researcher pages for:
 
-The workflow accepts structured emails, validates the sender against an allowlist, creates or updates a Hugo page bundle, optionally downloads a graphic from a URL, commits the change, and lets the Pages deploy run on `push`.
+- Giuseppe Primiero
+- Hykel Hosni
+- Marcello D'Agostino
+- Costanza Larese
+- Ekaterina Kubyshkina
+- Stipe Pandžić
+- Alejandro J. Solares-Rojas
+- Francesco A. Genco
+- Jürgen Landes
+- Paolo Baldi
 
-See `.github/workflows/email-update.yml` and `scripts/write-content.js`.
+## Members still to map manually
 
-## What still needs manual completion
+These current members are present in `data/air_members.json` but left disabled until you add the right AIR researcher URL:
 
-- FTP-only binaries or media not publicly reachable from the current live site
-- final member portraits
-- final event graphics where public copies were not available
-- exact membership roster validation if the public site has changed since crawl time
+- Luca Ausili
+- Francesco Ponti
+- Giovanni Duca
+- Giovanni Sanavio
+- Alberto Termine
+- Esther Anna Corsi
+- Soroush Rafiee Rad
+
+To enable one, edit the corresponding object in `data/air_members.json`, add the AIR page URL, and set `"enabled": true`.
+
+## Notes
+
+- AIR can be inconsistent about direct fetches, so the script is designed as a best-effort sync.
+- The preferred path is CSV export because it is much easier to parse reliably than the rendered HTML.
+- When AIR does not expose a usable CSV export link, the script falls back to scraping the researcher page itself.
+- Deduplication uses AIR item URL first, DOI second, then normalized title plus year.

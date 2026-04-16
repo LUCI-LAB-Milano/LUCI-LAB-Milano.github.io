@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Giuseppe Primiero",
+    "air_url": "https://air.unimi.it/cris/rp/rp52197",
+    "enabled": true
+  },
+  {
+    "name": "Hykel Hosni",
+    "air_url": "https://air.unimi.it/cris/rp/rp37911",
+    "enabled": true
+  },
+  {
+    "name": "Marcello D'Agostino",
+    "air_url": "https://air.unimi.it/cris/rp/rp38396",
+    "enabled": true
+  },
+  {
+    "name": "Costanza Larese",
+    "air_url": "https://air.unimi.it/cris/rp/rp96134",
+    "enabled": true
+  },
+  {
+    "name": "Ekaterina Kubyshkina",
+    "air_url": "https://air.unimi.it/cris/rp/rp153933",
+    "enabled": true
+  },
+  {
+    "name": "Luca Ausili",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Stipe Pandžić",
+    "air_url": "https://air.unimi.it/cris/rp/rp289373",
+    "enabled": true
+  },
+  {
+    "name": "Francesco Ponti",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Giovanni Duca",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Giovanni Sanavio",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Alberto Termine",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Alejandro J. Solares-Rojas",
+    "air_url": "https://air.unimi.it/cris/rp/rp63091",
+    "enabled": true
+  },
+  {
+    "name": "Esther Anna Corsi",
+    "air_url": null,
+    "enabled": false
+  },
+  {
+    "name": "Francesco A. Genco",
+    "air_url": "https://air.unimi.it/cris/rp/rp161371",
+    "enabled": true
+  },
+  {
+    "name": "Jürgen Landes",
+    "air_url": "https://air.unimi.it/cris/rp/rp156351",
+    "enabled": true
+  },
+  {
+    "name": "Paolo Baldi",
+    "air_url": "https://air.unimi.it/cris/rp/rp74148",
+    "enabled": true
+  },
+  {
+    "name": "Soroush Rafiee Rad",
+    "air_url": null,
+    "enabled": false
+  }
+]
