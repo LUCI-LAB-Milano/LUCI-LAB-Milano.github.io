@@ -2,7 +2,7 @@
 title: "LUCI Lab Seminar Series 2026"
 date: 2026-02-05
 event_type: "seminar-series"
-location: "Online via Teams"
+location: "Online via Teams https://teams.microsoft.com/meet/32127919038456?p=FjzFK6afyuDFtLt36a "
 abstract: "The 2026 seminar series runs on Wednesdays from 18 February 2026, 14:30 CET, with speakers from Barcelona, Bergen, Eindhoven, Manchester, Milan, Pavia, Zagreb, Amsterdam, Bologna, Bari, and Verona."
 image: "./cover.svg"
 summary: "The 2026 seminar series runs on Wednesdays from 18 February 2026, 14:30 CET, with speakers from Barcelona, Bergen, Eindhoven, Manchester, Milan, Pavia, Zagreb, Amsterdam, Bologna, Bari, and Verona."
@@ -12,7 +12,6 @@ aliases:
 
 The 2026 seminar series runs on Wednesdays from 18 February 2026, 14:30 CET, with speakers from Barcelona, Bergen, Eindhoven, Manchester, Milan, Pavia, Zagreb, Amsterdam, Bologna, Bari, and Verona.
 
-This page bundle is designed to store the event graphic next to the content so organisers can update a single folder for each seminar or workshop.
 
 ## Programme
 
