@@ -397,11 +397,12 @@ def build_item(
     authors = clean_authors(authors)
     pub_type = normalize_space(pub_type)
     journal_or_publisher = normalize_space(journal_or_publisher).strip(" ,;:-")
-
-    if looks_like_noise(journal_or_publisher):
-        journal_or_publisher = ""doi = normalize_space(doi)
+    doi = normalize_space(doi)
     year = parse_year(year_text or "")
     final_url = clean_url(air_url, base_url) or base_url
+
+    if looks_like_noise(journal_or_publisher):
+        journal_or_publisher = ""
 
     return {
         "title": title,
@@ -414,7 +415,6 @@ def build_item(
         "abstract": abstract,
         "members": [member_name],
     }
-
 
 def csv_row_to_item(row: dict[str, Any], member_name: str, base_url: str) -> dict[str, Any] | None:
     title = first_value(row, TITLE_KEYS)
