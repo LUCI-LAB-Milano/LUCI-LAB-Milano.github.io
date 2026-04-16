@@ -5,17 +5,89 @@
       <p>{{ site.Params.description }}</p>
       <p>{{ site.Params.department }}<br>{{ site.Params.university }}</p>
     </div>
+
     <div>
       <h3>Contact</h3>
       <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a><br>{{ site.Params.location }}</p>
     </div>
+
     <div>
       <h3>Sections</h3>
       <ul class="footer-links">
         {{ range site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>
     </div>
+
+    {{ if or .IsHome (eq .Section "open-positions") }}
+    <div class="footer-contact-form-wrap">
+      <h3>Contact LUCI</h3>
+      <p class="meta">This opens your email app with a prefilled draft to the three contacts.</p>
+
+      <form class="contact-mailto-form" data-contact-form>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          <span>Subject</span>
+          <input type="text" name="subject" required>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="button button-primary" type="submit">Compose email</button>
+      </form>
+    </div>
+    {{ end }}
   </div>
+
+  {{ if or .IsHome (eq .Section "open-positions") }}
+  <script>
+    (function () {
+      const form = document.querySelector("[data-contact-form]");
+      if (!form) return;
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        const recipients = [
+          "hykel.hosni@unimi.it",
+          "marcello.dagostino@unimi.it",
+          "giuseppe.pimiero@unimi.it"
+        ].join(",");
+
+        const name = (data.get("name") || "").toString().trim();
+        const email = (data.get("email") || "").toString().trim();
+        const subject = (data.get("subject") || "").toString().trim();
+        const message = (data.get("message") || "").toString().trim();
+
+        const body = [
+          name ? "Name: " + name : "",
+          email ? "Email: " + email : "",
+          "",
+          message
+        ].filter(Boolean).join("\n");
+
+        const mailto =
+          "mailto:" + recipients +
+          "?subject=" + encodeURIComponent(subject || "Website enquiry") +
+          "&body=" + encodeURIComponent(body);
+
+        window.location.href = mailto;
+      });
+    })();
+  </script>
+  {{ end }}
 </footer>
