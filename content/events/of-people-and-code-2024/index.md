@@ -12,4 +12,3 @@ aliases:
 
 Workshop participation centred on epistemological, ontological, and formal approaches to AI.
 
-This page bundle is designed to store the event graphic next to the content so organisers can update a single folder for each seminar or workshop.
