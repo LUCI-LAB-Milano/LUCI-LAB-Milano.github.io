@@ -1,48 +1,62 @@
 {{ define "main" }}
-{{ $pubs := .Site.Data.publications }}
-{{ $items := $pubs.items | default (slice) }}
+<section class="page-content publications-page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
 
-# {{ .Title }}
+    {{ with .Content }}
+      <div class="page-intro">
+        {{ . }}
+      </div>
+    {{ end }}
 
-{{ with .Content }}
-{{ . }}
-{{ end }}
+    {{ with .Site.Data.publications.generated_at }}
+      <p class="publications-meta">
+        <strong>Last synced from AIR:</strong> {{ . }}
+      </p>
+    {{ end }}
+  </header>
 
-{{ if $pubs.generated_at }}
-Last synced from AIR: {{ $pubs.generated_at }}
-{{ end }}
+  {{ $pubs := .Site.Data.publications }}
+  {{ $items := $pubs.items | default (slice) }}
 
-{{ if gt (len $items) 0 }}
+  {{ if gt (len $items) 0 }}
+    <div class="publications-list">
+      {{ range $items }}
+        <article class="publication-item">
+          <h2 class="publication-title">
+            <a href="{{ .air_url }}" target="_blank" rel="noopener noreferrer">
+              {{ .title }}
+            </a>
+          </h2>
 
-{{ range $items }}
-## [{{ .title }}]({{ .air_url }})
+          {{ with .authors }}
+            <h3 class="publication-authors">{{ . }}</h3>
+          {{ end }}
 
-{{ with .authors }}
-### {{ . }}
-{{ end }}
+          {{ if or .journal_or_publisher .year }}
+            <p class="publication-venue">
+              {{ with .journal_or_publisher }}
+                <span class="publication-source">{{ . }}</span>
+              {{ end }}
+              {{ if and .journal_or_publisher .year }}
+                <span aria-hidden="true"> · </span>
+              {{ end }}
+              {{ with .year }}
+                <span class="publication-year">{{ . }}</span>
+              {{ end }}
+            </p>
+          {{ end }}
 
-{{ $venue := .journal_or_publisher }}
-{{ if and $venue .year }}
-{{ $venue }} · {{ .year }}
-{{ else if $venue }}
-{{ $venue }}
-{{ else if .year }}
-{{ .year }}
-{{ end }}
-
-{{ with .abstract }}
-{{ . }}
-{{ end }}
-
----
-
-{{ end }}
-
-{{ else }}
-
-## No publications loaded yet
-
-Run the AIR sync workflow once to populate this page.
-
-{{ end }}
+          {{ with .abstract }}
+            <div class="publication-abstract">
+              <p>{{ . }}</p>
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p>No publications loaded yet.</p>
+  {{ end }}
+</section>
 {{ end }}
