@@ -1,5 +1,101 @@
 {{ define "main" }}
-<section class="page-content publications-page">
+<section class="publications-shell">
+  <style>
+    .publications-shell {
+      width: min(920px, calc(100% - 3rem));
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+    }
+
+    .publications-shell .page-header {
+      margin-bottom: 2.5rem;
+    }
+
+    .publications-shell .page-intro,
+    .publications-shell .publications-meta,
+    .publications-shell .publication-abstract {
+      max-width: 72ch;
+    }
+
+    .publications-shell .publications-meta {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+
+    .publications-shell .publications-list {
+      margin-top: 1rem;
+    }
+
+    .publications-shell .publication-item {
+      padding: 1.5rem 0 1.75rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .publications-shell .publication-item:last-child {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .publications-shell .publication-title {
+      margin: 0 0 0.45rem;
+      font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    .publications-shell .publication-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .publications-shell .publication-title a:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.14em;
+    }
+
+    .publications-shell .publication-authors {
+      margin: 0 0 0.3rem;
+      font-size: 0.98rem;
+      font-weight: 600;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: rgba(0, 0, 0, 0.78);
+    }
+
+    .publications-shell .publication-venue {
+      margin: 0 0 0.85rem;
+      font-size: 0.95rem;
+      line-height: 1.45;
+      color: rgba(0, 0, 0, 0.68);
+    }
+
+    .publications-shell .publication-source {
+      font-style: italic;
+    }
+
+    .publications-shell .publication-year {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .publications-shell .publication-abstract p {
+      margin: 0;
+      line-height: 1.75;
+      color: rgba(0, 0, 0, 0.86);
+    }
+
+    @media (max-width: 640px) {
+      .publications-shell {
+        width: calc(100% - 2rem);
+        padding: 1.5rem 0 3rem;
+      }
+
+      .publications-shell .publication-item {
+        padding: 1.25rem 0 1.4rem;
+      }
+    }
+  </style>
+
   <header class="page-header">
     <h1>{{ .Title }}</h1>
 
