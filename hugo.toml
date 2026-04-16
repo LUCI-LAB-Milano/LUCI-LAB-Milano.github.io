@@ -43,10 +43,10 @@ summaryLength = 30
   name = "Publications"
   url = "/publications/"
   weight = 5
-[[menu.main]]
+<!-- [[menu.main]]
   name = "Open Positions"
   url = "/open-positions/"
-  weight = 8
+  weight = 8 -->
 [[menu.main]]
   name = "Research Grants"
   url = "/grants/"
