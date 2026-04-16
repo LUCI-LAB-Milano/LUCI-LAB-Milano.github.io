@@ -1,67 +1,48 @@
 {{ define "main" }}
-  {{ $pubs := .Site.Data.publications }}
-  {{ $items := $pubs.items | default (slice) }}
+{{ $pubs := .Site.Data.publications }}
+{{ $items := $pubs.items | default (slice) }}
 
-  <section class="page-head">
-    <div class="container stack gap-lg">
-      <div class="stack gap-sm">
-        <h1>{{ .Title }}</h1>
-        {{ with .Content }}
-          <div class="prose">{{ . }}</div>
-        {{ end }}
-        <p class="meta">
-          {{ if $pubs.generated_at }}
-            Last synced from AIR: {{ $pubs.generated_at }}
-          {{ else }}
-            AIR sync has not run yet.
-          {{ end }}
-          {{ if $pubs.item_count }}
-            · {{ $pubs.item_count }} records
-          {{ end }}
-        </p>
-      </div>
-    </div>
-  </section>
+# {{ .Title }}
 
-  <section class="section">
-    <div class="container stack gap-lg">
-      {{ if gt (len $items) 0 }}
-        {{ $.Scratch.Set "year" "" }}
-        <div class="stack gap-md">
-          {{ range $items }}
-            {{ $year := "Undated" }}
-            {{ with .year }}{{ $year = printf "%v" . }}{{ end }}
-            {{ if ne ($.Scratch.Get "year") $year }}
-              {{ $.Scratch.Set "year" $year }}
-              <h2>{{ $year }}</h2>
-            {{ end }}
+{{ with .Content }}
+{{ . }}
+{{ end }}
 
-            <article class="card stack gap-sm">
-              <h3 class="h5">
-                <a href="{{ .air_url }}" target="_blank" rel="noopener">{{ .title }}</a>
-              </h3>
+{{ if $pubs.generated_at }}
+Last synced from AIR: {{ $pubs.generated_at }}
+{{ end }}
 
-              {{ with .authors }}
-                <p>{{ . }}</p>
-              {{ end }}
+{{ if gt (len $items) 0 }}
 
-              <p class="meta">
-                {{ with .type }}<span>{{ . }}</span>{{ end }}
-                {{ with .doi }}<span> · DOI: {{ . }}</span>{{ end }}
-              </p>
+{{ range $items }}
+## [{{ .title }}]({{ .air_url }})
 
-              {{ with .members }}
-                <p class="meta">LUCI authors on AIR page: {{ delimit . ", " }}</p>
-              {{ end }}
-            </article>
-          {{ end }}
-        </div>
-      {{ else }}
-        <article class="card stack gap-sm">
-          <h2>No publications loaded yet</h2>
-          <p>Run the AIR sync workflow once to populate this page.</p>
-        </article>
-      {{ end }}
-    </div>
-  </section>
+{{ with .authors }}
+### {{ . }}
+{{ end }}
+
+{{ $venue := .journal_or_publisher }}
+{{ if and $venue .year }}
+{{ $venue }} · {{ .year }}
+{{ else if $venue }}
+{{ $venue }}
+{{ else if .year }}
+{{ .year }}
+{{ end }}
+
+{{ with .abstract }}
+{{ . }}
+{{ end }}
+
+---
+
+{{ end }}
+
+{{ else }}
+
+## No publications loaded yet
+
+Run the AIR sync workflow once to populate this page.
+
+{{ end }}
 {{ end }}
