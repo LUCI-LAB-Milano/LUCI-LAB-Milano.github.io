@@ -91,7 +91,19 @@ TYPE_MARKERS = [
     "Software",
     "Dataset",
 ]
+JOURNAL_KEYS = {
+    "journal", "journaltitle", "publicationname", "rivista",
+    "sourcetitle", "dc.source", "containertitle"
+}
 
+PUBLISHER_KEYS = {
+    "publisher", "editore", "dc.publisher"
+}
+
+ABSTRACT_KEYS = {
+    "abstract", "abstracttext", "riassunto",
+    "description", "dc.description.abstract"
+}
 
 @dataclass
 class Member:
@@ -251,9 +263,16 @@ def csv_row_to_item(row: dict[str, Any], member_name: str, base_url: str) -> dic
     pub_type = first_value(row, TYPE_KEYS)
     air_url = clean_url(first_value(row, URL_KEYS), base_url)
     doi = extract_doi(row)
+
+    journal = first_value(row, JOURNAL_KEYS)
+    publisher = first_value(row, PUBLISHER_KEYS)
+    abstract = first_value(row, ABSTRACT_KEYS)
+
     year = parse_year(year_text or "")
+
     if not title:
         return None
+
     return {
         "title": title,
         "year": year,
@@ -261,9 +280,10 @@ def csv_row_to_item(row: dict[str, Any], member_name: str, base_url: str) -> dic
         "type": pub_type or "",
         "doi": doi or "",
         "air_url": air_url or base_url,
+        "journal_or_publisher": journal or publisher or "",
+        "abstract": abstract or "",
         "members": [member_name],
     }
-
 
 def fetch_csv_export(url: str, member_name: str, base_url: str) -> list[dict[str, Any]]:
     resp = session_get(url, expect_binary=True)
@@ -395,6 +415,10 @@ def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             existing["authors"] = item["authors"]
         if not existing.get("type") and item.get("type"):
             existing["type"] = item["type"]
+        if not existing.get("journal_or_publisher") and item.get("journal_or_publisher"):
+            existing["journal_or_publisher"] = item["journal_or_publisher"]
+        if not existing.get("abstract") and item.get("abstract"):
+            existing["abstract"] = item["abstract"]
         if not existing.get("doi") and item.get("doi"):
             existing["doi"] = item["doi"]
         if (
