@@ -176,7 +176,50 @@ def clean_url(value: str | None, base_url: str | None = None) -> str | None:
         return value
     cleaned = parsed._replace(fragment="")
     return urlunparse(cleaned)
+def add_query_parameter(url: str, key: str, value: str) -> str:
+    parsed = urlparse(url)
+    parts = [part for part in parsed.query.split("&") if part and not part.startswith(f"{key}=")]
+    parts.append(f"{key}={value}")
+    return urlunparse(parsed._replace(query="&".join(parts)))
 
+
+def clean_authors(value: str | None) -> str:
+    text = normalize_space(value)
+    if not text:
+        return ""
+    text = text.replace(";", ",")
+    text = re.sub(r"\s+\+\s*", " ", text)
+    text = re.sub(r"(?:\s*-\s*)+$", "", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    return text.strip(" ,;-")
+
+
+def clean_abstract(value: str | None) -> str:
+    text = normalize_space(value)
+    if not text:
+        return ""
+    text = re.sub(r"^(abstract|riassunto)\s*[:\-]?\s*", "", text, flags=re.IGNORECASE)
+    if looks_like_noise(text):
+        return ""
+    return text
+
+
+def add_metadata_value(metadata: dict[str, list[str]], key: str | None, value: str | None) -> None:
+    norm_key = normalize_key(key)
+    norm_value = normalize_space(value)
+    if not norm_key or not norm_value:
+        return
+    metadata.setdefault(norm_key, [])
+    if norm_value not in metadata[norm_key]:
+        metadata[norm_key].append(norm_value)
+
+
+def first_metadata_value(metadata: dict[str, list[str]], keys: set[str]) -> str | None:
+    for key in keys:
+        for value in metadata.get(key, []):
+            if value:
+                return value
+    return None
 
 def load_members() -> list[Member]:
     raw = json.loads(MEMBERS_PATH.read_text(encoding="utf-8"))
