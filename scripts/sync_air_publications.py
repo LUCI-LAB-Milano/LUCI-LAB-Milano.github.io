@@ -115,14 +115,26 @@ class Member:
 class SyncError(RuntimeError):
     pass
 
-
-def normalize_key(value: str) -> str:
-    text = unicodedata.normalize("NFKD", value)
+def normalize_key(value: Any) -> str:
+    if value is None:
+        return ""
+    text = unicodedata.normalize("NFKD", str(value))
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     text = text.lower()
     text = re.sub(r"[^a-z0-9]+", "", text)
     return text
 
+
+def first_value(row: dict[str, Any], keys: set[str]) -> str | None:
+    for raw_key, raw_value in row.items():
+        key = normalize_key(raw_key)
+        if not key:
+            continue
+        if key in keys:
+            value = normalize_space(str(raw_value))
+            if value:
+                return value
+    return None
 
 def normalize_space(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
