@@ -7,53 +7,63 @@
     </div>
   </section>
 
+  {{ with .Params.image }}
+  <section class="section">
+    <div class="container narrow">
+      <figure class="hero-image-frame">
+        <img class="hero-image" loading="lazy" src="{{ . }}" alt="Graphic for {{ $.Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+      </figure>
+    </div>
+  </section>
+  {{ end }}
+
   <section class="section">
     <div class="container">
       {{ if eq .Section "members" }}
-        {{ $labels := dict "permanent" "Permanent members" "postdoc" "Postdocs" "phd" "PhD students" "affiliated" "Affiliated researchers" }}
-        {{ $order := slice "permanent" "postdoc" "phd" "affiliated" }}
-        <div class="stack">
-          {{ range $order }}
-            {{ $category := . }}
-            {{ $members := sort (where site.Data.members "category" $category) "sort_name" }}
-            {{ if gt (len $members) 0 }}
-              <div>
-                <div class="section-head">
-                  <h2>{{ index $labels $category }}</h2>
-                </div>
-                <div class="card-grid thirds">
-                  {{ range $members }}
-                    {{ partial "member-card-data.html" (dict "member" .) }}
-                  {{ end }}
-                </div>
-              </div>
+      {{ $labels := dict "permanent" "Permanent members" "postdoc" "Postdocs" "phd" "PhD students" "affiliated" "Affiliated researchers" }}
+      {{ $order := slice "permanent" "postdoc" "phd" "affiliated" }}
+      <div class="stack">
+        {{ range $order }}
+        {{ $category := . }}
+        {{ $members := sort (where site.Data.members "category" $category) "sort_name" }}
+        {{ if gt (len $members) 0 }}
+        <div>
+          <div class="section-head">
+            <h2>{{ index $labels $category }}</h2>
+          </div>
+          <div class="card-grid thirds">
+            {{ range $members }}
+            {{ partial "member-card-data.html" (dict "member" .) }}
             {{ end }}
-          {{ end }}
+          </div>
         </div>
+        {{ end }}
+        {{ end }}
+      </div>
       {{ else if or (eq .Section "events") (eq .Section "seminars") }}
-        <div class="stack">
-          {{ range sort .Pages "Date" "desc" }}
-            <article class="card media-card horizontal">
-              <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
-              <div>
-                <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}{{ with .Params.event_type }} · {{ . | title }}{{ end }}</p>
-                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-                {{ with .Params.location }}<p class="meta">{{ . }}</p>{{ end }}
-                <p>{{ .Summary }}</p>
-              </div>
-            </article>
-          {{ end }}
-        </div>
+      <div class="stack">
+        {{ range sort .Pages "Date" "desc" }}
+        <article class="card media-card horizontal">
+          <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/event-default.svg" }}" alt="Graphic for {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+          <div>
+            <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}{{ with .Params.event_type }} · {{ . | title }}{{ end }}</p>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ with .Params.location }}<p class="meta">{{ . }}</p>{{ end }}
+            <p>{{ .Summary }}</p>
+          </div>
+        </article>
+        {{ end }}
+      </div>
       {{ else }}
-        <div class="stack">
-          {{ range sort .Pages "Date" "desc" }}
-            <article class="card generic-row">
-              <p class="eyebrow">{{ if .Date.IsZero }}Page{{ else }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</p>
-              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-              <p>{{ .Summary }}</p>
-            </article>
-          {{ end }}
-        </div>
+      <div class="stack">
+        {{ range sort .Pages "Date" "desc" }}
+        <article class="card generic-row">
+          <p class="eyebrow">{{ if .Date.IsZero }}Page{{ else }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</p>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Summary }}</p>
+        </article>
+        {{ end }}
+      </div>
       {{ end }}
     </div>
   </section>

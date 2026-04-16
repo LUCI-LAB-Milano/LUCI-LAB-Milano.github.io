@@ -4,4 +4,4 @@ aliases:
   - /luci-seminars/
 ---
 
-The LUCI seminar series and related talks.
+Browse the LUCI seminar series by year.
