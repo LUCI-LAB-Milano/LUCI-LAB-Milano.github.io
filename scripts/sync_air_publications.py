@@ -812,12 +812,9 @@ def scrape_html_items(html: str, base_url: str, member_name: str) -> list[dict[s
         pub_type = infer_type(text)
         air_url = clean_url(title_link.get("href"), base_url) or base_url
 
-        if air_url = clean_url(title_link.get("href"), base_url) or base_url
-
         if "/handle/" not in air_url:
             continue
 
-        
         cleaned = text.replace(title, " ")
         if year:
             cleaned = re.sub(rf"\b{year}\b", " ", cleaned)
@@ -844,7 +841,6 @@ def scrape_html_items(html: str, base_url: str, member_name: str) -> list[dict[s
         return items
 
     raise SyncError(f"HTML scrape for {member_name} did not find any items")
-
 
 def member_items(member: Member) -> tuple[list[dict[str, Any]], list[str]]:
     warnings: list[str] = []
