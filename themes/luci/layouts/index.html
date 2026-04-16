@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <!-- Latest news -->
+  <!-- Latest news 
   {{ $news := (where .Site.RegularPages "Section" "news") | first 4 }}
   {{ with $news }}
   <section class="section">
@@ -49,7 +49,8 @@
     </ul>
   </section>
   {{ end }}
-
+-->
+  
   <!-- Upcoming seminars -->
   {{ $seminars := (where .Site.RegularPages "Section" "seminars") | first 3 }}
   {{ with $seminars }}
