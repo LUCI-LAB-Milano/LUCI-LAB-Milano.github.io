@@ -12,4 +12,3 @@ aliases:
 
 Final event of the SMARTEST project focused on responsible AI, sustainability, and trustworthy simulation.
 
-This page bundle is designed to store the event graphic next to the content so organisers can update a single folder for each seminar or workshop.
