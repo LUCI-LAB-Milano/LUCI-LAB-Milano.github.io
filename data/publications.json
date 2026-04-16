@@ -1,75 +1,56 @@
 {
-  "generated_at": "2026-04-16T13:57:24+00:00",
+  "generated_at": "2026-04-16T20:07:24+00:00",
   "member_count": 10,
-  "item_count": 151,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
-    "Giuseppe Primiero: found BIBTEX export but parser prefers CSV",
-    "Giuseppe Primiero: found EXCEL export but parser prefers CSV",
-    "Giuseppe Primiero: found RIS export but parser prefers CSV",
+    "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
+    "Giuseppe Primiero: RIS export failed (RIS export for Giuseppe Primiero did not yield any items)",
     "Hykel Hosni: CSV export failed (CSV export for Hykel Hosni did not yield any items)",
-    "Hykel Hosni: found BIBTEX export but parser prefers CSV",
-    "Hykel Hosni: found EXCEL export but parser prefers CSV",
-    "Hykel Hosni: found RIS export but parser prefers CSV",
+    "Hykel Hosni: BIBTEX export failed (BibTeX export for Hykel Hosni did not yield any items)",
+    "Hykel Hosni: RIS export failed (RIS export for Hykel Hosni did not yield any items)",
     "Marcello D'Agostino: CSV export failed (CSV export for Marcello D'Agostino did not yield any items)",
-    "Marcello D'Agostino: found BIBTEX export but parser prefers CSV",
-    "Marcello D'Agostino: found EXCEL export but parser prefers CSV",
-    "Marcello D'Agostino: found RIS export but parser prefers CSV",
+    "Marcello D'Agostino: BIBTEX export failed (BibTeX export for Marcello D'Agostino did not yield any items)",
+    "Marcello D'Agostino: RIS export failed (RIS export for Marcello D'Agostino did not yield any items)",
     "Costanza Larese: CSV export failed (CSV export for Costanza Larese did not yield any items)",
-    "Costanza Larese: found BIBTEX export but parser prefers CSV",
-    "Costanza Larese: found EXCEL export but parser prefers CSV",
-    "Costanza Larese: found RIS export but parser prefers CSV",
+    "Costanza Larese: BIBTEX export failed (BibTeX export for Costanza Larese did not yield any items)",
+    "Costanza Larese: RIS export failed (RIS export for Costanza Larese did not yield any items)",
     "Ekaterina Kubyshkina: CSV export failed (CSV export for Ekaterina Kubyshkina did not yield any items)",
-    "Ekaterina Kubyshkina: found BIBTEX export but parser prefers CSV",
-    "Ekaterina Kubyshkina: found EXCEL export but parser prefers CSV",
-    "Ekaterina Kubyshkina: found RIS export but parser prefers CSV",
+    "Ekaterina Kubyshkina: BIBTEX export failed (BibTeX export for Ekaterina Kubyshkina did not yield any items)",
+    "Ekaterina Kubyshkina: RIS export failed (RIS export for Ekaterina Kubyshkina did not yield any items)",
     "Luca Ausili: skipped (no AIR researcher URL configured)",
     "Stipe Pandžić: CSV export failed (CSV export for Stipe Pandžić did not yield any items)",
-    "Stipe Pandžić: found BIBTEX export but parser prefers CSV",
-    "Stipe Pandžić: found EXCEL export but parser prefers CSV",
-    "Stipe Pandžić: found RIS export but parser prefers CSV",
+    "Stipe Pandžić: BIBTEX export failed (BibTeX export for Stipe Pandžić did not yield any items)",
+    "Stipe Pandžić: RIS export failed (RIS export for Stipe Pandžić did not yield any items)",
     "Francesco Ponti: skipped (no AIR researcher URL configured)",
     "Giovanni Duca: skipped (no AIR researcher URL configured)",
     "Giovanni Sanavio: skipped (no AIR researcher URL configured)",
     "Alberto Termine: skipped (no AIR researcher URL configured)",
     "Alejandro J. Solares-Rojas: CSV export failed (CSV export for Alejandro J. Solares-Rojas did not yield any items)",
-    "Alejandro J. Solares-Rojas: found BIBTEX export but parser prefers CSV",
-    "Alejandro J. Solares-Rojas: found EXCEL export but parser prefers CSV",
-    "Alejandro J. Solares-Rojas: found RIS export but parser prefers CSV",
+    "Alejandro J. Solares-Rojas: BIBTEX export failed (BibTeX export for Alejandro J. Solares-Rojas did not yield any items)",
+    "Alejandro J. Solares-Rojas: RIS export failed (RIS export for Alejandro J. Solares-Rojas did not yield any items)",
     "Esther Anna Corsi: skipped (no AIR researcher URL configured)",
     "Francesco A. Genco: CSV export failed (CSV export for Francesco A. Genco did not yield any items)",
-    "Francesco A. Genco: found BIBTEX export but parser prefers CSV",
-    "Francesco A. Genco: found EXCEL export but parser prefers CSV",
-    "Francesco A. Genco: found RIS export but parser prefers CSV",
+    "Francesco A. Genco: BIBTEX export failed (BibTeX export for Francesco A. Genco did not yield any items)",
+    "Francesco A. Genco: RIS export failed (RIS export for Francesco A. Genco did not yield any items)",
     "Jürgen Landes: CSV export failed (CSV export for Jürgen Landes did not yield any items)",
-    "Jürgen Landes: found BIBTEX export but parser prefers CSV",
-    "Jürgen Landes: found EXCEL export but parser prefers CSV",
-    "Jürgen Landes: found RIS export but parser prefers CSV",
+    "Jürgen Landes: BIBTEX export failed (BibTeX export for Jürgen Landes did not yield any items)",
+    "Jürgen Landes: RIS export failed (RIS export for Jürgen Landes did not yield any items)",
     "Paolo Baldi: CSV export failed (CSV export for Paolo Baldi did not yield any items)",
-    "Paolo Baldi: found BIBTEX export but parser prefers CSV",
-    "Paolo Baldi: found EXCEL export but parser prefers CSV",
-    "Paolo Baldi: found RIS export but parser prefers CSV",
+    "Paolo Baldi: BIBTEX export failed (BibTeX export for Paolo Baldi did not yield any items)",
+    "Paolo Baldi: RIS export failed (RIS export for Paolo Baldi did not yield any items)",
     "Soroush Rafiee Rad: skipped (no AIR researcher URL configured)"
   ],
   "items": [
     {
-      "title": "Tutti (108)",
+      "title": "Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness",
       "year": 2026,
-      "authors": "IRIS Pagina ricercatore PRIMIERO, GIUSEPPE Nome completo PRIMIERO, GIUSEPPE Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 20 di 108 (tempo di esecuzione: 0.0 secondi). 1 2 3 4 5 6 Trustworthiness Preservation by Copies of Machine Learning Systems L. Ceragioli, G. Primiero Defining Formal Validity Criteria for Machine Learning Models C. Manganini, G. Primiero Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness C. Manganini, E.A. Corsi, G. Primiero A logic for reasoning about (negative) trust under uncertainty 2025 F. Doneda, F.A. Genco, G. Primiero Checking trustworthiness of probabilistic computations in a typed natural deduction system 2025 F.A. D'Asaro, F.A. Genco, G. Primiero Justice at the Core of a New AI Paradigm 2025 G. Primiero Reasoning With and About Bias 2025 C. Manganini, G. Primiero Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring 2025 A. Giuseppe Buda, G. Coraglia, F. Genco, C. Manganini, G. Primiero A Proof System with Causal Labels (Part II): checking Counterfactual Fairness 2025 L. Ceragioli, G. Primiero A Proof System with Causal Labels (Part I): checking Individual Fairness and Intersectionality 2025 L. Ceragioli, G. Primiero BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa 2025 G. Primiero A Logic for Using Information 2025 A. Giuseppe Buda, G. Primiero Data Quality Dimensions for Fair AI 2024 C. Quaresmini, G. Primiero Handling Mobility Failures by Modal Types 2024 G. Primiero Causality Problems in Machine Learning Systems 2024 A. Termine, G. Primiero A possible worlds semantics for trustworthy non-deterministic computations 2024 E. Kubyshkina, G. Primiero Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A.G. Buda, G. Coraglia, F.A. Genco, C. Manganini, G. Primiero BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming 2024 G. Boella, F.A. D'Asaro, A. Dyoub, L. Gorrieri, F.A. Lisi, C. Manganini, G. Primiero BRIOxAlkemy: A Bias detecting tool 2024 G. Coraglia, F.A. D'Asaro, F.A. Genco, D. Giannuzzi, D. Posillipo, G. Primiero, C. Quaggio Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024) 2024 G. Coraglia, F.A. D'Asaro, A. Dyoub, F.A. Lisi, G. Primiero Titolo Data di pubblicazione Autori Tipo File Abstract Trustworthiness Preservation by Copies of Machine Learning Systems Ceragioli, Leonardo Primiero, Giuseppe - Defining Formal Validity Criteria for Machine Learning Models Manganini, Chiara Primiero, Giuseppe Book Part (author) - Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness Chiara Manganini Esther Anna Corsi Giuseppe Primiero - A logic for reasoning about (negative) trust under uncertainty 2025 Francesca Doneda Francesco A. Genco Giuseppe Primiero - Checking trustworthiness of probabilistic computations in a typed natural deduction system 2025 D'Asaro, F A Genco, F A Primiero, G - Justice at the Core of a New AI Paradigm 2025 Primiero, Giuseppe - Reasoning With and About Bias 2025 Manganini, Chiara Primiero, Giuseppe Book Part (author) - Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring 2025 Alessandro Giuseppe Buda Greta Coraglia Francesco Genco Chiara Manganini Giuseppe Primiero + - Book Part (author) - A Proof System with Causal Labels (Part II): checking Counterfactual Fairness 2025 L. Ceragioli G. Primiero Book Part (author) - A Proof System with Causal Labels (Part I): checking Individual Fairness and Intersectionality 2025 L. Ceragioli G. Primiero Book Part (author) - BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa 2025 Giuseppe Primiero Book Part (author) - A Logic for Using Information 2025 Alessandro Giuseppe Buda Giuseppe Primiero + - - Data Quality Dimensions for Fair AI 2024 C. Quaresmini G. Primiero + - Book Part (author) - Handling Mobility Failures by Modal Types 2024 Primiero, Giuseppe Book Part (author) - Causality Problems in Machine Learning Systems 2024 A. Termine G. Primiero Book Part (author) - A possible worlds semantics for trustworthy non-deterministic computations 2024 Kubyshkina, Ekaterina Primiero, Giuseppe - Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero + - Book Part (author) - BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming 2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero + - Book (editor) - BRIOxAlkemy: A Bias detecting tool 2024 Greta Coraglia Fabio Aurelio D’Asaro Francesco A. Genco Davide Giannuzzi Davide Posillipo Giuseppe Primiero Christian Quaggio + - Book Part (author) - Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024) 2024 G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero + - Book (editor) - 1 2 3 4 5 6 simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023-2025 del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
+      "authors": "Chiara Manganini Esther Anna Corsi Giuseppe Primiero -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp52197?type=all",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Trustworthiness Preservation by Copies of Machine Learning Systems 2026 L. Ceragioli, G. Primiero",
-      "year": 2026,
-      "authors": "Defining Formal Validity Criteria for Machine Learning Models C. Manganini, G. Primiero Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness C. Manganini, E.A. Corsi, G. Primiero A logic for reasoning about (negative) trust under uncertainty 2025 F. Doneda, F.A. Genco, G. Primiero Checking trustworthiness of probabilistic computations in a typed natural deduction system 2025 F.A. D'Asaro, F.A. Genco, G. Primiero Justice at the Core of a New AI Paradigm 2025 G. Primiero Reasoning With and About Bias 2025 C. Manganini, G. Primiero Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring 2025 A. Giuseppe Buda, G. Coraglia, F. Genco, C. Manganini, G. Primiero A Proof System with Causal Labels (Part II): checking Counterfactual Fairness 2025 L. Ceragioli, G. Primiero A Proof System with Causal Labels (Part I): checking Individual Fairness and Intersectionality 2025 L. Ceragioli, G. Primiero BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa 2025 G. Primiero A Logic for Using Information 2025 A. Giuseppe Buda, G. Primiero Data Quality Dimensions for Fair AI 2024 C. Quaresmini, G. Primiero Handling Mobility Failures by Modal Types 2024 G. Primiero Causality Problems in Machine Learning Systems 2024 A. Termine, G. Primiero A possible worlds semantics for trustworthy non-deterministic computations 2024 E. Kubyshkina, G. Primiero Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A.G. Buda, G. Coraglia, F.A. Genco, C. Manganini, G. Primiero BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming 2024 G. Boella, F.A. D'Asaro, A. Dyoub, L. Gorrieri, F.A. Lisi, C. Manganini, G. Primiero BRIOxAlkemy: A Bias detecting tool 2024 G. Coraglia, F.A. D'Asaro, F.A. Genco, D. Giannuzzi, D. Posillipo, G. Primiero, C. Quaggio Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024) 2024 G. Coraglia, F.A. D'Asaro, A. Dyoub, F.A. Lisi, G. Primiero Titolo Data di pubblicazione Autori Tipo File Abstract Trustworthiness Preservation by Copies of Machine Learning Systems Ceragioli, Leonardo Primiero, Giuseppe - Defining Formal Validity Criteria for Machine Learning Models Manganini, Chiara Primiero, Giuseppe Book Part (author) - Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness Chiara Manganini Esther Anna Corsi Giuseppe Primiero - A logic for reasoning about (negative) trust under uncertainty 2025 Francesca Doneda Francesco A. Genco Giuseppe Primiero - Checking trustworthiness of probabilistic computations in a typed natural deduction system 2025 D'Asaro, F A Genco, F A Primiero, G - Justice at the Core of a New AI Paradigm 2025 Primiero, Giuseppe - Reasoning With and About Bias 2025 Manganini, Chiara Primiero, Giuseppe Book Part (author) - Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring 2025 Alessandro Giuseppe Buda Greta Coraglia Francesco Genco Chiara Manganini Giuseppe Primiero + - Book Part (author) - A Proof System with Causal Labels (Part II): checking Counterfactual Fairness 2025 L. Ceragioli G. Primiero Book Part (author) - A Proof System with Causal Labels (Part I): checking Individual Fairness and Intersectionality 2025 L. Ceragioli G. Primiero Book Part (author) - BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa 2025 Giuseppe Primiero Book Part (author) - A Logic for Using Information 2025 Alessandro Giuseppe Buda Giuseppe Primiero + - - Data Quality Dimensions for Fair AI 2024 C. Quaresmini G. Primiero + - Book Part (author) - Handling Mobility Failures by Modal Types 2024 Primiero, Giuseppe Book Part (author) - Causality Problems in Machine Learning Systems 2024 A. Termine G. Primiero Book Part (author) - A possible worlds semantics for trustworthy non-deterministic computations 2024 Kubyshkina, Ekaterina Primiero, Giuseppe - Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero + - Book Part (author) - BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming 2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero + - Book (editor) - BRIOxAlkemy: A Bias detecting tool 2024 Greta Coraglia Fabio Aurelio D’Asaro Francesco A. Genco Davide Giannuzzi Davide Posillipo Giuseppe Primiero Christian Quaggio + - Book Part (author) - Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024) 2024 G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero + - Book (editor) -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1216236",
+      "air_url": "https://air.unimi.it/handle/2434/1205667",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
@@ -81,185 +62,61 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1205671",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "Data speak but sometimes lie: A game-theoretic approach to data bias and algorithmic fairness",
+      "title": "Trustworthiness Preservation by Copies of Machine Learning Systems",
       "year": 2026,
-      "authors": "Chiara Manganini Esther Anna Corsi Giuseppe Primiero -",
+      "authors": "Ceragioli, Leonardo Primiero, Giuseppe -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1205667",
+      "air_url": "https://air.unimi.it/handle/2434/1216236",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science",
+      "title": "A dialectical formalisation of preferred subtheories reasoning under resource bounds",
       "year": 2025,
-      "authors": "Hykel Hosni Juergen Landes -",
+      "authors": "K. van Berkel M. D'Agostino S. Modgil + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1195937",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Tutti (9)",
-      "year": 2025,
-      "authors": "IRIS Pagina ricercatore PANDZIC, STIPE Nome completo PANDZIC, STIPE Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 9 di 9 (tempo di esecuzione: 0.0 secondi). Toward learning and reasoning in first-order justification logic S. Pandzic A Logic of Weighted Reasons for Explainable Inference in AI 2024 S. Pandzic, J. Graff A logic of defeasible argumentation: Constructing arguments in justification logic 2022 S. Pandzic BOID*: Autonomous Goal Deliberation through Abduction 2022 S. Pandzic, J. Broersen, H. Aarts Structured argumentation dynamics: Undermining attacks in default justification logic 2022 S. Pandzic From the logic of proofs to the logic of arguments 2021 S. Pandzic On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic 2020 S. Pandzic Reifying default reasons in justification logic 2019 S. Pandzic A logic of default justifications 2018 S. Pandzic Titolo Data di pubblicazione Autori Tipo File Abstract Toward learning and reasoning in first-order justification logic Stipe Pandzic Book Part (author) - A Logic of Weighted Reasons for Explainable Inference in AI 2024 Pandzic S. Graff J. + - Book Part (author) - A logic of defeasible argumentation: Constructing arguments in justification logic 2022 Pandzic S. - BOID*: Autonomous Goal Deliberation through Abduction 2022 Pandzic S. Broersen J. Aarts H. + - Book Part (author) - Structured argumentation dynamics: Undermining attacks in default justification logic 2022 Pandzic S. - From the logic of proofs to the logic of arguments 2021 Stipe Pandzic - On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic 2020 Pandzic S. Book Part (author) - Reifying default reasons in justification logic 2019 Pandzic S. Book Part (author) - A logic of default justifications 2018 Pandzic Stipe Book Part (author) - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023- del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp289373?type=all",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Tutti (56)",
-      "year": 2025,
-      "authors": "IRIS Pagina ricercatore LANDES, JUERGEN Nome completo LANDES, JUERGEN Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 20 di 56 (tempo di esecuzione: 0.0 secondi). 1 2 3 Perspectives on Logics for Data-driven Reasoning H. Hosni, J. Landes What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science H. Hosni, J. Landes How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon 2024 J. Landes, W. Parker, K. Easwaran, T. Reydon Knowledge Representation, Scientific Argumentation and Non-monotonic Logic 2024 J. Landes, E.A. Corsi, P. Baldi Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement 2024 M. Leblanc, J. Williamson, F. De Pretis, J. Landes, E. Rocca Current philosophical perspectives on drug approval in the real world 2024 J. Landes, D.J. Auker-Howlett Formal Epistemology Meets Mechanism Design 2023 J. Landes Logical perspectives on the foundations of probability 2023 H. Hosni, J. Landes Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness 2023 A.Y. Abdin, F. De Pretis, J. Landes Rules of proof for maximal entropy inference 2023 J. Landes Varieties of Error and Varieties of Evidence in Scientific Inference 2023 B. Osimani, J. Landes Pharmacovigilance as Personalized Evidence 2022 F. De Pretis, W. Peden, J. Landes, B. Osimani Determining Maximal Entropy Functions for Objective Bayesian Inductive Logic 2022 J. Landes, S. Rafiee Rad, J. Williamson Bayesian Epistemology 2022 J. Landes Objective Bayesian Nets for Integrating Consistent Datasets 2022 J. Landes, J. Williamson Confirmation by Robustness Analysis: A Bayesian Account 2022 L. Casini, J. Landes E-synthesis for carcinogenicity assessments: A case study of processed meat 2022 F. De Prestis, S. Jukola, J. Landes Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022) 2022 M. Thimm, J. Landes, K. Skiba The Principal Principle, admissibility, and normal informal standards of what is reasonable 2021 J. Landes Towards the entropy-limit conjecture 2021 J. Landes, S.R. Rad, J. Williamson Titolo Data di pubblicazione Autori Tipo File Abstract Perspectives on Logics for Data-driven Reasoning Hosni, Hykel Landes, Juergen Book (editor) - What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science Hykel Hosni Juergen Landes - How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon 2024 J. Landes W. Parker K. Easwaran T. Reydon + - - Knowledge Representation, Scientific Argumentation and Non-monotonic Logic 2024 Landes, Jürgen Corsi, Esther Anna Baldi, Paolo Book Part (author) - Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement 2024 LeBlanc, Marissa Williamson, Jon De Pretis, Francesco Landes, Jürgen Rocca, Elena + - - Current philosophical perspectives on drug approval in the real world 2024 Landes, Jürgen Auker-Howlett, Daniel J. + - - Formal Epistemology Meets Mechanism Design 2023 Landes, Jürgen - Logical perspectives on the foundations of probability 2023 Hosni, Hykel Landes, Jürgen - Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness 2023 Abdin, Ahmad Yaman De Pretis, Francesco Landes, Jürgen + - - Rules of proof for maximal entropy inference 2023 Landes, Jürgen - Varieties of Error and Varieties of Evidence in Scientific Inference 2023 Osimani, Barbara Landes, Juergen + - - Pharmacovigilance as Personalized Evidence 2022 Francesco De Pretis William Peden Jurgen Landes Barbara Osimani + - Book Part (author) - Determining Maximal Entropy Functions for Objective Bayesian Inductive Logic 2022 Landes, Juergen Rafiee Rad, Soroush Williamson, Jon + - - Bayesian Epistemology 2022 Jürgen Landes - Objective Bayesian Nets for Integrating Consistent Datasets 2022 Landes J. Williamson J. + - - Confirmation by Robustness Analysis: A Bayesian Account 2022 L. Casini J. Landes + - - E-synthesis for carcinogenicity assessments: A case study of processed meat 2022 F. De Prestis S. Jukola J. Landes + - - Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022) 2022 M. Thimm J. Landes K. Skiba + - Book (editor) - The Principal Principle, admissibility, and normal informal standards of what is reasonable 2021 J. Landes - Towards the entropy-limit conjecture 2021 J. Landes S. R. Rad J. Williamson + - - 1 2 3 simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023- del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp156351?type=all",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Tutti (50)",
-      "year": 2025,
-      "authors": "IRIS Pagina ricercatore D'AGOSTINO, MARCELLO Nome completo D'AGOSTINO, MARCELLO Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 20 di 50 (tempo di esecuzione: 0.0 secondi). 1 2 3 A dialectical formalisation of preferred subtheories reasoning under resource bounds K. van Berkel, M. D'Agostino, S. Modgil Extending Depth-Bounded Reasoning to First-Order Logic M. D'Agostino, C. Larese, S. Modgil Le vie della logica 2024 M. D'Agostino, H. Hosni Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 M. D'Agostino, D. Gabbay, C. Larese, S. Modgil Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats 2024 M. D'Agostino, S. Modgil Special Issue: Advances in Argumentation in AI 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Tractable depth-bounded approximations to FDE and its satellites 2023 M. D’Agostino, A. Solares-Rojas Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Chrysippus' Logic in a Natural Deduction Setting 2022 M. D'Agostino, M. Piazza Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment 2022 M. D’Agostino, A. Solares-Rojas Molecular Biology Meets Logic: Context-Sensitiveness in Focus 2021 G. Boniolo, M. D'Agostino, M. Piazza, G. Pulcini Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino, C. Larese, S. Modgil A Fully Rational Account of Structured Argumentation Under Resource Bounds 2020 M. D'Agostino, S. Modgil Normality, Non-contamination and Logical Depth in Classical Natural Deduction 2020 M. D’Agostino, D. Gabbay, S. Modgil Depth-Bounded Approximations of Probability 2020 P. Baldi, M. D’Agostino, H. Hosni La filosofia dell'informazione 2019 M. D'Agostino An informational approach to feasible deduction 2019 M. D'Agostino Classical logic, argument and dialectic 2018 M. D'Agostino, S. Modgil Introduction : the Governance of Algorithms 2018 M. D’Agostino, M. Durante A Study of Argumentative Characterisations of Preferred Subtheories 2018 M. D'Agostino, S. Modgil Titolo Data di pubblicazione Autori Tipo File Abstract A dialectical formalisation of preferred subtheories reasoning under resource bounds K. van Berkel M. D'Agostino S. Modgil + - - Extending Depth-Bounded Reasoning to First-Order Logic Marcello D'Agostino Costanza Larese Sanjay Modgil + - - Le vie della logica 2024 D'Agostino, Marcello Hosni, Hykel Book (author) - Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil + - Book (author) - Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats 2024 D'Agostino, Marcello Modgil, Sanjay + - Book Part (author) - Special Issue: Advances in Argumentation in AI 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese Journal volume (editor) - Tractable depth-bounded approximations to FDE and its satellites 2023 D’Agostino, Marcello Solares-Rojas, Alejandro - Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese - Chrysippus' Logic in a Natural Deduction Setting 2022 M. D'Agostino M. Piazza + - Book Part (author) - Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment 2022 D’Agostino, Marcello Solares-Rojas, Alejandro + - Book Part (author) - Molecular Biology Meets Logic: Context-Sensitiveness in Focus 2021 Boniolo G. D'Agostino M. Piazza M. Pulcini G. + - - Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino C. Larese S. Modgil + - - A Fully Rational Account of Structured Argumentation Under Resource Bounds 2020 M. D'Agostino S. Modgil + - Book Part (author) - Normality, Non-contamination and Logical Depth in Classical Natural Deduction 2020 D’Agostino, Marcello Gabbay, Dov Modgil, Sanjay + - - Depth-Bounded Approximations of Probability 2020 Baldi, Paolo D’Agostino, Marcello Hosni, Hykel Book Part (author) - La filosofia dell'informazione 2019 Marcello D'Agostino Book Part (author) - An informational approach to feasible deduction 2019 M. D'Agostino Book Part (author) - Classical logic, argument and dialectic 2018 M. D'Agostino S. Modgil + - - Introduction : the Governance of Algorithms 2018 D’Agostino, Marcello Durante, Massimo + - - A Study of Argumentative Characterisations of Preferred Subtheories 2018 M. D'Agostino S. Modgil + - Book Part (author) - 1 2 3 simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023- del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp38396?type=all",
+      "air_url": "https://air.unimi.it/handle/2434/1157832",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Tutti (20)",
+      "title": "A logic for reasoning about (negative) trust under uncertainty",
       "year": 2025,
-      "authors": "IRIS Pagina ricercatore GENCO, FRANCESCO ANTONIO Nome completo GENCO, FRANCESCO ANTONIO Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 20 di 20 (tempo di esecuzione: 0.0 secondi). A logic for reasoning about (negative) trust under uncertainty F. Doneda, F.A. Genco, G. Primiero Checking trustworthiness of probabilistic computations in a typed natural deduction system F.A. D'Asaro, F.A. Genco, G. Primiero Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring A. Giuseppe Buda, G. Coraglia, F. Genco, C. Manganini, G. Primiero Grounding operators: transitivity and trees, logicality and balance 2024 F.A. Genco A Logic of Knowledge and Justifications, with an Application to Computational Trust 2024 F.A. Genco Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A.G. Buda, G. Coraglia, F.A. Genco, C. Manganini, G. Primiero BRIOxAlkemy: A Bias detecting tool 2024 G. Coraglia, F.A. D'Asaro, F.A. Genco, D. Giannuzzi, D. Posillipo, G. Primiero, C. Quaggio Low-Level Analysis of Trust in Probabilistic and Opaque Programs 2023 F.A. Genco Conceptual (and hence mathematical) explanation, conceptual grounding and proof 2023 F.A. Genco, F. Poggiolesi Formal explanations as logical derivations 2021 F.A. Genco Defining Formal Explanation in Classical Logic by Substructural Derivability 2021 F.A. Genco, F. Poggiolesi Grounding, Quantifiers, and Paradoxes 2021 F.A. Genco, F. Poggiolesi, L. Rossi On the concurrent computational content of intermediate logics 2020 F. Aschieri, A. Ciabattoni, F.A. Genco Par means parallel: multiplicative linear logic proofs as concurrent functional programs 2020 F. Aschieri, F.A. Genco Classical Proofs as Parallel Programs 2018 F. Aschieri, A. Ciabattoni, F.A. Genco Hypersequents and Systems of Rules 2018 A. Ciabattoni, F.A. Genco Understanding Prescriptive Texts: Rules and Logic as Elaborated by the Mīmāṃsā School 2017 E. Freschi, A. Ciabattoni, F.A. Genco, B. Lellmann Gödel logic: From natural deduction to parallel computation 2017 F. Aschieri, A. Ciabattoni, F.A. Genco Embedding formalisms: hypersequents and two-level systems of rules 2016 A. Ciabattoni, F.A. Genco Mīmāṃsā Deontic Logic: Proof Theory and Applications [M(i)over-barm(a)over-barms(a)over-bar Deontic Logic: Proof Theory and Applications] 2015 A. Ciabattoni, E. Freschi, F.A. Genco, B. Lellmann Titolo Data di pubblicazione Autori Tipo File Abstract A logic for reasoning about (negative) trust under uncertainty Francesca Doneda Francesco A. Genco Giuseppe Primiero - Checking trustworthiness of probabilistic computations in a typed natural deduction system D'Asaro, F A Genco, F A Primiero, G - Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring Alessandro Giuseppe Buda Greta Coraglia Francesco Genco Chiara Manganini Giuseppe Primiero + - Book Part (author) - Grounding operators: transitivity and trees, logicality and balance 2024 Francesco Antonio Genco - A Logic of Knowledge and Justifications, with an Application to Computational Trust 2024 Genco, Francesco A. - Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring 2024 A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero + - Book Part (author) - BRIOxAlkemy: A Bias detecting tool 2024 Greta Coraglia Fabio Aurelio D’Asaro Francesco A. Genco Davide Giannuzzi Davide Posillipo Giuseppe Primiero Christian Quaggio + - Book Part (author) - Low-Level Analysis of Trust in Probabilistic and Opaque Programs 2023 Francesco A. Genco - Conceptual (and hence mathematical) explanation, conceptual grounding and proof 2023 Francesco Antonio Genco Francesca Poggiolesi + - - Formal explanations as logical derivations 2021 Genco F. A. - Defining Formal Explanation in Classical Logic by Substructural Derivability 2021 Francesco A. Genco Francesca Poggiolesi + - Book Part (author) - Grounding, Quantifiers, and Paradoxes 2021 Francesco A. Genco Francesca Poggiolesi Lorenzo Rossi + - - On the concurrent computational content of intermediate logics 2020 Aschieri, Federico Ciabattoni, Agata Genco, Francesco A. + - - Par means parallel: multiplicative linear logic proofs as concurrent functional programs 2020 Aschieri, Federico Genco, Francesco A. + - - Classical Proofs as Parallel Programs 2018 Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio + - - Hypersequents and Systems of Rules 2018 Ciabattoni, Agata Genco, Francesco A. + - - Understanding Prescriptive Texts: Rules and Logic as Elaborated by the Mīmāṃsā School 2017 Freschi, Elisa Ciabattoni, Agata Genco, Francesco A. Lellmann, Björn + - - Gödel logic: From natural deduction to parallel computation 2017 Aschieri, Federico Ciabattoni, Agata Genco, Francesco A. + - Book Part (author) - Embedding formalisms: hypersequents and two-level systems of rules 2016 A. Ciabattoni F. A. Genco + - Book Part (author) - Mīmāṃsā Deontic Logic: Proof Theory and Applications [M(i)over-barm(a)over-barms(a)over-bar Deontic Logic: Proof Theory and Applications] 2015 Ciabattoni, Agata Freschi, Elisa Genco, Francesco A. Lellmann, Björn + - Book Part (author) - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023- del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
+      "authors": "Francesca Doneda Francesco A. Genco Giuseppe Primiero -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp161371?type=all",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Tutti (12)",
-      "year": 2025,
-      "authors": "IRIS Pagina ricercatore LARESE, COSTANZA Nome completo LARESE, COSTANZA Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 12 di 12 (tempo di esecuzione: 0.0 secondi). Extending Depth-Bounded Reasoning to First-Order Logic M. D'Agostino, C. Larese, S. Modgil Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 M. D'Agostino, D. Gabbay, C. Larese, S. Modgil Special Issue: Advances in Argumentation in AI 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Ricerche aritmetiche 2023 S. Graffi, C. Larese Hintikka’s conception of syntheticity as the introduction of new individuals 2023 C. Larese Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Ecthesis, constructions and existential instantiation. A Kantian tale 2022 C. Larese Kant on the analyticity of logic 2022 C. Larese Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino, C. Larese, S. Modgil Notes on Hintikka’s Analytic-Synthetic Distinction 2020 C. Larese Robert Musil: mathematics as the audacity of pure ratio 2015 C. Larese Robert Musil: la Matematica come audacia della pura ratio 2014 C. Larese Titolo Data di pubblicazione Autori Tipo File Abstract Extending Depth-Bounded Reasoning to First-Order Logic Marcello D'Agostino Costanza Larese Sanjay Modgil + - - Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil + - Book (author) - Special Issue: Advances in Argumentation in AI 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese Journal volume (editor) - Ricerche aritmetiche 2023 Sandro Graffi Costanza Larese + - Book (translator) - Hintikka’s conception of syntheticity as the introduction of new individuals 2023 Costanza Larese - Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese - Ecthesis, constructions and existential instantiation. A Kantian tale 2022 Costanza Larese - Kant on the analyticity of logic 2022 Costanza Larese - Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino C. Larese S. Modgil + - - Notes on Hintikka’s Analytic-Synthetic Distinction 2020 Costanza Larese - Robert Musil: mathematics as the audacity of pure ratio 2015 Costanza Larese - Robert Musil: la Matematica come audacia della pura ratio 2014 Costanza Larese - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023- del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp96134?type=all",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "Toward learning and reasoning in first-order justification logic 2025 S. Pandzic",
-      "year": 2025,
-      "authors": "A Logic of Weighted Reasons for Explainable Inference in AI 2024 S. Pandzic, J. Graff A logic of defeasible argumentation: Constructing arguments in justification logic 2022 S. Pandzic BOID*: Autonomous Goal Deliberation through Abduction 2022 S. Pandzic, J. Broersen, H. Aarts Structured argumentation dynamics: Undermining attacks in default justification logic 2022 S. Pandzic From the logic of proofs to the logic of arguments 2021 S. Pandzic On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic 2020 S. Pandzic Reifying default reasons in justification logic 2019 S. Pandzic A logic of default justifications 2018 S. Pandzic Titolo Data di pubblicazione Autori Tipo File Abstract Toward learning and reasoning in first-order justification logic Stipe Pandzic Book Part (author) - A Logic of Weighted Reasons for Explainable Inference in AI 2024 Pandzic S. Graff J. + - Book Part (author) - A logic of defeasible argumentation: Constructing arguments in justification logic 2022 Pandzic S. - BOID*: Autonomous Goal Deliberation through Abduction 2022 Pandzic S. Broersen J. Aarts H. + - Book Part (author) - Structured argumentation dynamics: Undermining attacks in default justification logic 2022 Pandzic S. - From the logic of proofs to the logic of arguments 2021 Stipe Pandzic - On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic 2020 Pandzic S. Book Part (author) - Reifying default reasons in justification logic 2019 Pandzic S. Book Part (author) - A logic of default justifications 2018 Pandzic Stipe Book Part (author) -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1205398",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring",
-      "year": 2025,
-      "authors": "Alessandro Giuseppe Buda Greta Coraglia Francesco Genco Chiara Manganini Giuseppe Primiero + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1159824",
+      "air_url": "https://air.unimi.it/handle/2434/1185435",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco",
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "Reasoning With and About Bias",
+      "title": "A Logic for Using Information",
       "year": 2025,
-      "authors": "Manganini, Chiara Primiero, Giuseppe -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1139855",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Perspectives on Logics for Data-driven Reasoning 2025 H. Hosni, J. Landes",
-      "year": 2025,
-      "authors": "What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science H. Hosni, J. Landes How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon 2024 J. Landes, W. Parker, K. Easwaran, T. Reydon Knowledge Representation, Scientific Argumentation and Non-monotonic Logic 2024 J. Landes, E.A. Corsi, P. Baldi Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement 2024 M. Leblanc, J. Williamson, F. De Pretis, J. Landes, E. Rocca Current philosophical perspectives on drug approval in the real world 2024 J. Landes, D.J. Auker-Howlett Formal Epistemology Meets Mechanism Design 2023 J. Landes Logical perspectives on the foundations of probability 2023 H. Hosni, J. Landes Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness 2023 A.Y. Abdin, F. De Pretis, J. Landes Rules of proof for maximal entropy inference 2023 J. Landes Varieties of Error and Varieties of Evidence in Scientific Inference 2023 B. Osimani, J. Landes Pharmacovigilance as Personalized Evidence 2022 F. De Pretis, W. Peden, J. Landes, B. Osimani Determining Maximal Entropy Functions for Objective Bayesian Inductive Logic 2022 J. Landes, S. Rafiee Rad, J. Williamson Bayesian Epistemology 2022 J. Landes Objective Bayesian Nets for Integrating Consistent Datasets 2022 J. Landes, J. Williamson Confirmation by Robustness Analysis: A Bayesian Account 2022 L. Casini, J. Landes E-synthesis for carcinogenicity assessments: A case study of processed meat 2022 F. De Prestis, S. Jukola, J. Landes Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022) 2022 M. Thimm, J. Landes, K. Skiba The Principal Principle, admissibility, and normal informal standards of what is reasonable 2021 J. Landes Towards the entropy-limit conjecture 2021 J. Landes, S.R. Rad, J. Williamson Titolo Data di pubblicazione Autori Tipo File Abstract Perspectives on Logics for Data-driven Reasoning Hosni, Hykel Landes, Juergen Book (editor) - What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science Hykel Hosni Juergen Landes - How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon 2024 J. Landes W. Parker K. Easwaran T. Reydon + - - Knowledge Representation, Scientific Argumentation and Non-monotonic Logic 2024 Landes, Jürgen Corsi, Esther Anna Baldi, Paolo Book Part (author) - Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement 2024 LeBlanc, Marissa Williamson, Jon De Pretis, Francesco Landes, Jürgen Rocca, Elena + - - Current philosophical perspectives on drug approval in the real world 2024 Landes, Jürgen Auker-Howlett, Daniel J. + - - Formal Epistemology Meets Mechanism Design 2023 Landes, Jürgen - Logical perspectives on the foundations of probability 2023 Hosni, Hykel Landes, Jürgen - Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness 2023 Abdin, Ahmad Yaman De Pretis, Francesco Landes, Jürgen + - - Rules of proof for maximal entropy inference 2023 Landes, Jürgen - Varieties of Error and Varieties of Evidence in Scientific Inference 2023 Osimani, Barbara Landes, Juergen + - - Pharmacovigilance as Personalized Evidence 2022 Francesco De Pretis William Peden Jurgen Landes Barbara Osimani + - Book Part (author) - Determining Maximal Entropy Functions for Objective Bayesian Inductive Logic 2022 Landes, Juergen Rafiee Rad, Soroush Williamson, Jon + - - Bayesian Epistemology 2022 Jürgen Landes - Objective Bayesian Nets for Integrating Consistent Datasets 2022 Landes J. Williamson J. + - - Confirmation by Robustness Analysis: A Bayesian Account 2022 L. Casini J. Landes + - - E-synthesis for carcinogenicity assessments: A case study of processed meat 2022 F. De Prestis S. Jukola J. Landes + - - Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022) 2022 M. Thimm J. Landes K. Skiba + - Book (editor) - The Principal Principle, admissibility, and normal informal standards of what is reasonable 2021 J. Landes - Towards the entropy-limit conjecture 2021 J. Landes S. R. Rad J. Williamson + - -",
+      "authors": "Alessandro Giuseppe Buda Giuseppe Primiero + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1164499",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Justice at the Core of a New AI Paradigm",
-      "year": 2025,
-      "authors": "Primiero, Giuseppe -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1195056",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Extending Depth-Bounded Reasoning to First-Order Logic",
-      "year": 2025,
-      "authors": "Marcello D'Agostino Costanza Larese Sanjay Modgil + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1196095",
-      "members": [
-        "Costanza Larese",
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Checking trustworthiness of probabilistic computations in a typed natural deduction system",
-      "year": 2025,
-      "authors": "D'Asaro, F A Genco, F A Primiero, G -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1145456",
-      "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa",
-      "year": 2025,
-      "authors": "Giuseppe Primiero -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1207975",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "A Proof System with Causal Labels (Part II): checking Counterfactual Fairness",
-      "year": 2025,
-      "authors": "L. Ceragioli G. Primiero -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1206237",
+      "air_url": "https://air.unimi.it/handle/2434/1201335",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
@@ -271,218 +128,248 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1206235",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "A Logic for Using Information",
+      "title": "A Proof System with Causal Labels (Part II): checking Counterfactual Fairness",
       "year": 2025,
-      "authors": "Alessandro Giuseppe Buda Giuseppe Primiero + - -",
-      "type": "Article (author)",
+      "authors": "L. Ceragioli G. Primiero -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1201335",
+      "air_url": "https://air.unimi.it/handle/2434/1206237",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "A logic for reasoning about (negative) trust under uncertainty",
+      "title": "BRIO: il ruolo della logica nella costruzione di un’Intelligenza Artificiale equa",
       "year": 2025,
-      "authors": "Francesca Doneda Francesco A. Genco Giuseppe Primiero -",
+      "authors": "Giuseppe Primiero -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1207975",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Checking trustworthiness of probabilistic computations in a typed natural deduction system",
+      "year": 2025,
+      "authors": "D'Asaro, F A Genco, F A Primiero, G -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1185435",
+      "air_url": "https://air.unimi.it/handle/2434/1145456",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco",
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "A dialectical formalisation of preferred subtheories reasoning under resource bounds 2025 K. van Berkel, M. D'Agostino, S. Modgil",
+      "title": "Extending Depth-Bounded Reasoning to First-Order Logic",
       "year": 2025,
-      "authors": "Extending Depth-Bounded Reasoning to First-Order Logic M. D'Agostino, C. Larese, S. Modgil Le vie della logica 2024 M. D'Agostino, H. Hosni Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 M. D'Agostino, D. Gabbay, C. Larese, S. Modgil Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats 2024 M. D'Agostino, S. Modgil Special Issue: Advances in Argumentation in AI 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Tractable depth-bounded approximations to FDE and its satellites 2023 M. D’Agostino, A. Solares-Rojas Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 F.A. D'Asaro, M. D'Agostino, C. Larese Chrysippus' Logic in a Natural Deduction Setting 2022 M. D'Agostino, M. Piazza Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment 2022 M. D’Agostino, A. Solares-Rojas Molecular Biology Meets Logic: Context-Sensitiveness in Focus 2021 G. Boniolo, M. D'Agostino, M. Piazza, G. Pulcini Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino, C. Larese, S. Modgil A Fully Rational Account of Structured Argumentation Under Resource Bounds 2020 M. D'Agostino, S. Modgil Normality, Non-contamination and Logical Depth in Classical Natural Deduction 2020 M. D’Agostino, D. Gabbay, S. Modgil Depth-Bounded Approximations of Probability 2020 P. Baldi, M. D’Agostino, H. Hosni La filosofia dell'informazione 2019 M. D'Agostino An informational approach to feasible deduction 2019 M. D'Agostino Classical logic, argument and dialectic 2018 M. D'Agostino, S. Modgil Introduction : the Governance of Algorithms 2018 M. D’Agostino, M. Durante A Study of Argumentative Characterisations of Preferred Subtheories 2018 M. D'Agostino, S. Modgil Titolo Data di pubblicazione Autori Tipo File Abstract A dialectical formalisation of preferred subtheories reasoning under resource bounds K. van Berkel M. D'Agostino S. Modgil + - - Extending Depth-Bounded Reasoning to First-Order Logic Marcello D'Agostino Costanza Larese Sanjay Modgil + - - Le vie della logica 2024 D'Agostino, Marcello Hosni, Hykel Book (author) - Depth-bounded Reasoning. Volume 1: Classical Propositional Logic 2024 Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil + - Book (author) - Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats 2024 D'Agostino, Marcello Modgil, Sanjay + - Book Part (author) - Special Issue: Advances in Argumentation in AI 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese Journal volume (editor) - Tractable depth-bounded approximations to FDE and its satellites 2023 D’Agostino, Marcello Solares-Rojas, Alejandro - Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue 2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese - Chrysippus' Logic in a Natural Deduction Setting 2022 M. D'Agostino M. Piazza + - Book Part (author) - Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment 2022 D’Agostino, Marcello Solares-Rojas, Alejandro + - Book Part (author) - Molecular Biology Meets Logic: Context-Sensitiveness in Focus 2021 Boniolo G. D'Agostino M. Piazza M. Pulcini G. + - - Towards Depth-Bounded Natural Deduction for Classical First-order Logic 2021 M. D'Agostino C. Larese S. Modgil + - - A Fully Rational Account of Structured Argumentation Under Resource Bounds 2020 M. D'Agostino S. Modgil + - Book Part (author) - Normality, Non-contamination and Logical Depth in Classical Natural Deduction 2020 D’Agostino, Marcello Gabbay, Dov Modgil, Sanjay + - - Depth-Bounded Approximations of Probability 2020 Baldi, Paolo D’Agostino, Marcello Hosni, Hykel Book Part (author) - La filosofia dell'informazione 2019 Marcello D'Agostino Book Part (author) - An informational approach to feasible deduction 2019 M. D'Agostino Book Part (author) - Classical logic, argument and dialectic 2018 M. D'Agostino S. Modgil + - - Introduction : the Governance of Algorithms 2018 D’Agostino, Marcello Durante, Massimo + - - A Study of Argumentative Characterisations of Preferred Subtheories 2018 M. D'Agostino S. Modgil + - Book Part (author) -",
+      "authors": "Marcello D'Agostino Costanza Larese Sanjay Modgil + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1157832",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Tutti (9)",
-      "year": 2024,
-      "authors": "IRIS Pagina ricercatore KUBYSHKINA, EKATERINA Nome completo KUBYSHKINA, EKATERINA Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 9 di 9 (tempo di esecuzione: 0.0 secondi). Ignorance and its formal limits E. Kubyshkina, M. Petrolo Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev M. Esteban Coniglio, E. Kubyshkina, D. Zaitsev Quasi-Matrix (Quasi-Functional) Logic E. Kubyshkina A possible worlds semantics for trustworthy non-deterministic computations E. Kubyshkina, G. Primiero A logical approach to algorithmic opacity M. Petrolo, E. Kubyshkina, G. Primiero Prior to Trust: Frequentist and Bayesian views of Trust in AI M. Petrolo, E. Kubyshkina, G. Primiero Revising the Elenchus via Belief Revision 2023 E. Kubyshkina, M. Petrolo What is normal? 2022 E. Kubyshkina, M. Petrolo Reasoning about algorithmic opacity 2022 E. Kubyshkina, M. Petrolo Titolo Data di pubblicazione Autori Tipo File Abstract Ignorance and its formal limits Ekaterina Kubyshkina Mattia Petrolo + - Book Part (author) - Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev Marcelo Esteban Coniglio Ekaterina Kubyshkina Dmitry Zaitsev + - Book (editor) - Quasi-Matrix (Quasi-Functional) Logic E. Kubyshkina Book Part (translator) - A possible worlds semantics for trustworthy non-deterministic computations Kubyshkina, Ekaterina Primiero, Giuseppe - A logical approach to algorithmic opacity Mattia Petrolo Ekaterina Kubyshkina Giuseppe Primiero + - Book Part (author) - Prior to Trust: Frequentist and Bayesian views of Trust in AI M. Petrolo E. Kubyshkina G. Primiero + - Book Part (author) - Revising the Elenchus via Belief Revision 2023 Kubyshkina, E Petrolo, M + - - What is normal? 2022 Kubyshkina, E Petrolo, M + - - Reasoning about algorithmic opacity 2022 Ekaterina Kubyshkina Mattia Petrolo + - Book Part (author) - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023-2025 del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp153933?type=all",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Tutti (22)",
-      "year": 2024,
-      "authors": "IRIS Pagina ricercatore BALDI, PAOLO Nome completo BALDI, PAOLO Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 20 di 22 (tempo di esecuzione: 0.0 secondi). 1 2 Knowledge Representation, Scientific Argumentation and Non-monotonic Logic J. Landes, E.A. Corsi, P. Baldi A logical framework for data-driven reasoning P. Baldi, E.A. Corsi, H. Hosni What's hot in uncertain reasoning 2022 P. Baldi Probability and Degrees of Truth 2022 P. Baldi, H. Hosni A logic-based tractable approximation of probability 2022 P. Baldi, H. Hosni Bilattice CADIAG-II: Theory and Experimental Results 2021 P. Baldi, A. Ciabattoni, K.-. Adlassnig Introducing k-lingo: a k-depth Bounded Version of ASP System Clingo 2021 F.A. D'Asaro, P. Baldi, G. Primiero Logical Approximations of Qualitative Probability 2021 P. Baldi, H. Hosni On fuzzification mechanisms for unary quantification 2020 P. Baldi, C.G. Fermüller, M.F.J. Hofer Classical and fuzzy two-layered modal logics for uncertainty: Translations and proof-theory 2020 P. Baldi, P. Cintula, C. Noguera Depth-bounded Belief functions 2020 P. Baldi, H. Hosni Depth-Bounded Approximations of Probability 2020 P. Baldi, M. D’Agostino, H. Hosni Interview with Chris Fermueller 2019 P. Baldi Translating Classical Probability Logics into Modal Fuzzy Logics 2019 P. Baldi, P. Cintula, C. Noguerac Standard completeness for extensions of IMTL 2017 P. Baldi, A. Ciabattoni, F. Gulisano From Semi-fuzzy to Fuzzy Quantifiers via Łukasiewicz Logic and Games 2017 P. Baldi, C. Fermueller A Calculus for Rational Łukasiewicz Logic and Related Systems 2016 P. Baldi Densification of FL chains via residuated frames 2016 P. Baldi, K. Terui Standard Completeness for Uninorm-Based Logics 2015 P. Baldi, A. Ciabattoni Uniform proofs of standard completeness for extensions of first-order MTL 2015 P. Baldi, A. Ciabattoni Titolo Data di pubblicazione Autori Tipo File Abstract Knowledge Representation, Scientific Argumentation and Non-monotonic Logic Landes, Jürgen Corsi, Esther Anna Baldi, Paolo Book Part (author) - A logical framework for data-driven reasoning Baldi, Paolo Corsi, Esther Anna Hosni, Hykel - What's hot in uncertain reasoning 2022 P. Baldi - Probability and Degrees of Truth 2022 P. Baldi H. Hosni Book Part (author) - A logic-based tractable approximation of probability 2022 Paolo Baldi Hykel Hosni - Bilattice CADIAG-II: Theory and Experimental Results 2021 Baldi P. Ciabattoni A. Adlassnig K. -P. + - Book Part (author) - Introducing k-lingo: a k-depth Bounded Version of ASP System Clingo 2021 Fabio Aurelio D'Asaro Paolo Baldi Giuseppe Primiero Book Part (author) - Logical Approximations of Qualitative Probability 2021 P. Baldi H. Hosni Book Part (author) - On fuzzification mechanisms for unary quantification 2020 Baldi, Paolo Fermüller, Christian G. Hofer, Matthias F. J. + - - Classical and fuzzy two-layered modal logics for uncertainty: Translations and proof-theory 2020 Baldi P. Cintula P. Noguera C. + - - Depth-bounded Belief functions 2020 P. Baldi H. Hosni - Depth-Bounded Approximations of Probability 2020 Baldi, Paolo D’Agostino, Marcello Hosni, Hykel Book Part (author) - Interview with Chris Fermueller 2019 P. Baldi - Translating Classical Probability Logics into Modal Fuzzy Logics 2019 P. Baldi P. Cintula C. Noguerac + - Book Part (author) - Standard completeness for extensions of IMTL 2017 Baldi P. Ciabattoni A. Gulisano F. + - Book Part (author) - From Semi-fuzzy to Fuzzy Quantifiers via Łukasiewicz Logic and Games 2017 P. Baldi C. Fermueller + - Book Part (author) - A Calculus for Rational Łukasiewicz Logic and Related Systems 2016 P. Baldi Book Part (author) - Densification of FL chains via residuated frames 2016 Baldi P. Terui K. + - - Standard Completeness for Uninorm-Based Logics 2015 Baldi P. Ciabattoni A. + - Book Part (author) - Uniform proofs of standard completeness for extensions of first-order MTL 2015 Baldi P. Ciabattoni A. + - - 1 2 simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023-2025 del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp74148?type=all",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Quasi-Matrix (Quasi-Functional) Logic",
-      "year": 2024,
-      "authors": "E. Kubyshkina Book Part (translator) -",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1163796",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
-      "year": 2024,
-      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero + - -",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1128039",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Prior to Trust: Frequentist and Bayesian views of Trust in AI",
-      "year": 2024,
-      "authors": "M. Petrolo E. Kubyshkina G. Primiero + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1127777",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev",
-      "year": 2024,
-      "authors": "Marcelo Esteban Coniglio Ekaterina Kubyshkina Dmitry Zaitsev + - -",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106211",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Le vie della logica",
-      "year": 2024,
-      "authors": "D'Agostino, Marcello Hosni, Hykel -",
-      "type": "Book (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1057168",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Knowledge Representation, Scientific Argumentation and Non-monotonic Logic",
-      "year": 2024,
-      "authors": "Landes, Jürgen Corsi, Esther Anna Baldi, Paolo -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1194155",
-      "members": [
-        "Jürgen Landes",
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement",
-      "year": 2024,
-      "authors": "LeBlanc, Marissa Williamson, Jon De Pretis, Francesco Landes, Jürgen Rocca, Elena + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1047128",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Ignorance and its formal limits 2024 E. Kubyshkina, M. Petrolo",
-      "year": 2024,
-      "authors": "Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev M. Esteban Coniglio, E. Kubyshkina, D. Zaitsev Quasi-Matrix (Quasi-Functional) Logic E. Kubyshkina A possible worlds semantics for trustworthy non-deterministic computations E. Kubyshkina, G. Primiero A logical approach to algorithmic opacity M. Petrolo, E. Kubyshkina, G. Primiero Prior to Trust: Frequentist and Bayesian views of Trust in AI M. Petrolo, E. Kubyshkina, G. Primiero Revising the Elenchus via Belief Revision 2023 E. Kubyshkina, M. Petrolo What is normal? 2022 E. Kubyshkina, M. Petrolo Reasoning about algorithmic opacity 2022 E. Kubyshkina, M. Petrolo Titolo Data di pubblicazione Autori Tipo File Abstract Ignorance and its formal limits Ekaterina Kubyshkina Mattia Petrolo + - Book Part (author) - Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev Marcelo Esteban Coniglio Ekaterina Kubyshkina Dmitry Zaitsev + - Book (editor) - Quasi-Matrix (Quasi-Functional) Logic E. Kubyshkina Book Part (translator) - A possible worlds semantics for trustworthy non-deterministic computations Kubyshkina, Ekaterina Primiero, Giuseppe - A logical approach to algorithmic opacity Mattia Petrolo Ekaterina Kubyshkina Giuseppe Primiero + - Book Part (author) - Prior to Trust: Frequentist and Bayesian views of Trust in AI M. Petrolo E. Kubyshkina G. Primiero + - Book Part (author) - Revising the Elenchus via Belief Revision 2023 Kubyshkina, E Petrolo, M + - - What is normal? 2022 Kubyshkina, E Petrolo, M + - - Reasoning about algorithmic opacity 2022 Ekaterina Kubyshkina Mattia Petrolo + - Book Part (author) -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106190",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon",
-      "year": 2024,
-      "authors": "J. Landes W. Parker K. Easwaran T. Reydon + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1022714",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Handling Mobility Failures by Modal Types",
-      "year": 2024,
-      "authors": "Primiero, Giuseppe -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106148",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Grounding operators: transitivity and trees, logicality and balance",
-      "year": 2024,
-      "authors": "Francesco Antonio Genco -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1075468",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats",
-      "year": 2024,
-      "authors": "D'Agostino, Marcello Modgil, Sanjay + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1123616",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Depth-bounded Reasoning. Volume 1: Classical Propositional Logic",
-      "year": 2024,
-      "authors": "Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil + - -",
-      "type": "Book (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1019663",
+      "air_url": "https://air.unimi.it/handle/2434/1196095",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Data Quality Dimensions for Fair AI",
-      "year": 2024,
-      "authors": "C. Quaresmini G. Primiero + - -",
+      "title": "Justice at the Core of a New AI Paradigm",
+      "year": 2025,
+      "authors": "Primiero, Giuseppe -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1195056",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Perspectives on Logics for Data-driven Reasoning",
+      "year": 2025,
+      "authors": "Hosni, Hykel Landes, Juergen -",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1164499",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Reasoning With and About Bias",
+      "year": 2025,
+      "authors": "Manganini, Chiara Primiero, Giuseppe -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "air_url": "https://air.unimi.it/handle/2434/1139855",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Rilevazione e mitigazione dei bias negli algoritmi di classificazione con il metodo BRIO: il caso del credit scoring",
+      "year": 2025,
+      "authors": "Alessandro Giuseppe Buda Greta Coraglia Francesco Genco Chiara Manganini Giuseppe Primiero + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1159824",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Toward learning and reasoning in first-order justification logic",
+      "year": 2025,
+      "authors": "Stipe Pandzic -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1205398",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Stipe Pandžić"
+      ]
+    },
+    {
+      "title": "What Follows from all that Data?\\\\Logic in the Methodology of Data-Intensive and AI-Driven Science",
+      "year": 2025,
+      "authors": "Hykel Hosni Juergen Landes -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1195937",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "A Logic of Knowledge and Justifications, with an Application to Computational Trust",
+      "year": 2024,
+      "authors": "Genco, Francesco A. -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1135875",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "A Logic of Weighted Reasons for Explainable Inference in AI",
+      "year": 2024,
+      "authors": "Pandzic S. Graff J. + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1189781",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Stipe Pandžić"
+      ]
+    },
+    {
+      "title": "A logical approach to algorithmic opacity",
+      "year": 2024,
+      "authors": "Mattia Petrolo Ekaterina Kubyshkina Giuseppe Primiero + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024396",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "A logical framework for data-driven reasoning",
+      "year": 2024,
+      "authors": "Baldi, Paolo Corsi, Esther Anna Hosni, Hykel -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1160844",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "A possible worlds semantics for trustworthy non-deterministic computations",
+      "year": 2024,
+      "authors": "Kubyshkina, Ekaterina Primiero, Giuseppe -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106169",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring",
+      "year": 2024,
+      "authors": "A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1127941",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "BRIOxAlkemy: A Bias detecting tool",
+      "year": 2024,
+      "authors": "Greta Coraglia Fabio Aurelio D’Asaro Francesco A. Genco Davide Giannuzzi Davide Posillipo Giuseppe Primiero Christian Quaggio + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024264",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Causality Problems in Machine Learning Systems",
+      "year": 2024,
+      "authors": "A. Termine G. Primiero -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
@@ -494,198 +381,244 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1078801",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
     },
     {
-      "title": "Causality Problems in Machine Learning Systems",
+      "title": "Data Quality Dimensions for Fair AI",
       "year": 2024,
-      "authors": "A. Termine G. Primiero -",
+      "authors": "C. Quaresmini G. Primiero + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
     },
     {
-      "title": "BRIOxAlkemy: A Bias detecting tool",
+      "title": "Depth-bounded Reasoning. Volume 1: Classical Propositional Logic",
       "year": 2024,
-      "authors": "Greta Coraglia Fabio Aurelio D’Asaro Francesco A. Genco Davide Giannuzzi Davide Posillipo Giuseppe Primiero Christian Quaggio + - -",
-      "type": "Book Part (author)",
+      "authors": "Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil + - -",
+      "type": "Book (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024264",
-      "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring",
-      "year": 2024,
-      "authors": "A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1127941",
-      "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "A possible worlds semantics for trustworthy non-deterministic computations",
-      "year": 2024,
-      "authors": "Kubyshkina, Ekaterina Primiero, Giuseppe -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106169",
-      "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "A logical framework for data-driven reasoning",
-      "year": 2024,
-      "authors": "Baldi, Paolo Corsi, Esther Anna Hosni, Hykel -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1160844",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "A logical approach to algorithmic opacity",
-      "year": 2024,
-      "authors": "Mattia Petrolo Ekaterina Kubyshkina Giuseppe Primiero + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024396",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "A Logic of Weighted Reasons for Explainable Inference in AI",
-      "year": 2024,
-      "authors": "Pandzic S. Graff J. + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189781",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "A Logic of Knowledge and Justifications, with an Application to Computational Trust",
-      "year": 2024,
-      "authors": "Genco, Francesco A. -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1135875",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Varieties of Error and Varieties of Evidence in Scientific Inference",
-      "year": 2023,
-      "authors": "Osimani, Barbara Landes, Juergen + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/951585",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Tutti (2)",
-      "year": 2023,
-      "authors": "IRIS Pagina ricercatore SOLARES ROJAS, ALEJANDRO JAVIER Nome completo SOLARES ROJAS, ALEJANDRO JAVIER Afferenza Dipartimento di Filosofia Piero Martinetti Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 2 di 2 (tempo di esecuzione: 0.0 secondi). Tractable depth-bounded approximations to FDE and its satellites M. D’Agostino, A. Solares-Rojas TRACTABLE DEPTH-BOUNDED APPROXIMATIONS TO SOME PROPOSITIONAL LOGICS. TOWARDS MORE REALISTIC MODELS OF LOGICAL AGENTS. 2022 A.J. SOLARES ROJAS Titolo Data di pubblicazione Autori Tipo File Abstract Tractable depth-bounded approximations to FDE and its satellites D’Agostino, Marcello Solares-Rojas, Alejandro - TRACTABLE DEPTH-BOUNDED APPROXIMATIONS TO SOME PROPOSITIONAL LOGICS. TOWARDS MORE REALISTIC MODELS OF LOGICAL AGENTS. 2022 SOLARES ROJAS, ALEJANDRO JAVIER Doctoral Thesis - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN -2025 del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp63091?type=all",
-      "members": [
-        "Alejandro J. Solares-Rojas"
-      ]
-    },
-    {
-      "title": "Tractable depth-bounded approximations to FDE and its satellites",
-      "year": 2023,
-      "authors": "D’Agostino, Marcello Solares-Rojas, Alejandro -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1020429",
-      "members": [
-        "Alejandro J. Solares-Rojas",
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Special Issue: Advances in Argumentation in AI",
-      "year": 2023,
-      "authors": "Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese Journal volume (editor) -",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1026472",
+      "air_url": "https://air.unimi.it/handle/2434/1019663",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Rules of proof for maximal entropy inference",
-      "year": 2023,
-      "authors": "Landes, Jürgen -",
-      "type": "Article (author)",
+      "title": "Extending Dialectical Classical Logic Argumentation with Unrestricted Rebut and Occam Razor Defeats",
+      "year": 2024,
+      "authors": "D'Agostino, Marcello Modgil, Sanjay + - -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/947889",
+      "air_url": "https://air.unimi.it/handle/2434/1123616",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Jürgen Landes"
+        "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Ricerche aritmetiche",
-      "year": 2023,
-      "authors": "Sandro Graffi Costanza Larese + - Book (translator) -",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1019661",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "Revising the Elenchus via Belief Revision",
-      "year": 2023,
-      "authors": "Kubyshkina, E Petrolo, M + - -",
+      "title": "Grounding operators: transitivity and trees, logicality and balance",
+      "year": 2024,
+      "authors": "Francesco Antonio Genco -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/978869",
-      "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Low-Level Analysis of Trust in Probabilistic and Opaque Programs",
-      "year": 2023,
-      "authors": "Francesco A. Genco -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035148",
+      "air_url": "https://air.unimi.it/handle/2434/1075468",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
     },
     {
-      "title": "Logical perspectives on the foundations of probability",
-      "year": 2023,
-      "authors": "Hosni, Hykel Landes, Jürgen -",
+      "title": "Handling Mobility Failures by Modal Types",
+      "year": 2024,
+      "authors": "Primiero, Giuseppe -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106148",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon",
+      "year": 2024,
+      "authors": "J. Landes W. Parker K. Easwaran T. Reydon + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/978811",
+      "air_url": "https://air.unimi.it/handle/2434/1022714",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Ignorance and its formal limits",
+      "year": 2024,
+      "authors": "Ekaterina Kubyshkina Mattia Petrolo + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106190",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement",
+      "year": 2024,
+      "authors": "LeBlanc, Marissa Williamson, Jon De Pretis, Francesco Landes, Jürgen Rocca, Elena + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1047128",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Knowledge Representation, Scientific Argumentation and Non-monotonic Logic",
+      "year": 2024,
+      "authors": "Landes, Jürgen Corsi, Esther Anna Baldi, Paolo -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1194155",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes",
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Le vie della logica",
+      "year": 2024,
+      "authors": "D'Agostino, Marcello Hosni, Hykel -",
+      "type": "Book (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1057168",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev",
+      "year": 2024,
+      "authors": "Marcelo Esteban Coniglio Ekaterina Kubyshkina Dmitry Zaitsev + - -",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106211",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "Prior to Trust: Frequentist and Bayesian views of Trust in AI",
+      "year": 2024,
+      "authors": "M. Petrolo E. Kubyshkina G. Primiero + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1127777",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
+      "year": 2024,
+      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero + - -",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1128039",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Quasi-Matrix (Quasi-Functional) Logic",
+      "year": 2024,
+      "authors": "E. Kubyshkina Book Part (translator) -",
+      "type": "",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1163796",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "year": 2023,
+      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero + - -",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024250",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Conceptual (and hence mathematical) explanation, conceptual grounding and proof",
+      "year": 2023,
+      "authors": "Francesco Antonio Genco Francesca Poggiolesi + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/976228",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness",
+      "year": 2023,
+      "authors": "Abdin, Ahmad Yaman De Pretis, Francesco Landes, Jürgen + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/952756",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Formal Epistemology Meets Mechanism Design",
+      "year": 2023,
+      "authors": "Landes, Jürgen -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/956480",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -697,204 +630,193 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1017688",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese"
       ]
     },
     {
-      "title": "Formal Epistemology Meets Mechanism Design",
+      "title": "Logical perspectives on the foundations of probability",
       "year": 2023,
-      "authors": "Landes, Jürgen -",
+      "authors": "Hosni, Hykel Landes, Jürgen -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/956480",
+      "air_url": "https://air.unimi.it/handle/2434/978811",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
     },
     {
-      "title": "Fast Methods for Drug Approval: Research Perspectives for Pandemic Preparedness",
+      "title": "Low-Level Analysis of Trust in Probabilistic and Opaque Programs",
       "year": 2023,
-      "authors": "Abdin, Ahmad Yaman De Pretis, Francesco Landes, Jürgen + - -",
+      "authors": "Francesco A. Genco -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/952756",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Conceptual (and hence mathematical) explanation, conceptual grounding and proof",
-      "year": 2023,
-      "authors": "Francesco Antonio Genco Francesca Poggiolesi + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/976228",
+      "air_url": "https://air.unimi.it/handle/2434/1035148",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
     },
     {
-      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "title": "Revising the Elenchus via Belief Revision",
       "year": 2023,
-      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero + - -",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024250",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "What's hot in uncertain reasoning",
-      "year": 2022,
-      "authors": "P. Baldi -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/928484",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "What is normal?",
-      "year": 2022,
       "authors": "Kubyshkina, E Petrolo, M + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/978235",
+      "air_url": "https://air.unimi.it/handle/2434/978869",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
     },
     {
-      "title": "Tutti (59)",
-      "year": 2022,
-      "authors": "IRIS Pagina ricercatore HOSNI, HYKEL Nome completo HOSNI, HYKEL Afferenza Dipartimento di Filosofia Piero Martinetti Pubblicazioni selezionate (13) Pubblicazioni selezionate (13) Esportazione RIS EndNote BibTeX Excel CSV RefWorks Mostra 20 30 50 100 records Risultati 1 - 13 di 13 (tempo di esecuzione: 0.0 secondi). A logic-based tractable approximation of probability P. Baldi, H. Hosni When Belief Functions and Lower Probabilities are Indistinguishable 2021 E.A. Corsi, T. Flaminio, H. Hosni Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison 2021 E.A. Corsi, T. Flaminio, H. Hosni Boolean algebras of conditionals, probability and logic 2020 T. Flaminio, L. Godo, H. Hosni Depth-bounded Belief functions 2020 P. Baldi, H. Hosni Strict coherence on many valued-events 2018 T. Flaminio, H. Hosni, F. Montagna Forecasting in light of Big Data 2018 H. Hosni, A. Vulpiani Convex MV-algebras : many-valued logics meet decision theory 2018 T. Flaminio, H. Hosni, S. Lapenta Coherence in the aggregate : a betting method for belief functions on many-valued events 2015 T. Flaminio, L. Godo, H. Hosni Teoria della scelta sociale e teorema fondamentale dell'economia del benessere 2015 M. Giaquinta, H. Hosni On the logical structure of de Finetti's notion of event 2014 T. Flaminio, L. Godo, H. Hosni You Better Play 7 : Mutual versus Common Knowledge of Advice in a Weak-link Experiment 2013 G. Devetag, H. Hosni, G. Sillari A logical characterization of coherence for imprecise probabilities 2011 M. Fedel, H. Hosni, F. Montagna Titolo Data di pubblicazione Autori Tipo File Abstract A logic-based tractable approximation of probability Paolo Baldi Hykel Hosni - When Belief Functions and Lower Probabilities are Indistinguishable 2021 E. A. Corsi T. Flaminio H. Hosni + - Book Part (author) - Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison 2021 Esther Anna Corsi Tommaso Flaminio Hykel Hosni + - Book Part (author) - Boolean algebras of conditionals, probability and logic 2020 Flaminio, Tommaso Godo, Lluis Hosni, Hykel + - - Depth-bounded Belief functions 2020 P. Baldi H. Hosni - Strict coherence on many valued-events 2018 T. Flaminio H. Hosni F. Montagna + - - Forecasting in light of Big Data 2018 H. Hosni A. Vulpiani + - - Convex MV-algebras : many-valued logics meet decision theory 2018 T. Flaminio H. Hosni S. Lapenta + - - Coherence in the aggregate : a betting method for belief functions on many-valued events 2015 T. Flaminio L. Godo H. Hosni + - - Teoria della scelta sociale e teorema fondamentale dell'economia del benessere 2015 M. Giaquinta H. Hosni + - Book (author) - On the logical structure of de Finetti's notion of event 2014 T. Flaminio L. Godo H. Hosni + - - You Better Play 7 : Mutual versus Common Knowledge of Advice in a Weak-link Experiment 2013 G. Devetag H. Hosni G. Sillari + - - A logical characterization of coherence for imprecise probabilities 2011 M. Fedel H. Hosni F. Montagna + - - simulazione ASN Il report seguente simula gli indicatori relativi alla propria produzione scientifica in relazione alle soglie ASN 2023-2025 del proprio SC/SSD. Si ricorda che il superamento dei valori soglia (almeno 2 su 3) è requisito necessario ma non sufficiente al conseguimento dell'abilitazione. La simulazione si basa sui dati IRIS e sugli indicatori bibliometrici alla data indicata e non tiene conto di eventuali periodi di congedo obbligatorio, che in sede di domanda ASN danno diritto a incrementi percentuali dei valori. La simulazione può differire dall'esito di un’eventuale domanda ASN sia per errori di catalogazione e/o dati mancanti in IRIS, sia per la variabilità dei dati bibliometrici nel tempo. Si consideri che Anvur calcola i valori degli indicatori all'ultima data utile per la presentazione delle domande. Annulla procedi Errore Errore",
+      "title": "Ricerche aritmetiche",
+      "year": 2023,
+      "authors": "Sandro Graffi Costanza Larese + - Book (translator) -",
+      "type": "",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1019661",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese"
+      ]
+    },
+    {
+      "title": "Rules of proof for maximal entropy inference",
+      "year": 2023,
+      "authors": "Landes, Jürgen -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp37911?type=all",
+      "air_url": "https://air.unimi.it/handle/2434/947889",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Hykel Hosni"
+        "Jürgen Landes"
       ]
     },
     {
-      "title": "TRACTABLE DEPTH-BOUNDED APPROXIMATIONS TO SOME PROPOSITIONAL LOGICS. TOWARDS MORE REALISTIC MODELS OF LOGICAL AGENTS.",
-      "year": 2022,
-      "authors": "SOLARES ROJAS, ALEJANDRO JAVIER -",
-      "type": "Doctoral Thesis",
+      "title": "Special Issue: Advances in Argumentation in AI",
+      "year": 2023,
+      "authors": "Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese Journal volume (editor) -",
+      "type": "",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/931483",
+      "air_url": "https://air.unimi.it/handle/2434/1026472",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Alejandro J. Solares-Rojas"
-      ]
-    },
-    {
-      "title": "Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment",
-      "year": 2022,
-      "authors": "D’Agostino, Marcello Solares-Rojas, Alejandro + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/951130",
-      "members": [
+        "Costanza Larese",
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Structured argumentation dynamics: Undermining attacks in default justification logic",
+      "title": "Tractable depth-bounded approximations to FDE and its satellites",
+      "year": 2023,
+      "authors": "D’Agostino, Marcello Solares-Rojas, Alejandro -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1020429",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Alejandro J. Solares-Rojas",
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Varieties of Error and Varieties of Evidence in Scientific Inference",
+      "year": 2023,
+      "authors": "Osimani, Barbara Landes, Juergen + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/951585",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "A logic of defeasible argumentation: Constructing arguments in justification logic",
       "year": 2022,
       "authors": "Pandzic S. -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189782",
+      "air_url": "https://air.unimi.it/handle/2434/1189784",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
     },
     {
-      "title": "Reasoning about algorithmic opacity",
+      "title": "A logic-based tractable approximation of probability",
       "year": 2022,
-      "authors": "Ekaterina Kubyshkina Mattia Petrolo + - -",
-      "type": "Book Part (author)",
+      "authors": "Paolo Baldi Hykel Hosni -",
+      "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024395",
+      "air_url": "https://air.unimi.it/handle/2434/926523",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022)",
-      "year": 2022,
-      "authors": "M. Thimm J. Landes K. Skiba + - -",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948032",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Probability and Degrees of Truth",
-      "year": 2022,
-      "authors": "P. Baldi H. Hosni -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/929465",
-      "members": [
+        "Hykel Hosni",
         "Paolo Baldi"
       ]
     },
     {
-      "title": "Pharmacovigilance as Personalized Evidence",
+      "title": "Bayesian Epistemology",
       "year": 2022,
-      "authors": "Francesco De Pretis William Peden Jurgen Landes Barbara Osimani + - -",
+      "authors": "Jürgen Landes -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/945277",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "BOID*: Autonomous Goal Deliberation through Abduction",
+      "year": 2022,
+      "authors": "Pandzic S. Broersen J. Aarts H. + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948199",
+      "air_url": "https://air.unimi.it/handle/2434/1189777",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Jürgen Landes"
+        "Stipe Pandžić"
       ]
     },
     {
-      "title": "Objective Bayesian Nets for Integrating Consistent Datasets",
+      "title": "Chrysippus' Logic in a Natural Deduction Setting",
       "year": 2022,
-      "authors": "Landes J. Williamson J. + - -",
-      "type": "Article (author)",
+      "authors": "M. D'Agostino M. Piazza + - -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/937846",
+      "air_url": "https://air.unimi.it/handle/2434/977629",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Jürgen Landes"
+        "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Kant on the analyticity of logic",
+      "title": "Confirmation by Robustness Analysis: A Bayesian Account",
       "year": 2022,
-      "authors": "Costanza Larese -",
+      "authors": "L. Casini J. Landes + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1017708",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "Ecthesis, constructions and existential instantiation. A Kantian tale",
-      "year": 2022,
-      "authors": "Costanza Larese -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1026524",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "E-synthesis for carcinogenicity assessments: A case study of processed meat",
-      "year": 2022,
-      "authors": "F. De Prestis S. Jukola J. Landes + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938992",
+      "air_url": "https://air.unimi.it/handle/2434/938149",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -906,217 +828,177 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/940786",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
     },
     {
-      "title": "Confirmation by Robustness Analysis: A Bayesian Account",
+      "title": "E-synthesis for carcinogenicity assessments: A case study of processed meat",
       "year": 2022,
-      "authors": "L. Casini J. Landes + - -",
+      "authors": "F. De Prestis S. Jukola J. Landes + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938149",
+      "air_url": "https://air.unimi.it/handle/2434/938992",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
     },
     {
-      "title": "Chrysippus' Logic in a Natural Deduction Setting",
+      "title": "Ecthesis, constructions and existential instantiation. A Kantian tale",
       "year": 2022,
-      "authors": "M. D'Agostino M. Piazza + - -",
+      "authors": "Costanza Larese -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1026524",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese"
+      ]
+    },
+    {
+      "title": "Kant on the analyticity of logic",
+      "year": 2022,
+      "authors": "Costanza Larese -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1017708",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese"
+      ]
+    },
+    {
+      "title": "Objective Bayesian Nets for Integrating Consistent Datasets",
+      "year": 2022,
+      "authors": "Landes J. Williamson J. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/937846",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Pharmacovigilance as Personalized Evidence",
+      "year": 2022,
+      "authors": "Francesco De Pretis William Peden Jurgen Landes Barbara Osimani + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/977629",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "BOID*: Autonomous Goal Deliberation through Abduction",
-      "year": 2022,
-      "authors": "Pandzic S. Broersen J. Aarts H. + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189777",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Bayesian Epistemology",
-      "year": 2022,
-      "authors": "Jürgen Landes -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/945277",
+      "air_url": "https://air.unimi.it/handle/2434/948199",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
     },
     {
-      "title": "A logic-based tractable approximation of probability 2022 P. Baldi, H. Hosni",
+      "title": "Probability and Degrees of Truth",
       "year": 2022,
-      "authors": "When Belief Functions and Lower Probabilities are Indistinguishable 2021 E.A. Corsi, T. Flaminio, H. Hosni Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison 2021 E.A. Corsi, T. Flaminio, H. Hosni Boolean algebras of conditionals, probability and logic 2020 T. Flaminio, L. Godo, H. Hosni Depth-bounded Belief functions 2020 P. Baldi, H. Hosni Strict coherence on many valued-events 2018 T. Flaminio, H. Hosni, F. Montagna Forecasting in light of Big Data 2018 H. Hosni, A. Vulpiani Convex MV-algebras : many-valued logics meet decision theory 2018 T. Flaminio, H. Hosni, S. Lapenta Coherence in the aggregate : a betting method for belief functions on many-valued events 2015 T. Flaminio, L. Godo, H. Hosni Teoria della scelta sociale e teorema fondamentale dell'economia del benessere 2015 M. Giaquinta, H. Hosni On the logical structure of de Finetti's notion of event 2014 T. Flaminio, L. Godo, H. Hosni You Better Play 7 : Mutual versus Common Knowledge of Advice in a Weak-link Experiment 2013 G. Devetag, H. Hosni, G. Sillari A logical characterization of coherence for imprecise probabilities 2011 M. Fedel, H. Hosni, F. Montagna Titolo Data di pubblicazione Autori Tipo File Abstract A logic-based tractable approximation of probability Paolo Baldi Hykel Hosni - When Belief Functions and Lower Probabilities are Indistinguishable 2021 E. A. Corsi T. Flaminio H. Hosni + - Book Part (author) - Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison 2021 Esther Anna Corsi Tommaso Flaminio Hykel Hosni + - Book Part (author) - Boolean algebras of conditionals, probability and logic 2020 Flaminio, Tommaso Godo, Lluis Hosni, Hykel + - - Depth-bounded Belief functions 2020 P. Baldi H. Hosni - Strict coherence on many valued-events 2018 T. Flaminio H. Hosni F. Montagna + - - Forecasting in light of Big Data 2018 H. Hosni A. Vulpiani + - - Convex MV-algebras : many-valued logics meet decision theory 2018 T. Flaminio H. Hosni S. Lapenta + - - Coherence in the aggregate : a betting method for belief functions on many-valued events 2015 T. Flaminio L. Godo H. Hosni + - - Teoria della scelta sociale e teorema fondamentale dell'economia del benessere 2015 M. Giaquinta H. Hosni + - Book (author) - On the logical structure of de Finetti's notion of event 2014 T. Flaminio L. Godo H. Hosni + - - You Better Play 7 : Mutual versus Common Knowledge of Advice in a Weak-link Experiment 2013 G. Devetag H. Hosni G. Sillari + - - A logical characterization of coherence for imprecise probabilities 2011 M. Fedel H. Hosni F. Montagna + - -",
-      "type": "Article (author)",
+      "authors": "P. Baldi H. Hosni -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/926523",
+      "air_url": "https://air.unimi.it/handle/2434/929465",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Hykel Hosni",
         "Paolo Baldi"
       ]
     },
     {
-      "title": "A logic of defeasible argumentation: Constructing arguments in justification logic",
+      "title": "Proceedings of the First International Conference on Foundations, Applications, and Theory of Inductive Logic (FATIL2022)",
+      "year": 2022,
+      "authors": "M. Thimm J. Landes K. Skiba + - -",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948032",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Reasoning about algorithmic opacity",
+      "year": 2022,
+      "authors": "Ekaterina Kubyshkina Mattia Petrolo + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024395",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "Structured argumentation dynamics: Undermining attacks in default justification logic",
       "year": 2022,
       "authors": "Pandzic S. -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189784",
+      "air_url": "https://air.unimi.it/handle/2434/1189782",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
     },
     {
-      "title": "When Belief Functions and Lower Probabilities are Indistinguishable",
-      "year": 2021,
-      "authors": "E. A. Corsi T. Flaminio H. Hosni + - -",
+      "title": "Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment",
+      "year": 2022,
+      "authors": "D’Agostino, Marcello Solares-Rojas, Alejandro + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/856476",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Towards the entropy-limit conjecture",
-      "year": 2021,
-      "authors": "J. Landes S. R. Rad J. Williamson + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938342",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
-      "year": 2021,
-      "authors": "M. D'Agostino C. Larese S. Modgil + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/828073",
-      "members": [
-        "Costanza Larese",
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
-      "year": 2021,
-      "authors": "J. Landes -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938995",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison",
-      "year": 2021,
-      "authors": "Esther Anna Corsi Tommaso Flaminio Hykel Hosni + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/871297",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Molecular Biology Meets Logic: Context-Sensitiveness in Focus",
-      "year": 2021,
-      "authors": "Boniolo G. D'Agostino M. Piazza M. Pulcini G. + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/869454",
+      "air_url": "https://air.unimi.it/handle/2434/951130",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Logical Approximations of Qualitative Probability",
-      "year": 2021,
-      "authors": "P. Baldi H. Hosni -",
-      "type": "Book Part (author)",
+      "title": "TRACTABLE DEPTH-BOUNDED APPROXIMATIONS TO SOME PROPOSITIONAL LOGICS. TOWARDS MORE REALISTIC MODELS OF LOGICAL AGENTS.",
+      "year": 2022,
+      "authors": "SOLARES ROJAS, ALEJANDRO JAVIER -",
+      "type": "Doctoral Thesis",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875475",
+      "air_url": "https://air.unimi.it/handle/2434/931483",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Paolo Baldi"
+        "Alejandro J. Solares-Rojas"
       ]
     },
     {
-      "title": "Introducing k-lingo: a k-depth Bounded Version of ASP System Clingo",
-      "year": 2021,
-      "authors": "Fabio Aurelio D'Asaro Paolo Baldi Giuseppe Primiero -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/901310",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Grounding, Quantifiers, and Paradoxes",
-      "year": 2021,
-      "authors": "Francesco A. Genco Francesca Poggiolesi Lorenzo Rossi + - -",
+      "title": "What is normal?",
+      "year": 2022,
+      "authors": "Kubyshkina, E Petrolo, M + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/976208",
+      "air_url": "https://air.unimi.it/handle/2434/978235",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Francesco A. Genco"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
-      "title": "From the logic of proofs to the logic of arguments",
-      "year": 2021,
-      "authors": "Stipe Pandzic -",
+      "title": "What's hot in uncertain reasoning",
+      "year": 2022,
+      "authors": "P. Baldi -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189795",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Formal explanations as logical derivations",
-      "year": 2021,
-      "authors": "Genco F. A. -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/976268",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Defining Formal Explanation in Classical Logic by Substructural Derivability",
-      "year": 2021,
-      "authors": "Francesco A. Genco Francesca Poggiolesi + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1036351",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Bilattice CADIAG-II: Theory and Experimental Results",
-      "year": 2021,
-      "authors": "Baldi P. Ciabattoni A. Adlassnig K. -P. + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/917265",
+      "air_url": "https://air.unimi.it/handle/2434/928484",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1128,119 +1010,179 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1026523",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Par means parallel: multiplicative linear logic proofs as concurrent functional programs",
-      "year": 2020,
-      "authors": "Aschieri, Federico Genco, Francesco A. + - -",
-      "type": "Article (author)",
+      "title": "Bilattice CADIAG-II: Theory and Experimental Results",
+      "year": 2021,
+      "authors": "Baldi P. Ciabattoni A. Adlassnig K. -P. + - -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035309",
+      "air_url": "https://air.unimi.it/handle/2434/917265",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Defining Formal Explanation in Classical Logic by Substructural Derivability",
+      "year": 2021,
+      "authors": "Francesco A. Genco Francesca Poggiolesi + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1036351",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
     },
     {
-      "title": "On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic",
-      "year": 2020,
-      "authors": "Pandzic S. -",
-      "type": "Book Part (author)",
+      "title": "Formal explanations as logical derivations",
+      "year": 2021,
+      "authors": "Genco F. A. -",
+      "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189755",
+      "air_url": "https://air.unimi.it/handle/2434/976268",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "From the logic of proofs to the logic of arguments",
+      "year": 2021,
+      "authors": "Stipe Pandzic -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1189795",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
     },
     {
-      "title": "On the concurrent computational content of intermediate logics",
-      "year": 2020,
-      "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco A. + - -",
+      "title": "Grounding, Quantifiers, and Paradoxes",
+      "year": 2021,
+      "authors": "Francesco A. Genco Francesca Poggiolesi Lorenzo Rossi + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035191",
+      "air_url": "https://air.unimi.it/handle/2434/976208",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
     },
     {
-      "title": "On fuzzification mechanisms for unary quantification",
-      "year": 2020,
-      "authors": "Baldi, Paolo Fermüller, Christian G. Hofer, Matthias F. J. + - -",
-      "type": "Article (author)",
+      "title": "Introducing k-lingo: a k-depth Bounded Version of ASP System Clingo",
+      "year": 2021,
+      "authors": "Fabio Aurelio D'Asaro Paolo Baldi Giuseppe Primiero -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/738639",
+      "air_url": "https://air.unimi.it/handle/2434/901310",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
     },
     {
-      "title": "Notes on Hintikka’s Analytic-Synthetic Distinction",
-      "year": 2020,
-      "authors": "Costanza Larese -",
-      "type": "Article (author)",
+      "title": "Logical Approximations of Qualitative Probability",
+      "year": 2021,
+      "authors": "P. Baldi H. Hosni -",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1026525",
+      "air_url": "https://air.unimi.it/handle/2434/875475",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Costanza Larese"
+        "Paolo Baldi"
       ]
     },
     {
-      "title": "Normality, Non-contamination and Logical Depth in Classical Natural Deduction",
-      "year": 2020,
-      "authors": "D’Agostino, Marcello Gabbay, Dov Modgil, Sanjay + - -",
+      "title": "Molecular Biology Meets Logic: Context-Sensitiveness in Focus",
+      "year": 2021,
+      "authors": "Boniolo G. D'Agostino M. Piazza M. Pulcini G. + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/637126",
+      "air_url": "https://air.unimi.it/handle/2434/869454",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Depth-bounded Belief functions",
-      "year": 2020,
-      "authors": "P. Baldi H. Hosni -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/738576",
-      "members": [
-        "Hykel Hosni",
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Depth-Bounded Approximations of Probability",
-      "year": 2020,
-      "authors": "Baldi, Paolo D’Agostino, Marcello Hosni, Hykel -",
+      "title": "Scoring Rules for Belief Functions and Imprecise Probabilities: A Comparison",
+      "year": 2021,
+      "authors": "Esther Anna Corsi Tommaso Flaminio Hykel Hosni + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/738636",
+      "air_url": "https://air.unimi.it/handle/2434/871297",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Marcello D'Agostino",
-        "Paolo Baldi"
+        "Hykel Hosni"
       ]
     },
     {
-      "title": "Classical and fuzzy two-layered modal logics for uncertainty: Translations and proof-theory",
-      "year": 2020,
-      "authors": "Baldi P. Cintula P. Noguera C. + - -",
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "year": 2021,
+      "authors": "J. Landes -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/774677",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Paolo Baldi"
+        "Jürgen Landes"
       ]
     },
     {
-      "title": "Boolean algebras of conditionals, probability and logic",
-      "year": 2020,
-      "authors": "Flaminio, Tommaso Godo, Lluis Hosni, Hykel + - -",
+      "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
+      "year": 2021,
+      "authors": "M. D'Agostino C. Larese S. Modgil + - -",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/743342",
+      "air_url": "https://air.unimi.it/handle/2434/828073",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese",
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "When Belief Functions and Lower Probabilities are Indistinguishable",
+      "year": 2021,
+      "authors": "E. A. Corsi T. Flaminio H. Hosni + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/856476",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
@@ -1252,39 +1194,153 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/774679",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
     },
     {
-      "title": "Translating Classical Probability Logics into Modal Fuzzy Logics",
-      "year": 2019,
-      "authors": "P. Baldi P. Cintula C. Noguerac + - -",
-      "type": "Book Part (author)",
+      "title": "Boolean algebras of conditionals, probability and logic",
+      "year": 2020,
+      "authors": "Flaminio, Tommaso Godo, Lluis Hosni, Hykel + - -",
+      "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/774975",
+      "air_url": "https://air.unimi.it/handle/2434/743342",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Classical and fuzzy two-layered modal logics for uncertainty: Translations and proof-theory",
+      "year": 2020,
+      "authors": "Baldi P. Cintula P. Noguera C. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/774677",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
     },
     {
-      "title": "Reifying default reasons in justification logic",
-      "year": 2019,
+      "title": "Depth-Bounded Approximations of Probability",
+      "year": 2020,
+      "authors": "Baldi, Paolo D’Agostino, Marcello Hosni, Hykel -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/738636",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino",
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Depth-bounded Belief functions",
+      "year": 2020,
+      "authors": "P. Baldi H. Hosni -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/738576",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni",
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Normality, Non-contamination and Logical Depth in Classical Natural Deduction",
+      "year": 2020,
+      "authors": "D’Agostino, Marcello Gabbay, Dov Modgil, Sanjay + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/637126",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Notes on Hintikka’s Analytic-Synthetic Distinction",
+      "year": 2020,
+      "authors": "Costanza Larese -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1026525",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese"
+      ]
+    },
+    {
+      "title": "On fuzzification mechanisms for unary quantification",
+      "year": 2020,
+      "authors": "Baldi, Paolo Fermüller, Christian G. Hofer, Matthias F. J. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/738639",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "On the concurrent computational content of intermediate logics",
+      "year": 2020,
+      "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco A. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1035191",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "On the Dynamics of Structured Argumentation: Modeling Changes in Default Justification Logic",
+      "year": 2020,
       "authors": "Pandzic S. -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189786",
+      "air_url": "https://air.unimi.it/handle/2434/1189755",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
     },
     {
-      "title": "La filosofia dell'informazione",
+      "title": "Par means parallel: multiplicative linear logic proofs as concurrent functional programs",
+      "year": 2020,
+      "authors": "Aschieri, Federico Genco, Francesco A. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1035309",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "An informational approach to feasible deduction",
       "year": 2019,
-      "authors": "Marcello D'Agostino -",
+      "authors": "M. D'Agostino -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/726683",
+      "air_url": "https://air.unimi.it/handle/2434/726695",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -1296,17 +1352,151 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/917271",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
     },
     {
-      "title": "An informational approach to feasible deduction",
+      "title": "La filosofia dell'informazione",
       "year": 2019,
-      "authors": "M. D'Agostino -",
+      "authors": "Marcello D'Agostino -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/726695",
+      "air_url": "https://air.unimi.it/handle/2434/726683",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Reifying default reasons in justification logic",
+      "year": 2019,
+      "authors": "Pandzic S. -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1189786",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Stipe Pandžić"
+      ]
+    },
+    {
+      "title": "Translating Classical Probability Logics into Modal Fuzzy Logics",
+      "year": 2019,
+      "authors": "P. Baldi P. Cintula C. Noguerac + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/774975",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "A logic of default justifications",
+      "year": 2018,
+      "authors": "Pandzic Stipe -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1189515",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Stipe Pandžić"
+      ]
+    },
+    {
+      "title": "A Study of Argumentative Characterisations of Preferred Subtheories",
+      "year": 2018,
+      "authors": "M. D'Agostino S. Modgil + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/588200",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Classical logic, argument and dialectic",
+      "year": 2018,
+      "authors": "M. D'Agostino S. Modgil + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/588205",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Classical Proofs as Parallel Programs",
+      "year": 2018,
+      "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1035228",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Convex MV-algebras : many-valued logics meet decision theory",
+      "year": 2018,
+      "authors": "T. Flaminio H. Hosni S. Lapenta + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/503017",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Forecasting in light of Big Data",
+      "year": 2018,
+      "authors": "H. Hosni A. Vulpiani + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/504513",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Hypersequents and Systems of Rules",
+      "year": 2018,
+      "authors": "Ciabattoni, Agata Genco, Francesco A. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1036352",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Introduction : the Governance of Algorithms",
+      "year": 2018,
+      "authors": "D’Agostino, Marcello Durante, Massimo + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/637124",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -1318,116 +1508,21 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/514432",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
     },
     {
-      "title": "Introduction : the Governance of Algorithms",
-      "year": 2018,
-      "authors": "D’Agostino, Marcello Durante, Massimo + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/637124",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Hypersequents and Systems of Rules",
-      "year": 2018,
-      "authors": "Ciabattoni, Agata Genco, Francesco A. + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1036352",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Forecasting in light of Big Data",
-      "year": 2018,
-      "authors": "H. Hosni A. Vulpiani + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/504513",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Convex MV-algebras : many-valued logics meet decision theory",
-      "year": 2018,
-      "authors": "T. Flaminio H. Hosni S. Lapenta + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/503017",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Classical Proofs as Parallel Programs",
-      "year": 2018,
-      "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035228",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Classical logic, argument and dialectic",
-      "year": 2018,
-      "authors": "M. D'Agostino S. Modgil + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588205",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "A Study of Argumentative Characterisations of Preferred Subtheories",
-      "year": 2018,
-      "authors": "M. D'Agostino S. Modgil + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588200",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "A logic of default justifications",
-      "year": 2018,
-      "authors": "Pandzic Stipe -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1189515",
-      "members": [
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Understanding Prescriptive Texts: Rules and Logic as Elaborated by the Mīmāṃsā School",
+      "title": "From Semi-fuzzy to Fuzzy Quantifiers via Łukasiewicz Logic and Games",
       "year": 2017,
-      "authors": "Freschi, Elisa Ciabattoni, Agata Genco, Francesco A. Lellmann, Björn + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035249",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Standard completeness for extensions of IMTL",
-      "year": 2017,
-      "authors": "Baldi P. Ciabattoni A. Gulisano F. + - -",
+      "authors": "P. Baldi C. Fermueller + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875492",
+      "air_url": "https://air.unimi.it/handle/2434/875460",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1439,17 +1534,60 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1035230",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
     },
     {
-      "title": "From Semi-fuzzy to Fuzzy Quantifiers via Łukasiewicz Logic and Games",
+      "title": "Standard completeness for extensions of IMTL",
       "year": 2017,
-      "authors": "P. Baldi C. Fermueller + - -",
+      "authors": "Baldi P. Ciabattoni A. Gulisano F. + - -",
       "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875460",
+      "air_url": "https://air.unimi.it/handle/2434/875492",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Understanding Prescriptive Texts: Rules and Logic as Elaborated by the Mīmāṃsā School",
+      "year": 2017,
+      "authors": "Freschi, Elisa Ciabattoni, Agata Genco, Francesco A. Lellmann, Björn + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1035249",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "A Calculus for Rational Łukasiewicz Logic and Related Systems",
+      "year": 2016,
+      "authors": "P. Baldi -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875496",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Densification of FL chains via residuated frames",
+      "year": 2016,
+      "authors": "Baldi P. Terui K. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/786327",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1461,83 +1599,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1036349",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Densification of FL chains via residuated frames",
-      "year": 2016,
-      "authors": "Baldi P. Terui K. + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/786327",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "A Calculus for Rational Łukasiewicz Logic and Related Systems",
-      "year": 2016,
-      "authors": "P. Baldi -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875496",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A. + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875482",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
-      "year": 2015,
-      "authors": "M. Giaquinta H. Hosni + - -",
-      "type": "Book (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/350419",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Standard Completeness for Uninorm-Based Logics",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A. + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875477",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Robert Musil: mathematics as the audacity of pure ratio",
-      "year": 2015,
-      "authors": "Costanza Larese -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1019659",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "Mīmāṃsā Deontic Logic: Proof Theory and Applications [M(i)over-barm(a)over-barms(a)over-bar Deontic Logic: Proof Theory and Applications]",
-      "year": 2015,
-      "authors": "Ciabattoni, Agata Freschi, Elisa Genco, Francesco A. Lellmann, Björn + - -",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1035288",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1549,6 +1612,86 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/326168",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Mīmāṃsā Deontic Logic: Proof Theory and Applications [M(i)over-barm(a)over-barms(a)over-bar Deontic Logic: Proof Theory and Applications]",
+      "year": 2015,
+      "authors": "Ciabattoni, Agata Freschi, Elisa Genco, Francesco A. Lellmann, Björn + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1035288",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Robert Musil: mathematics as the audacity of pure ratio",
+      "year": 2015,
+      "authors": "Costanza Larese -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1019659",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Costanza Larese"
+      ]
+    },
+    {
+      "title": "Standard Completeness for Uninorm-Based Logics",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A. + - -",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875477",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
+      "year": 2015,
+      "authors": "M. Giaquinta H. Hosni + - -",
+      "type": "Book (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/350419",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A. + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875482",
+      "journal_or_publisher": "",
+      "abstract": "",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "On the logical structure of de Finetti's notion of event",
+      "year": 2014,
+      "authors": "T. Flaminio L. Godo H. Hosni + - -",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/326104",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
@@ -1560,19 +1703,10 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1019660",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese"
-      ]
-    },
-    {
-      "title": "On the logical structure of de Finetti's notion of event",
-      "year": 2014,
-      "authors": "T. Flaminio L. Godo H. Hosni + - -",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/326104",
-      "members": [
-        "Hykel Hosni"
       ]
     },
     {
@@ -1582,6 +1716,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/326052",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
@@ -1593,128 +1729,10 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/326233",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Tutti (9)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp153933?type=all",
-      "members": [
-        "Ekaterina Kubyshkina",
-        "Stipe Pandžić"
-      ]
-    },
-    {
-      "title": "Tutti (59)",
-      "year": null,
-      "authors": "Pubblicazioni selezionate (13) Pubblicazioni selezionate (13) Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp37911?type=all",
-      "members": [
-        "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Tutti (56)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp156351?type=all",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Tutti (50)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp38396?type=all",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Tutti (22)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp74148?type=all",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
-      "title": "Tutti (20)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp161371?type=all",
-      "members": [
-        "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Tutti (2)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp63091?type=all",
-      "members": [
-        "Alejandro J. Solares-Rojas"
-      ]
-    },
-    {
-      "title": "Tutti (12)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp96134?type=all",
-      "members": [
-        "Costanza Larese"
-      ]
-    },
-    {
-      "title": "Tutti (108)",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp52197?type=all",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "RefWorks",
-      "year": null,
-      "authors": "Esportazione RIS EndNote BibTeX Excel CSV",
-      "type": "",
-      "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp52197",
-      "members": [
-        "Alejandro J. Solares-Rojas",
-        "Costanza Larese",
-        "Ekaterina Kubyshkina",
-        "Francesco A. Genco",
-        "Giuseppe Primiero",
-        "Hykel Hosni",
-        "Jürgen Landes",
-        "Marcello D'Agostino",
-        "Paolo Baldi",
-        "Stipe Pandžić"
       ]
     },
     {
@@ -1724,6 +1742,8 @@
       "type": "",
       "doi": "",
       "air_url": "https://air.unimi.it/community-list",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Alejandro J. Solares-Rojas",
         "Costanza Larese",
@@ -1738,23 +1758,16 @@
       ]
     },
     {
-      "title": "about IRIS",
+      "title": "Pubblicazioni selezionate (13)",
       "year": null,
-      "authors": "Powered by IRIS - - Utilizzo dei cookie - Privacy",
+      "authors": "Tutti (59) Esportazione RIS EndNote BibTeX Excel CSV RefWorks",
       "type": "",
       "doi": "",
-      "air_url": "https://air.unimi.it/cris/rp/rp52197",
+      "air_url": "https://air.unimi.it/cris/rp/rp37911?type=selected",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
-        "Alejandro J. Solares-Rojas",
-        "Costanza Larese",
-        "Ekaterina Kubyshkina",
-        "Francesco A. Genco",
-        "Giuseppe Primiero",
-        "Hykel Hosni",
-        "Jürgen Landes",
-        "Marcello D'Agostino",
-        "Paolo Baldi",
-        "Stipe Pandžić"
+        "Hykel Hosni"
       ]
     }
   ]
