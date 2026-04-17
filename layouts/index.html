@@ -1,8 +1,6 @@
 {{ define "main" }}
-  {{ $members := first 12 (sort site.Data.members "sort_name") }}
-  {{ $news := first 3 (where site.RegularPages "Section" "news") }}
-  {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }}
-  {{ $seminars := first 3 (sort (where site.RegularPages "Section" "seminars") "Date") }}
+  {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }} 
+  {{ $seminars := first 4 (sort (where site.RegularPages "Section" "seminars") "Date" "desc") }}
 
   <section class="hero">
     <div class="container hero-grid">
