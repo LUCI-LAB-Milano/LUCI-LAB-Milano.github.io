@@ -7,7 +7,6 @@ Our teaching connects undergraduate, master's, and PhD training to ongoing resea
 
 ## Marcello D'Agostino
 
-[Official UNIMI profile](https://www.unimi.it/it/ugov/person/marcello-dagostino)
 
 ### A.A. 2024/2025
 - [Introduction to logic](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/introduction-logic)
@@ -34,8 +33,6 @@ Our teaching connects undergraduate, master's, and PhD training to ongoing resea
 - [Logical methods](https://www.unimi.it/en/education/degree-programme-courses/2026/logical-methods-0)
 
 ## Hykel Hosni
-
-[Official UNIMI profile](https://www.unimi.it/it/ugov/person/hykel-hosni)
 
 ### A.A. 2025/2026
 - [Advanced logic](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/advanced-logic-0)
@@ -88,8 +85,6 @@ Our teaching connects undergraduate, master's, and PhD training to ongoing resea
 - [Topics in logic, probability and computation](https://luci.unimi.it/our-courses/topics-in-logic-probability-and-computation/) (PhD in *The Human Mind and Its Explanations: Language, Brain and Reasoning*)
 
 ## Giuseppe Primiero
-
-[Official UNIMI profile](https://www.unimi.it/it/ugov/person/giuseppe-primiero)
 
 ### A.A. 2025/2026
 - [Logic of computation and information](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/logic-computation-and-information)
