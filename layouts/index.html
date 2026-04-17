@@ -36,6 +36,7 @@
     </div>
   </section>
 
+  <!--
   <section class="section section-tint">
     <div class="container">
       <div class="section-head">
@@ -49,12 +50,12 @@
       </div>
     </div>
   </section>
-
+-->
   <section class="section">
     <div class="container two-column">
       <div>
         <div class="section-head">
-          <h2>Featured events</h2>
+          <h2>Latest events</h2>
           <a href="/events/">All events</a>
         </div>
         <div class="stack">
@@ -88,21 +89,4 @@
     </div>
   </section>
 
-  <section class="section section-tint">
-    <div class="container">
-      <div class="section-head">
-        <h2>Latest news</h2>
-        <a href="/news/">News archive</a>
-      </div>
-      <div class="card-grid thirds">
-        {{ range $news }}
-          <article class="card news-card">
-            <p class="eyebrow">{{ .Date.Format "2 Jan 2006" }}</p>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Summary }}</p>
-          </article>
-        {{ end }}
-      </div>
-    </div>
-  </section>
 {{ end }}
