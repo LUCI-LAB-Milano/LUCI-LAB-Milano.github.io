@@ -23,7 +23,7 @@
     {{ if or .IsHome (eq .Section "open-positions") }}
     <div class="footer-contact-form-wrap">
       <h3>Contact LUCI</h3>
-      <p class="meta">This opens your email app with a prefilled draft to the three contacts.</p>
+      <p class="meta">This opens your email app.</p>
 
       <form class="contact-mailto-form" data-contact-form>
         <label>
@@ -65,7 +65,7 @@
         const recipients = [
           "hykel.hosni@unimi.it",
           "marcello.dagostino@unimi.it",
-          "giuseppe.pimiero@unimi.it"
+          "giuseppe.primiero@unimi.it"
         ].join(",");
 
         const name = (data.get("name") || "").toString().trim();
