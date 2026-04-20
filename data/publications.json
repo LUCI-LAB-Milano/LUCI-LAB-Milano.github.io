@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-16T21:13:07+00:00",
+  "generated_at": "2026-04-20T06:30:51+00:00",
   "member_count": 10,
-  "item_count": 129,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -303,7 +303,8 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -329,7 +330,19 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "A Pragmatic Theory of Computational Artefacts",
+      "year": 2024,
+      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1018488",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -343,8 +356,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -1044,6 +1056,19 @@
       ]
     },
     {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1135,12 +1160,12 @@
       ]
     },
     {
-      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
       "year": 2021,
       "authors": "J. Landes",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
@@ -1159,19 +1184,6 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Towards the entropy-limit conjecture",
-      "year": 2021,
-      "authors": "J. Landes S. R. Rad J. Williamson",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938342",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
