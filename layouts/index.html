@@ -8,29 +8,11 @@
         <p class="eyebrow">Logic · Uncertainty · Computation · Information</p>
         <p class="lede">At LUCI Lab Milano, logic is primarily a research mindset. We develop logics for scientific inference, trustworthy AI, bounded rationality, and information processing in human and machine systems.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="/research/">Explore research</a>
+          <a class="button button-primary" href="/research/">Explore  our research</a>
           <a class="button" href="/members/">Meet the group</a>
         </div>
       </div>
 
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-head">
-        <h2>Our Research</h2>
-        <a href="/research/">See all topics</a>
-      </div>
-      <div class="card-grid thirds">
-        {{ range first 4 (where site.RegularPages "Section" "research") }}
-          <article class="card topic-card">
-            <p class="eyebrow">Research</p>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Summary }}</p>
-          </article>
-        {{ end }}
-      </div>
     </div>
   </section>
 
