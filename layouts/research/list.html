@@ -38,12 +38,20 @@
     </section>
   {{ end }}
 
-  <section class="section">
+   <section class="section">
     <div class="container narrow">
-      <div class="stack">
+      <div class="cards-grid">
         {{ range $activePages }}
           {{ with . }}
-            <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+            {{ $summary := or .Params.summary .Description (.Summary | plainify) }}
+            <article class="media-card">
+              <div class="media-card-content">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ with $summary }}
+                  <p>{{ . }}</p>
+                {{ end }}
+              </div>
+            </article>
           {{ end }}
         {{ end }}
       </div>
