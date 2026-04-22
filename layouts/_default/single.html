@@ -1,38 +1,47 @@
 {{ define "main" }}
-<section class="page-head">
-  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
-    <p class="eyebrow">Research</p>
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.summary }}
-    <div class="lead-content" style="margin-top:1rem;max-width:48rem;">
-      <p>{{ . }}</p>
-    </div>
-    {{ end }}
-  </div>
-</section>
+  <article class="article-shell">
+    <header class="page-head">
+      <div class="container narrow">
+        <p class="eyebrow">{{ if .Section }}{{ .Section | humanize }}{{ else }}Page{{ end }}</p>
+        <h1>{{ .Title }}</h1>
+        <div class="article-meta">
+          {{ if not .Date.IsZero }}<span>{{ .Date.Format "2 Jan 2006" }}</span>{{ end }}
+          {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.speaker }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.location }}<span>{{ . }}</span>{{ end }}
+        </div>
+      </div>
+    </header>
 
-{{ with .Params.image }}
-<section class="section">
-  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
-    <figure class="hero-image-frame" style="margin:0;">
-      <img
-        class="hero-image"
-        loading="lazy"
-        src="{{ . }}"
-        alt="Graphic for {{ $.Title }}"
-        onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'"
-        style="display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 14px 36px rgba(0,0,0,0.12);"
-      >
-    </figure>
-  </div>
-</section>
-{{ end }}
+    <div class="container narrow">
+      {{ with .Params.image }}
+        <figure class="hero-image-frame">
+          <img class="hero-image" loading="lazy" src="{{ . }}" alt="Graphic for {{ $.Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+        </figure>
+      {{ end }}
 
-<section class="section">
-  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
-    <div class="prose" style="max-width:760px;margin:0 auto;">
-      {{ .Content }}
+      {{ if eq .Section "members" }}
+        <div class="member-profile card">
+          <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
+          <div>
+            {{ with .Params.interests }}<p><strong>Research interests.</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.website }}<p><a href="{{ . }}">Visit personal page</a></p>{{ end }}
+            {{ with .Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+          </div>
+        </div>
+      {{ else if or (eq .Section "events") (eq .Section "seminars") }}
+        <div class="card event-facts">
+          <div><strong>Date</strong><span>{{ .Date.Format "2 Jan 2006" }}</span></div>
+          {{ with .Params.time }}<div><strong>Time</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.location }}<div><strong>Location</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.speaker }}<div><strong>Speaker</strong><span>{{ . }}</span></div>{{ end }}
+          {{ with .Params.affiliation }}<div><strong>Affiliation</strong><span>{{ . }}</span></div>{{ end }}
+        </div>
+      {{ end }}
+
+      <div class="article-content">
+        {{ .Content }}
+      </div>
     </div>
-  </div>
-</section>
+  </article>
 {{ end }}
