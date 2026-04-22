@@ -19,9 +19,9 @@
 
   <section class="section">
     <div class="container">
-      {{ if eq .Section "members" }}
-      {{ $labels := dict "permanent" "Permanent members" "postdoc" "Postdocs" "phd" "PhD students" "affiliated" "Affiliated researchers" }}
-      {{ $order := slice "permanent" "postdoc" "phd" "affiliated" }}
+      {{ if eq .Section "members" }}\
+      {{ $labels := dict "permanent" "Permanent members" "postdoc" "Postdocs" "phd" "PhD students" "recent_phd" "Recent PhD graduates" "affiliated" "Affiliated researchers" }}
+      {{ $order := slice "permanent" "postdoc" "phd" "recent_phd" "affiliated" }}
       <div class="stack">
         {{ range $order }}
         {{ $category := . }}
