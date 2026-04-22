@@ -1,55 +1,38 @@
 {{ define "main" }}
-
-{{ if .Section }}{{ .Section | humanize }}{{ else }}Page{{ end }}
-# {{ .Title }}
-
-{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ end }} {{ with .Params.role }}{{ . }}{{ end }} {{ with .Params.speaker }}{{ . }}{{ end }} {{ with .Params.location }}{{ . }}{{ end }}
+<section class="page-head">
+  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
+    <p class="eyebrow">Research</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}
+    <div class="lead-content" style="margin-top:1rem;max-width:48rem;">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
 
 {{ with .Params.image }}
-<figure style="margin:1.25rem 0 2rem;">
-  <img src="{{ . }}" alt="{{ $.Title }}" style="display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 14px 36px rgba(0,0,0,0.12);" />
-</figure>
+<section class="section">
+  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
+    <figure class="hero-image-frame" style="margin:0;">
+      <img
+        class="hero-image"
+        loading="lazy"
+        src="{{ . }}"
+        alt="Graphic for {{ $.Title }}"
+        onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'"
+        style="display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 14px 36px rgba(0,0,0,0.12);"
+      >
+    </figure>
+  </div>
+</section>
 {{ end }}
 
-{{ if eq .Section "members" }}
-
-{{ with .Params.interests }}
-
-Research interests. {{ . }}
-
-{{ end }} {{ with .Params.website }}
-
-[Visit personal page]({{ . }})
-
-{{ end }} {{ with .Params.email }}
-
-{{ . }}
-
-{{ end }}
-{{ else if or (eq .Section "events") (eq .Section "seminars") }}
-
-Date{{ .Date.Format "2 Jan 2006" }}
-
-{{ with .Params.time }}
-
-Time{{ . }}
-
-{{ end }} {{ with .Params.location }}
-
-Location{{ . }}
-
-{{ end }} {{ with .Params.speaker }}
-
-Speaker{{ . }}
-
-{{ end }} {{ with .Params.affiliation }}
-
-Affiliation{{ . }}
-
-{{ end }}
-
-{{ end }}
-
-{{ .Content }}
-
+<section class="section">
+  <div class="container narrow" style="max-width:860px;margin:0 auto;padding:0 2rem;">
+    <div class="prose" style="max-width:760px;margin:0 auto;">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
 {{ end }}
