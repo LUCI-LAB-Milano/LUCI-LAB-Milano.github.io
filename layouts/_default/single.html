@@ -1,47 +1,55 @@
 {{ define "main" }}
-  <article class="article-shell">
-    <header class="page-head">
-      <div class="container narrow">
-        <p class="eyebrow">{{ if .Section }}{{ .Section | humanize }}{{ else }}Page{{ end }}</p>
-        <h1>{{ .Title }}</h1>
-        <div class="article-meta">
-          {{ if not .Date.IsZero }}<span>{{ .Date.Format "2 Jan 2006" }}</span>{{ end }}
-          {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
-          {{ with .Params.speaker }}<span>{{ . }}</span>{{ end }}
-          {{ with .Params.location }}<span>{{ . }}</span>{{ end }}
-        </div>
-      </div>
-    </header>
 
-    <div class="container narrow">
-      {{ with .Params.image }}
-        <figure class="hero-image-frame">
-          <img class="hero-image" loading="lazy" src="{{ . }}" alt="Graphic for {{ $.Title }}" onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
-        </figure>
-      {{ end }}
+{{ if .Section }}{{ .Section | humanize }}{{ else }}Page{{ end }}
+# {{ .Title }}
 
-      {{ if eq .Section "members" }}
-        <div class="member-profile card">
-          <img loading="lazy" src="{{ .Params.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ .Title }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
-          <div>
-            {{ with .Params.interests }}<p><strong>Research interests.</strong> {{ . }}</p>{{ end }}
-            {{ with .Params.website }}<p><a href="{{ . }}">Visit personal page</a></p>{{ end }}
-            {{ with .Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
-          </div>
-        </div>
-      {{ else if or (eq .Section "events") (eq .Section "seminars") }}
-        <div class="card event-facts">
-          <div><strong>Date</strong><span>{{ .Date.Format "2 Jan 2006" }}</span></div>
-          {{ with .Params.time }}<div><strong>Time</strong><span>{{ . }}</span></div>{{ end }}
-          {{ with .Params.location }}<div><strong>Location</strong><span>{{ . }}</span></div>{{ end }}
-          {{ with .Params.speaker }}<div><strong>Speaker</strong><span>{{ . }}</span></div>{{ end }}
-          {{ with .Params.affiliation }}<div><strong>Affiliation</strong><span>{{ . }}</span></div>{{ end }}
-        </div>
-      {{ end }}
+{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ end }} {{ with .Params.role }}{{ . }}{{ end }} {{ with .Params.speaker }}{{ . }}{{ end }} {{ with .Params.location }}{{ . }}{{ end }}
 
-      <div class="article-content">
-        {{ .Content }}
-      </div>
-    </div>
-  </article>
+{{ with .Params.image }}
+<figure style="margin:1.25rem 0 2rem;">
+  <img src="{{ . }}" alt="{{ $.Title }}" style="display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 14px 36px rgba(0,0,0,0.12);" />
+</figure>
+{{ end }}
+
+{{ if eq .Section "members" }}
+
+{{ with .Params.interests }}
+
+Research interests. {{ . }}
+
+{{ end }} {{ with .Params.website }}
+
+[Visit personal page]({{ . }})
+
+{{ end }} {{ with .Params.email }}
+
+{{ . }}
+
+{{ end }}
+{{ else if or (eq .Section "events") (eq .Section "seminars") }}
+
+Date{{ .Date.Format "2 Jan 2006" }}
+
+{{ with .Params.time }}
+
+Time{{ . }}
+
+{{ end }} {{ with .Params.location }}
+
+Location{{ . }}
+
+{{ end }} {{ with .Params.speaker }}
+
+Speaker{{ . }}
+
+{{ end }} {{ with .Params.affiliation }}
+
+Affiliation{{ . }}
+
+{{ end }}
+
+{{ end }}
+
+{{ .Content }}
+
 {{ end }}
