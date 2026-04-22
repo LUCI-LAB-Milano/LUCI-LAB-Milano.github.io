@@ -1,0 +1,52 @@
+{{ define "main" }}
+  {{ $activePages := slice
+    (site.GetPage "/research/scientific-inference")
+    (site.GetPage "/research/bounded-rationality")
+    (site.GetPage "/research/trustworthy-digital-copies")
+    (site.GetPage "/research/algorithmic-bias")
+  }}
+
+  <section class="page-head">
+    <div class="container narrow">
+      <p class="eyebrow">{{ .Section | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+    </div>
+  </section>
+
+  {{ with .Params.image }}
+    <section class="section">
+      <div class="container narrow">
+        <figure class="hero-image-frame">
+          <img
+            class="hero-image"
+            loading="lazy"
+            src="{{ . }}"
+            alt="Graphic for {{ $.Title }}"
+            onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+        </figure>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Content }}
+    <section class="section">
+      <div class="container narrow">
+        <div class="lead-content">
+          {{ . }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="section">
+    <div class="container narrow">
+      <div class="stack">
+        {{ range $activePages }}
+          {{ with . }}
+            <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
