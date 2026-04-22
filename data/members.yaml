@@ -64,7 +64,7 @@
 
 - name: "Giovanni Duca"
   sort_name: "Duca, Giovanni"
-  category: "phd"
+  category: "recent_phd"
   role: "PhD student"
   website: "https://reda.unimi.it/profilo/giovanni-duca/"
   image: "/images/members/giovanni-duca.png"
@@ -133,3 +133,31 @@
   website: "https://reda.unimi.it/profilo/soroush-rafiee-rad/"
   image: "/images/members/soroush-rafiee-rad.jpg"
   interests: "Mathematical logic and its application to formal epistemology."
+
+- name: "Alessandro G. Buda"
+  sort_name: "Buda, Alessandro G."
+  category: "phd"
+  role: "PhD student"
+  website: "https://philtech.unimi.it/profilo/alessandro-g-buda/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"
+  interests: "Bias and risk mitigation in generative AI, formal and experimental methods for complex systems, and the logics and pragmatics of information and computation."
+
+- name: "Chiara Manganini"
+  sort_name: "Manganini, Chiara"
+  category: "recent_phd"
+  role: "Recent PhD graduate"
+  website: "https://philtech.unimi.it/profilo/chiara-manganini/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/PXL_20221016_155132560.PORTRAIT5-403x600.jpg"
+  interests: "Philosophy of computation, ontology of computational artifacts, and formal methods for machine learning systems with a focus on bias and fairness."
+
+- name: "Francesca Doneda"
+  sort_name: "Doneda, Francesca"
+  category: "recent_phd"
+  role: "Recent PhD graduate"
+  website: "https://philtech.unimi.it/profilo/francesca-doneda/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/IMG_5153-1-600x596.png"
+  interests: "Trustworthiness, disinformation, source assessment, and logical models for public administration and socially relevant reasoning."
+  
+
+
+  
