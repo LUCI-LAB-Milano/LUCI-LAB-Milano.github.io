@@ -1,10 +1,10 @@
 {{ define "main" }}
   {{ $activePages := slice
-    (site.GetPage "/research/scientific-inference")
-    (site.GetPage "/research/bounded-rationality")
-    (site.GetPage "/research/trustworthy-digital-copies")
     (site.GetPage "/research/algorithmic-bias")
-  }}
+    (site.GetPage "/research/bounded-rationality")
+    (site.GetPage "/research/scientific-inference")
+    (site.GetPage "/research/trustworthy-digital-copies")
+      }}
 
   <section class="page-head">
     <div class="container narrow">
