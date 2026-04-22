@@ -1,16 +1,25 @@
 ---
 title: "Logic and bounded rationality"
-summary: "Approximating ideal logics to model the deductive power of resource-bounded agents."
-aliases:
-  - /logic-and-bounded-rationality-classical-propositional-logic/
+summary: "Approximating ideal logic so that valid inference can be studied under realistic limits of information, time, and computational effort."
+weight: 3
+research_theme: true
+image: "/images/research/bounded-rationality-lead.png"
 ---
 
-Standard logical systems model logically omniscient agents that can recognise every consequence of their assumptions. LUCI investigates how to approximate ideal logics so they remain normatively meaningful while still modelling the limits of realistic agents.
+**Logic and Bounded Rationality** studies one of the oldest tensions in logic: formal systems often model agents as if they were logically omniscient, able to recognise every consequence of what they know. Real agents, by contrast, are limited by time, memory, information, and computational cost.
 
 ## The problem
 
-A resource-bounded agent cannot be expected to perform all valid inferences of a logic *L*. A better model is a hierarchy of approximating systems that converges to *L* while respecting minimal rationality constraints.
+A resource-bounded reasoner cannot be expected to perform all correct inferences licensed by an ideal system. If logic is used to evaluate actual human or artificial reasoning, then it must account for deductive difficulty rather than assuming unlimited inferential power.
 
-## The idea
+## The core idea
 
-LUCI studies hierarchies of approximations that treat the depth of virtual information and nested case analysis as a plausible measure of deductive difficulty.
+This research topic proposes a hierarchy of logical systems that approximate a stronger target logic while still satisfying minimal rational requirements. Instead of asking only whether a conclusion follows in principle, this approach asks how demanding it is to reach that conclusion.
+
+## Actual and virtual information
+
+A central distinction in this work is the contrast between **actual information** and **virtual information**. Some inferences can be made directly from what is explicitly available. Others require considering possible extensions, alternative cases, or nested case analyses. The depth at which such virtual information must be used becomes a plausible measure of inferential difficulty.
+
+## Why this matters
+
+This research helps build logical models that stay normatively meaningful without becoming psychologically or computationally unrealistic. It is especially relevant for modelling realistic deduction in humans, groups, and AI systems that must reason under constraints.

@@ -1,22 +1,29 @@
 ---
 title: "Logic for scientific inference"
-summary: "Logical methods for uncertainty, evidence, and trustworthy inference in data-driven science."
-aliases:
-  - /logic-for-scientific-inference/
+summary: "Logical methods for uncertain, incomplete, or conflicting evidence in data-driven science, with a focus on support, rejection, and explanation."
+weight: 2
+research_theme: true
+image: "/images/research/scientific-inference-lead.png"
 ---
 
-In life and social sciences, the same experimental evidence may support conflicting interpretations. Logical methods help articulate when statistical or machine-learning outputs should count as justified scientific inferences.
+**Logic for Scientific Inference (LOGSI)** focuses on a basic problem in contemporary science: the same body of data may support different and even conflicting interpretations. LUCI studies how logical methods can clarify what follows from evidence in those settings and under what conditions scientific conclusions are justified.
 
-## Core questions
+## The problem
 
-- How should we reason from uncertain data?
-- How should we compare contradictory outcomes?
-- What counts as valid support or rejection of a hypothesis?
+In life and social sciences, evidence is often incomplete, noisy, scarce, or contradictory. That makes it difficult to determine when a hypothesis should count as supported, rejected, or left open. Disagreement of this kind is not only a technical matter: it can also affect public trust in science.
 
-## Methods
+## The logical approach
 
-LUCI combines argumentation theory, non-monotonic logic, and many-valued logic to model data-driven reasoning and explainable AI.
+This research topic connects data-driven scientific practice with families of non-classical logics that can handle uncertainty and disagreement more explicitly than classical consequence alone. The key ingredients include:
 
-## MEPER / ReDa line
+- **argumentation theory**, to represent competing lines of support and attack
+- **non-monotonic logic**, to model defeasible reasoning that can change when new evidence appears
+- **many-valued logic**, to represent graded levels of support, rejection, or indeterminacy
 
-The ReDa project coordinates work on methodological foundations for constructing probabilistic evidence under uncertainty, including collaboration with clinical and biomedical partners.
+## What this line of research aims to do
+
+This work develops methodological foundations for reasoning under uncertainty in a way that remains both rigorous and explainable. It also supports software-oriented goals, including tools for communicating how scientific conclusions are reached and why rival conclusions may still be rationally comparable.
+
+## ReDa / MEPER line
+
+This theme is also linked to the **ReDa** project on the construction of probabilistic evidence in rare cancer contexts. That line of work brings logical analysis into contact with biomedical applications where data are often gappy, scarce, and methodologically difficult.
