@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <section class="page-head">
+    <div class="container narrow">
+      <p class="eyebrow">{{ .Section | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}
+        <div class="lead-content">
+          <p>{{ . }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ with .Params.image }}
+    <section class="section research-page-hero">
+      <div class="container narrow">
+        <figure class="hero-image-frame research-hero-frame">
+          {{ $poster := $.Params.poster }}
+          {{ if $poster }}
+            <a
+              class="research-poster-link js-research-lightbox-trigger"
+              href="{{ $poster }}"
+              data-lightbox-alt="Full poster for {{ $.Title }}"
+              aria-label="Open full poster for {{ $.Title }}">
+              <img
+                class="hero-image research-hero-image"
+                loading="lazy"
+                src="{{ . }}"
+                alt="Graphic for {{ $.Title }}"
+                onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+            </a>
+            <figcaption class="research-poster-caption">
+              Click the image to enlarge the full poster
+            </figcaption>
+          {{ else }}
+            <img
+              class="hero-image research-hero-image"
+              loading="lazy"
+              src="{{ . }}"
+              alt="Graphic for {{ $.Title }}"
+              onerror="this.onerror=null;this.src='/images/placeholders/event-default.svg'">
+          {{ end }}
+        </figure>
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="section">
+    <div class="container narrow">
+      <div class="lead-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+
+  {{ partial "research-lightbox.html" . }}
+{{ end }}
