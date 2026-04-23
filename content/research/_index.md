@@ -3,6 +3,7 @@ title: "Research"
 aliases:
   - /research-2/
 image: "/images/research/luci-lead.png"
+poster: "/images/research/posters/luci-overview-poster.png"
 ---
 
 LUCI takes its name from the four concepts that organise the lab's research agenda: **logic**, **uncertainty**, **computation**, and **information**. This research topic presents them not as isolated domains but as a single methodological programme driven by present-day science and technology.
