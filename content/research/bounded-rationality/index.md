@@ -4,6 +4,8 @@ summary: "Approximating ideal logic so that valid inference can be studied under
 weight: 3
 research_theme: true
 image: "/images/research/bounded-rationality-lead.png"
+poster: "/images/research/posters/bounded-rationality-poster.png"
+
 ---
 
 **Logic and Bounded Rationality** studies one of the oldest tensions in logic: formal systems often model agents as if they were logically omniscient, able to recognise every consequence of what they know. Real agents, by contrast, are limited by time, memory, information, and computational cost.
