@@ -4,6 +4,7 @@ summary: "Logical methods for uncertain, incomplete, or conflicting evidence in 
 weight: 2
 research_theme: true
 image: "/images/research/scientific-inference-lead.png"
+poster: "/images/research/posters/scientific-inference-poster.png"
 ---
 
 **Logic for Scientific Inference (LOGSI)** focuses on a basic problem in contemporary science: the same body of data may support different and even conflicting interpretations. LUCI studies how logical methods can clarify what follows from evidence in those settings and under what conditions scientific conclusions are justified.
