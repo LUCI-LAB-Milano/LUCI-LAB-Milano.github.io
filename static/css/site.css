@@ -277,3 +277,56 @@ blockquote { margin: 1rem 0; padding: 1rem 1.2rem; border-left: 4px solid var(--
 body.research-lightbox-open {
   overflow: hidden;
 }
+
+/* Research index: use standard page width, not the narrow text column */
+.research-page-head .container,
+.research-index-hero .container,
+.research-intro-section .container,
+.research-themes-section .container {
+  width: min(var(--container), calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.research-intro-copy {
+  max-width: none;
+}
+
+/* Research hero image stays full width, only on research pages */
+.research-index-hero .research-hero-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.research-hero-frame {
+  width: 100%;
+}
+
+/* Bottom research-theme cards */
+.research-theme-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.research-theme-card {
+  height: 100%;
+}
+
+.research-theme-card-content h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1.2rem;
+}
+
+.research-theme-card-content p {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .research-theme-grid {
+    grid-template-columns: 1fr;
+  }
+}
