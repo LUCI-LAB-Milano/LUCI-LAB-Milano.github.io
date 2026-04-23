@@ -4,6 +4,8 @@ summary: "Formal and software-oriented methods for detecting, comparing, and mit
 weight: 5
 research_theme: true
 image: "/images/research/algorithmic-bias-lead.png"
+poster: "/images/research/posters/algorithmic-bias-poster.png"
+
 ---
 
 **BRIO** addresses algorithmic bias: the production of distorted, partial, or unfair outcomes for specific groups or individuals by AI systems. LUCI studies how logical tools can help detect, analyse, and mitigate these distortions in a principled way.
