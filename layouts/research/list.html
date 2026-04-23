@@ -6,8 +6,8 @@
     (site.GetPage "/research/algorithmic-bias")
   }}
 
-  <section class="page-head">
-    <div class="container narrow">
+  <section class="page-head research-page-head">
+    <div class="container">
       <p class="eyebrow">{{ .Section | humanize }}</p>
       <h1>{{ .Title }}</h1>
     </div>
@@ -15,7 +15,7 @@
 
   {{ with .Params.image }}
     <section class="section research-index-hero">
-      <div class="container narrow">
+      <div class="container">
         <figure class="hero-image-frame research-hero-frame">
           {{ $poster := $.Params.poster }}
           {{ if $poster }}
@@ -48,23 +48,23 @@
   {{ end }}
 
   {{ with .Content }}
-    <section class="section">
-      <div class="container narrow">
-        <div class="lead-content">
+    <section class="section research-intro-section">
+      <div class="container">
+        <div class="lead-content research-intro-copy">
           {{ . }}
         </div>
       </div>
     </section>
   {{ end }}
 
-  <section class="section">
-    <div class="container narrow">
-      <div class="cards-grid">
+  <section class="section research-themes-section">
+    <div class="container">
+      <div class="research-theme-grid">
         {{ range $activePages }}
           {{ with . }}
             {{ $summary := or .Params.summary .Description (.Summary | plainify) }}
-            <article class="media-card">
-              <div class="media-card-content">
+            <article class="research-theme-card card">
+              <div class="research-theme-card-content">
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                 {{ with $summary }}
                   <p>{{ . }}</p>
