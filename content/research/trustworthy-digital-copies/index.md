@@ -4,6 +4,8 @@ summary: "Logical criteria for evaluating when a digital counterpart, simulation
 weight: 4
 research_theme: true
 image: "/images/research/trustworthy-digital-copies-lead.png"
+poster: "/images/research/posters/trustworthy-digital-copies-poster.png"
+
 ---
 
 **SMARTEST** examines how we should evaluate the trustworthiness of a digital copy of a physical system. LUCI uses logic to study the concepts of copy, replica, and digital counterpart, and to identify criteria for when a digital model is reliable enough for a given purpose.
