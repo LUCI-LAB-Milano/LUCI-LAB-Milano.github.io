@@ -2,4 +2,4 @@
 title: "Events"
 ---
 
-Workshops, conferences, and special events organised by or featuring the lab.
+This page collects workshops, conferences, and research events organised or attended by LUCI members.
