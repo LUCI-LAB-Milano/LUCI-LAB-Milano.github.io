@@ -8,8 +8,6 @@ summary: "The Workshop will take place on 13 April at Sala Martinetti, Via Festa
 image: "/images/events/2026/LearningWithGuarantees.png"
 ---
 
-[![Workshop “Learning with Guarantees – Neurosymbolic AI and Formal Verification”](/images/events/2026/LearningWithGuarantees.png)](/images/events/2026/LearningWithGuarantees.png)
-
 The Workshop will take place on **13 April** at **Sala Martinetti, Via Festa del Perdono 7, Milan**.
 
 The workshop explores current themes at the intersection of neurosymbolic AI, logical reasoning, and formal verification, with a focus on integrating learning-based methods with formal guarantees.
@@ -34,6 +32,4 @@ The workshop explores current themes at the intersection of neurosymbolic AI, lo
 
 The event brings together perspectives from logic, machine learning, and AI safety to discuss how hybrid systems can combine expressive reasoning with formal verification methods.
 
-## Visuals
-
-[![Workshop “Learning with Guarantees – Neurosymbolic AI and Formal Verification”](/images/events/2026/LearningWithGuarantees-724x1024.png)](/images/events/2026/LearningWithGuarantees-724x1024.png)
+(/images/events/2026/LearningWithGuarantees-724x1024.png)](/images/events/2026/LearningWithGuarantees-724x1024.png)
