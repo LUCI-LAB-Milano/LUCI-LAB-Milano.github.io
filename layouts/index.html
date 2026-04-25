@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }} 
-  {{ $seminars := last 4 (sort (where site.RegularPages "Section" "seminars") "Date" "desc") }}
+  {{ $seminars := first  4 (sort (where site.RegularPages "Section" "seminars") "Date" "desc") }}
 
   <section class="hero">
     <div class="container hero-grid">
