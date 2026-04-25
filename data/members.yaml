@@ -54,6 +54,14 @@
   image: "/images/members/stipe-pandzic.jpg"
   interests: "Knowledge representation, defeasible argumentation, justification logic, and evidence pooling."
 
+- name: "Alessandro G. Buda"
+  sort_name: "Buda, Alessandro G."
+  category: "phd"
+  role: "PhD student"
+  website: "https://philtech.unimi.it/profilo/alessandro-g-buda/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"
+  interests: "Bias and risk mitigation in generative AI, formal and experimental methods for complex systems, and the logics and pragmatics of information and computation."
+
 - name: "Francesco Ponti"
   sort_name: "Ponti, Francesco"
   category: "phd"
@@ -61,6 +69,22 @@
   website: "https://reda.unimi.it/profilo/francesco-ponti/"
   image: "/images/members/francesco-ponti.png"
   interests: "Bayesian epistemology."
+
+- name: "Giovanni Sanavio"
+  sort_name: "Sanavio, Giovanni"
+  category: "phd"
+  role: "PhD student"
+  website: "https://reda.unimi.it/profilo/giovanni-sanavio/"
+  image: "/images/members/giovanni-sanavio.jpeg"
+  interests: "Objective Bayesian inductive logic and uncertain inference under incomplete information."
+
+- name: "Francesca Doneda"
+  sort_name: "Doneda, Francesca"
+  category: "recent_phd"
+  role: "Recent PhD graduate"
+  website: "https://philtech.unimi.it/profilo/francesca-doneda/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/IMG_5153-1-600x596.png"
+  interests: "Trustworthiness, disinformation, source assessment, and logical models for public administration and socially relevant reasoning."
 
 - name: "Giovanni Duca"
   sort_name: "Duca, Giovanni"
@@ -70,13 +94,13 @@
   image: "/images/members/giovanni-duca.png"
   interests: "Formal epistemology, belief revision, and non-monotonic reasoning."
 
-- name: "Giovanni Sanavio"
-  sort_name: "Sanavio, Giovanni"
-  category: "phd"
-  role: "PhD student"
-  website: "https://reda.unimi.it/profilo/giovanni-sanavio/"
-  image: "/images/members/giovanni-sanavio.jpeg"
-  interests: "Objective Bayesian inductive logic and uncertain inference under incomplete information."
+- name: "Chiara Manganini"
+  sort_name: "Manganini, Chiara"
+  category: "recent_phd"
+  role: "Recent PhD graduate"
+  website: "https://philtech.unimi.it/profilo/chiara-manganini/"
+  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/PXL_20221016_155132560.PORTRAIT5-403x600.jpg"
+  interests: "Philosophy of computation, ontology of computational artifacts, and formal methods for machine learning systems with a focus on bias and fairness."
 
 - name: "Alberto Termine"
   sort_name: "Termine, Alberto"
@@ -102,6 +126,14 @@
   image: "/images/members/esther-anna-corsi.jpg"
   interests: "Uncertain reasoning, many-valued logics, logical argumentation theory, game theory, and theoretical computer science."
 
+- name: "Fabio Aurelio D'Asaro"
+  sort_name: "D'Asaro, Fabio Aurelio"
+  category: "affiliated"
+  role: "Affiliated researcher"
+  website: "https://sites.google.com/view/fdasaro/"
+  image: "/images/members/fabio-aurelio-dasaro.png"
+  interests: "Uncertain and epistemic reasoning, temporal and probabilistic logics, reasoning about actions and change."
+
 - name: "Francesco A. Genco"
   sort_name: "Genco, Francesco A."
   category: "affiliated"
@@ -110,6 +142,14 @@
   image: "https://apps.unimi.it/ws/chiedove/media/image/francesco_genco"
   interests: "Proof theory of non-classical logics, constructive and semi-constructive logics, and explanatory reasoning in logic and mathematics."
 
+- name: "Greta Coraglia"
+  sort_name: "Coraglia, Greta"
+  category: "affiliated"
+  role: "Affiliated researcher"
+  website: "https://etagreta.github.io"
+  image: "/images/members/greta-coraglia.jpg"
+  interests: "Logical foundations, categorical semantics, mathematical logic, deductive systems, and type theory."
+
 - name: "Jürgen Landes"
   sort_name: "Landes, Jurgen"
   category: "affiliated"
@@ -117,6 +157,13 @@
   website: "https://reda.unimi.it/profilo/jurgen-landes/"
   image: "/images/members/jurgen-landes.jpg"
   interests: "Uncertain inference, pure inductive logic, maximum entropy, and Bayesian inference in medicine."
+
+- name: "Leonardo Ceragioli"
+  sort_name: "Ceragioli, Leonardo"
+  category: "affiliated"
+  role: "Affiliated researcher"
+  website: "https://mondodomani.academia.edu/LeonardoCeragioli"
+  interests: "Proof theory, proof-theoretic semantics, non-classical logics, logics in computer science, philosophy of logic and rationality."
 
 - name: "Paolo Baldi"
   sort_name: "Baldi, Paolo"
@@ -133,31 +180,3 @@
   website: "https://reda.unimi.it/profilo/soroush-rafiee-rad/"
   image: "/images/members/soroush-rafiee-rad.jpg"
   interests: "Mathematical logic and its application to formal epistemology."
-
-- name: "Alessandro G. Buda"
-  sort_name: "Buda, Alessandro G."
-  category: "phd"
-  role: "PhD student"
-  website: "https://philtech.unimi.it/profilo/alessandro-g-buda/"
-  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"
-  interests: "Bias and risk mitigation in generative AI, formal and experimental methods for complex systems, and the logics and pragmatics of information and computation."
-
-- name: "Chiara Manganini"
-  sort_name: "Manganini, Chiara"
-  category: "recent_phd"
-  role: "Recent PhD graduate"
-  website: "https://philtech.unimi.it/profilo/chiara-manganini/"
-  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/PXL_20221016_155132560.PORTRAIT5-403x600.jpg"
-  interests: "Philosophy of computation, ontology of computational artifacts, and formal methods for machine learning systems with a focus on bias and fairness."
-
-- name: "Francesca Doneda"
-  sort_name: "Doneda, Francesca"
-  category: "recent_phd"
-  role: "Recent PhD graduate"
-  website: "https://philtech.unimi.it/profilo/francesca-doneda/"
-  image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/IMG_5153-1-600x596.png"
-  interests: "Trustworthiness, disinformation, source assessment, and logical models for public administration and socially relevant reasoning."
-  
-
-
-  
