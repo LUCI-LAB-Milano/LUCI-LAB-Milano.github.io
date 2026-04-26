@@ -44,7 +44,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Alessandro Facchini and Alberto Termine</div>
       <div class="seminar-affil">IDSIA</div>
-      <div class="seminar-talk">Talk by Alessandro Facchini and Alberto Termine</div>
     </div>
   </li>
 
@@ -52,7 +51,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div class="seminar-meta"><strong>26 January 2026</strong>10:30-11:00</div>
     <div>
       <div class="seminar-speaker">Coffee break</div>
-      <div class="seminar-affil">Programme break</div>
     </div>
   </li>
 
@@ -61,7 +59,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Chiara Manganini</div>
       <div class="seminar-affil">University of Milan</div>
-      <div class="seminar-talk">Talk by Chiara Manganini</div>
     </div>
   </li>
 
@@ -70,7 +67,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Roberta Ferrario</div>
       <div class="seminar-affil">CNR Trento</div>
-      <div class="seminar-talk">Talk by Roberta Ferrario</div>
     </div>
   </li>
 
@@ -79,15 +75,13 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Nicola Angius</div>
       <div class="seminar-affil">University of Messina</div>
-      <div class="seminar-talk">Talk by Nicola Angius</div>
-    </div>
+  </div>
   </li>
 
   <li class="seminar-item">
     <div class="seminar-meta"><strong>26 January 2026</strong>12:30-14:30</div>
     <div>
       <div class="seminar-speaker">Lunch break</div>
-      <div class="seminar-affil">Programme break</div>
     </div>
   </li>
 
@@ -96,7 +90,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Leonardo Ceragioli</div>
       <div class="seminar-affil">University of Milan</div>
-      <div class="seminar-talk">Talk by Leonardo Ceragioli</div>
     </div>
   </li>
 
@@ -105,7 +98,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Emilio Sanfilippo</div>
       <div class="seminar-affil">CNR Trento</div>
-      <div class="seminar-talk">Talk by Emilio Sanfilippo</div>
     </div>
   </li>
 
@@ -114,7 +106,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div>
       <div class="seminar-speaker">Alessandro G. Buda</div>
       <div class="seminar-affil">IUSS Pavia and University of Milan</div>
-      <div class="seminar-talk">Talk by Alessandro G. Buda</div>
     </div>
   </li>
 
@@ -122,7 +113,6 @@ The recovered programme identifies the sessions, speakers and affiliations. It d
     <div class="seminar-meta"><strong>26 January 2026</strong>16:00-16:30</div>
     <div>
       <div class="seminar-speaker">Closing remarks</div>
-      <div class="seminar-affil">Closing session</div>
     </div>
   </li>
 </ul>
