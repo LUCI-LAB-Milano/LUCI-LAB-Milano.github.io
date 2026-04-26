@@ -238,7 +238,7 @@ aliases:
 
 <div class="lbr-event">
 
-<p class="lbr-lead">The online workshop <em>Logic and Bounded Rationality</em> brought together researchers working on depth-bounded reasoning, limited belief, proof theory, non-monotonic reasoning, qualitative probability, causal and epistemic logics, formal argumentation, quantum-inspired machine learning, and the philosophical foundations of resource-sensitive logic.</p>
+<p class="lbr-lead">The online workshop <em>Logic and Bounded Rationality</em> brings together researchers working on depth-bounded reasoning, limited belief, proof theory, non-monotonic reasoning, qualitative probability, causal and epistemic logics, formal argumentation, quantum-inspired machine learning, and the philosophical foundations of resource-sensitive logic.</p>
 
 <div class="lbr-actions">
   <a class="lbr-button" href="./programme.pdf">Download the full programme PDF</a>
@@ -266,7 +266,7 @@ aliases:
 
 <section class="lbr-section" id="talks">
   <h2>Talks</h2>
-  <p class="lbr-section-note">All times are Central European Time. Talks are listed in programme order, with each contribution presented as a seminar-style card.</p>
+  <p class="lbr-section-note">Talks are listed in programme order.</p>
   <div class="lbr-talk-list">
     <h3 class="lbr-day-heading">Wednesday 25 February 2026</h3>
     <div class="lbr-talk-card lbr-opening-card">
