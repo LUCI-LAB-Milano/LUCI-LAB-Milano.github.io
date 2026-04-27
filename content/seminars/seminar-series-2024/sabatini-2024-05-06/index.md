@@ -11,6 +11,8 @@ time: '12:30'
 location: Online
 ---
 
+**Recording:** [Watch on YouTube](https://www.youtube.com/watch?v=dQdZ-rVGNUA)
+
 The next talk of our seminar series will be given by
 
 Andrea Sabatini

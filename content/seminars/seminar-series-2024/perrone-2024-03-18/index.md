@@ -10,6 +10,8 @@ time: '12:30'
 location: Online
 ---
 
+**Recording:** [Watch on YouTube](https://www.youtube.com/watch?v=Xi4YVip8QcM)
+
 The next talk of our seminar series will be given by
 
 Paolo Perrone

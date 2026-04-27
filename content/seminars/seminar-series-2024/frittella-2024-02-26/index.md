@@ -10,6 +10,8 @@ time: '12:30'
 location: Online
 ---
 
+**Recording:** [Watch on YouTube](https://www.youtube.com/watch?v=RZJPMs1QO7A)
+
 The next talk of our seminar series will be given by
 
 Sabine Frittella
