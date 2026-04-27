@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:17:17+00:00",
+  "generated_at": "2026-04-27T06:45:09+00:00",
   "member_count": 10,
   "item_count": 128,
   "warnings": [
@@ -303,7 +303,8 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -329,21 +330,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "A Pragmatic Theory of Computational Artefacts",
-      "year": 2024,
-      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1018488",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -385,6 +372,19 @@
       "abstract": "-",
       "members": [
         "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Data Quality Dimensions for Fair AI",
+      "year": 2024,
+      "authors": "C. Quaresmini G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -992,19 +992,6 @@
       ]
     },
     {
-      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
-      "year": 2021,
-      "authors": "Landes, J",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1042,6 +1029,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
@@ -1136,19 +1136,6 @@
       ]
     },
     {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1160,6 +1147,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
