@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T07:56:14+00:00",
+  "generated_at": "2026-05-18T08:18:38+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -356,8 +356,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -371,19 +370,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Causality Problems in Machine Learning Systems",
-      "year": 2024,
-      "authors": "A. Termine G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1154395",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -555,7 +541,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -582,6 +569,19 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "year": 2023,
+      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024250",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1004,19 +1004,6 @@
       ]
     },
     {
-      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
-      "year": 2021,
-      "authors": "Landes, J",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1028,19 +1015,6 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Artificial intelligence methods for a Bayesian epistemology-powered evidence evaluation",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, Jürgen Peden, William",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948198",
-      "journal_or_publisher": "JOURNAL OF EVALUATION IN CLINICAL PRACTICE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1067,6 +1041,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "PLOS ONE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
@@ -1158,6 +1145,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "journal_or_publisher": "STUDIA LOGICA",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
