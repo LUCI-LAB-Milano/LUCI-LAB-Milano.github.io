@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T08:18:38+00:00",
+  "generated_at": "2026-05-25T08:42:46+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -1148,19 +1148,6 @@
       ]
     },
     {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
-      "journal_or_publisher": "STUDIA LOGICA",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1172,6 +1159,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
