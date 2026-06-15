@@ -1,20 +1,39 @@
 {{- $member := .member | default . -}}
+
 {{- $compact := .compact | default false -}}
+
+{{- $name := $member.name -}}
+
 <article class="card member-card{{ if $compact }} compact{{ end }}">
-  <img loading="lazy" src="{{ $member.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ $member.name }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
-  <div>
-    {{ if $compact }}
-      <h3>
-        {{ with $member.website }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $member.name }}</a>{{ else }}{{ $member.name }}{{ end }}
-      </h3>
-      <p class="meta">{{ $member.role }}</p>
-    {{ else }}
-      <p class="eyebrow">{{ $member.role }}</p>
-      <h2>
-        {{ with $member.website }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $member.name }}</a>{{ else }}{{ $member.name }}{{ end }}
-      </h2>
-      {{ with $member.interests }}<p>{{ . }}</p>{{ end }}
-      {{ with $member.website }}<p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">Personal page</a></p>{{ end }}
-    {{ end }}
-  </div>
+ <img loading="lazy" src="{{ $member.image | default "/images/placeholders/member-default.svg" }}" alt="Portrait of {{ $name }}" onerror="this.onerror=null;this.src='/images/placeholders/member-default.svg'">
+
+ <div>
+
+ {{ if $compact }}
+
+ <h3>
+
+ {{ with $member.website }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}
+
+ </h3>
+
+ <p class="meta">{{ $member.role }}{{ with $member.affiliation }} · {{ . }}{{ end }}</p>
+
+ {{ else }}
+
+ <p class="eyebrow">{{ $member.role }}{{ with $member.affiliation }} · {{ . }}{{ end }}</p>
+ <h2>
+
+ {{ with $member.website }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}
+
+ </h2>
+
+ {{ with $member.interests }}<p>{{ . }}</p>{{ end }}
+
+ {{ with $member.website }}<p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">Personal page</a></p>{{ end }}
+
+ {{ end }}
+
+ </div>
+
 </article>
