@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T09:05:19+00:00",
+  "generated_at": "2026-06-15T10:35:50+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -316,8 +316,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -356,7 +355,8 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco"
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -370,6 +370,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Causality Problems in Machine Learning Systems",
+      "year": 2024,
+      "authors": "A. Termine G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -437,19 +450,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Handling Mobility Failures by Modal Types",
-      "year": 2024,
-      "authors": "Primiero, Giuseppe",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106148",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1057,6 +1057,19 @@
       ]
     },
     {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1145,19 +1158,6 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
