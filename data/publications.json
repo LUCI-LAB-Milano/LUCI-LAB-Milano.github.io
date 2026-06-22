@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T10:35:50+00:00",
+  "generated_at": "2026-06-22T10:18:27+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -342,7 +342,21 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "A Pragmatic Theory of Computational Artefacts",
+      "year": 2024,
+      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1018488",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -541,21 +555,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
-      "year": 2024,
-      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1128039",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "",
-      "members": [
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -1057,19 +1057,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1158,6 +1145,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
