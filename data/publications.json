@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:13:01+00:00",
+  "generated_at": "2026-07-06T08:43:29+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -401,6 +401,19 @@
       ]
     },
     {
+      "title": "Data Quality Dimensions for Fair AI",
+      "year": 2024,
+      "authors": "C. Quaresmini G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Depth-bounded Reasoning. Volume 1: Classical Propositional Logic",
       "year": 2024,
       "authors": "Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil",
@@ -569,19 +582,6 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
-      "year": 2023,
-      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024250",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1148,13 +1148,13 @@
       ]
     },
     {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
       "year": 2021,
       "authors": "J. Landes",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
-      "journal_or_publisher": "STUDIA LOGICA",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
       "abstract": "-",
       "members": [
         "Jürgen Landes"
