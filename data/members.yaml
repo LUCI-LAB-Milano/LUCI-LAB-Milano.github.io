@@ -18,7 +18,7 @@
   sort_name: "Primiero, Giuseppe"
   category: "permanent"
   role: "Permanent member"
-  website: "https://sites.unimi.it/gprimiero/"
+  website: "https://www.unimi.it/it/ugov/person/giuseppe-primiero"
   image: "https://apps.unimi.it/ws/chiedove/media/image/giuseppe_primiero"
   interests: "Logical methods in AI, philosophy of computation and information, and trustworthy and fair AI."
 
@@ -170,7 +170,7 @@
   category: "affiliated"
   role: "Affiliated researcher"
   website: "https://orcid.org/0000-0001-7269-0096"
-  image: "https://apps.unimi.it/ws/chiedove/media/image/alejandro_solares_rojas"
+  image: "/images/members/alejandro-solares-rojas.svg"
   interests: "Logic, and Formal Methods for AI"
 
 - name: "Alberto Termine"
