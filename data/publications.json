@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T07:44:00+00:00",
+  "generated_at": "2026-07-15T11:08:48+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -79,6 +79,19 @@
       "abstract": "-",
       "members": [
         "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Logical Desiderata on Statistical Inference",
+      "year": 2026,
+      "authors": "Baldi, Paolo Corsi, Esther Anna Hosni, Hykel",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1255119",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Paolo Baldi"
       ]
     },
     {
@@ -356,7 +369,21 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "A Pragmatic Theory of Computational Artefacts",
+      "year": 2024,
+      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1018488",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -369,8 +396,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -398,19 +424,6 @@
       "abstract": "-",
       "members": [
         "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Data Quality Dimensions for Fair AI",
-      "year": 2024,
-      "authors": "C. Quaresmini G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1116708",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1044,19 +1057,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1148,12 +1148,12 @@
       ]
     },
     {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
       "year": 2021,
       "authors": "J. Landes",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
@@ -1172,6 +1172,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
@@ -1668,19 +1681,6 @@
       "abstract": "",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A.",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875482",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Paolo Baldi"
       ]
     },
     {
