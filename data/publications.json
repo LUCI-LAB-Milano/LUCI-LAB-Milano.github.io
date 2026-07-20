@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T11:08:48+00:00",
+  "generated_at": "2026-07-20T07:34:21+00:00",
   "member_count": 10,
-  "item_count": 129,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -369,21 +369,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "A Pragmatic Theory of Computational Artefacts",
-      "year": 2024,
-      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1018488",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -396,7 +382,8 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco"
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -409,8 +396,7 @@
       "journal_or_publisher": "en",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -424,6 +410,19 @@
       "abstract": "-",
       "members": [
         "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "Data Quality Dimensions for Fair AI",
+      "year": 2024,
+      "authors": "C. Quaresmini G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -595,6 +594,19 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "year": 2023,
+      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024250",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1057,6 +1069,19 @@
       ]
     },
     {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "en",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1172,19 +1197,6 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Towards the entropy-limit conjecture",
-      "year": 2021,
-      "authors": "J. Landes S. R. Rad J. Williamson",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938342",
-      "journal_or_publisher": "en",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
