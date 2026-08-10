@@ -150,6 +150,9 @@ PAGE_SOURCE_KEYS = normalized_keys(
     "citation_conference_title",
     "citation_book_title",
     "dc.source",
+)
+
+PAGE_CITATION_KEYS = normalized_keys(
     "dc.identifier.citation",
 )
 
@@ -409,6 +412,29 @@ def clean_venue(value: str | None) -> str:
     if normalize_key(text) in LANGUAGE_MARKERS or looks_like_noise(text):
         return ""
     return text
+
+
+def venue_from_citation(value: str | None) -> str:
+    citation = normalize_space(value)
+    if not citation:
+        return ""
+
+    in_match = re.search(
+        r"\s-\s+In:\s+(.+?)(?=\s+/\s+\[(?:a cura di|edited by)\]|\s+-\s+ISSN)",
+        citation,
+        flags=re.IGNORECASE,
+    )
+    if in_match:
+        return clean_venue(in_match.group(1))
+
+    lower = citation.lower()
+    if "10.2139/ssrn." in lower:
+        return "SSRN"
+    if "10.48550/arxiv." in lower or "arxiv" in lower:
+        return "arXiv"
+    if "supervisore:" in lower:
+        return "Doctoral thesis"
+    return ""
 
 
 def first_venue_metadata_value(
@@ -787,6 +813,10 @@ def fetch_item_page_details(url: str | None, cache: dict[str, dict[str, str]]) -
         venue = first_venue_metadata_value(
             metadata, PAGE_SOURCE_KEYS, PAGE_PUBLISHER_KEYS
         )
+        if not venue:
+            venue = venue_from_citation(
+                first_metadata_value(metadata, PAGE_CITATION_KEYS)
+            )
         abstract = clean_abstract(first_metadata_value(metadata, PAGE_ABSTRACT_KEYS))
 
         if venue:
