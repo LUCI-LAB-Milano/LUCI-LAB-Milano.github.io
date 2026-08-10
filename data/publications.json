@@ -274,7 +274,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1205398",
-      "journal_or_publisher": "Toward learning and reasoning in first-order justification logic / S. Pandzic - In: Logics for New-Generation AI / [a cura di] B. Liao, A. Rotolo, L. van der Torre, L. Yu. - [s.l] : College Publications, 2025. - ISBN 978-1-84890-495-8. - pp. 212-225 (( 5. Logics for New-Generation AI Luxembourg 2025. en",
+      "journal_or_publisher": "Logics for New-Generation AI",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -287,7 +287,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1256555",
-      "journal_or_publisher": "Travelling ML Models Across Different Socio-Technical Contexts and Purposes / D. Huyskes, M.S.. - (2025 Nov 15). [10.2139/ssrn.5598235] en",
+      "journal_or_publisher": "SSRN",
       "abstract": "-",
       "members": [
         "Giuseppe Primiero"
@@ -486,7 +486,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1106190",
-      "journal_or_publisher": "Ignorance and its formal limits / E. Kubyshkina, M. Petrolo - In: 5h SILFS Postgraduate Conference on Logic and Philosophy of Science / [a cura di] F. Bianchini, V. Fano, P. Graziani. - [s.l] : College Publications, 2024. - ISBN 978-1-84890-455-2. - pp. 131-142 (( convegno SILFS 2022 postgraduate conference tenutosi a Milano nel 2022. en",
+      "journal_or_publisher": "5h SILFS Postgraduate Conference on Logic and Philosophy of Science",
       "abstract": "-",
       "members": [
         "Ekaterina Kubyshkina"
@@ -907,7 +907,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/929465",
-      "journal_or_publisher": "Probability and Degrees of Truth / P. Baldi, H. Hosni - In: The Logica Yearbook 2021 / [a cura di] I. Sedlár. - London : College Publications, 2022. - ISBN 978-1-84890-414-9. - pp. 1-18 en",
+      "journal_or_publisher": "The Logica Yearbook 2021",
       "abstract": "-",
       "members": [
         "Paolo Baldi"
@@ -959,7 +959,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/951130",
-      "journal_or_publisher": "Towards Tractable Approximations to Many-Valued Logics: The Case of First Degree Entailment / M. D’Agostino, A. Solares-Rojas - In: The Logica Yearbook / [a cura di] I. Sedlar. - [s.l] : College Publications, 2022 Aug 01. - ISBN 978-1-84890-414-9. - pp. 57-76 (( Intervento presentato al 34th. convegno LOGICA 2021 tenutosi a Hejnice, Czech Republic nel 2021. en",
+      "journal_or_publisher": "The Logica Yearbook",
       "abstract": "-",
       "members": [
         "Marcello D'Agostino"
@@ -972,7 +972,7 @@
       "type": "Doctoral Thesis",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/931483",
-      "journal_or_publisher": "TRACTABLE DEPTH-BOUNDED APPROXIMATIONS TO SOME PROPOSITIONAL LOGICS. TOWARDS MORE REALISTIC MODELS OF LOGICAL AGENTS / A.j. Solares Rojas ; supervisore: A. Zamansky, M. D'Agostino ; coordinatore: A. Pinotti. Dipartimento di Filosofia Piero Martinetti, 2022 Jul 15. 34. ciclo, Anno Accademico 2021. it",
+      "journal_or_publisher": "Doctoral thesis",
       "abstract": "-",
       "members": [
         "Alejandro J. Solares-Rojas"
@@ -1077,7 +1077,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189795",
-      "journal_or_publisher": "From the logic of proofs to the logic of arguments / S. Pandzic. - (2021). [10.48550/arXiv.2106.10832] en",
+      "journal_or_publisher": "arXiv",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -1405,7 +1405,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189515",
-      "journal_or_publisher": "A logic of default justifications / S. Pandzic - In: 17. International Workshop on Nonmonotonic Reasoning / [a cura di] E. Fermé, S. Villata. - [s.l] : Computing Research Repository (CoRR), 2018. - pp. 126-135 (( convegno International Conference on Principles of Knowledge Representation and Reasoning tenutosi a Tempe nel 2018. en",
+      "journal_or_publisher": "17. International Workshop on Nonmonotonic Reasoning",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -1418,7 +1418,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/588200",
-      "journal_or_publisher": "A Study of Argumentative Characterisations of Preferred Subtheories / M. D'Agostino, S. Modgil - In: Proceedings of IJCAI 2018 / [a cura di] J. Lang. - Prima edizione. - Ebook. - [s.l] : Iinternational Joint Conferences in Artificial Intelligence (IJCA), 2018. - ISBN 9780999241127. - pp. 1788-1794 (( convegno IJCAI tenutosi a Stockolm nel 2018. en",
+      "journal_or_publisher": "Proceedings of IJCAI 2018",
       "abstract": "-",
       "members": [
         "Marcello D'Agostino"
