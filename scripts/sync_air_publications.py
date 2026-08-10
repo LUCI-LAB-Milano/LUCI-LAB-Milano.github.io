@@ -448,7 +448,6 @@ def build_item(
     year = parse_year(year_text or "")
     final_url = clean_url(air_url, base_url) or base_url
 
-
     return {
         "title": title,
         "year": year,
