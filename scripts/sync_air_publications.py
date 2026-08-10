@@ -362,6 +362,20 @@ def extract_doi(row: dict[str, Any]) -> str | None:
     return None
 
 
+LANGUAGE_MARKERS = normalized_keys(
+    "en",
+    "eng",
+    "en-US",
+    "English",
+    "inglese",
+    "it",
+    "ita",
+    "it-IT",
+    "Italian",
+    "italiano",
+    "und",
+)
+
 NOISE_FRAGMENTS = (
     "macrotipologie & tipologie",
     "pubblicazioni selezionate",
@@ -388,6 +402,27 @@ def looks_like_noise(text: str) -> bool:
     if len(lower) > 400:
         return True
     return False
+
+
+def clean_venue(value: str | None) -> str:
+    text = normalize_space(value).strip(" ,;:-")
+    if normalize_key(text) in LANGUAGE_MARKERS or looks_like_noise(text):
+        return ""
+    return text
+
+
+def first_venue_metadata_value(
+    metadata: dict[str, list[str]], *key_groups: set[str]
+) -> str:
+    for keys in key_groups:
+        for key in keys:
+            for value in metadata.get(key, []):
+                venue = clean_venue(value)
+                if venue:
+                    return venue
+    return ""
+
+
 def build_item(
     *,
     title: str | None,
@@ -408,13 +443,11 @@ def build_item(
     abstract = clean_abstract(abstract)
     authors = clean_authors(authors)
     pub_type = normalize_space(pub_type)
-    journal_or_publisher = normalize_space(journal_or_publisher).strip(" ,;:-")
+    journal_or_publisher = clean_venue(journal_or_publisher)
     doi = normalize_space(doi)
     year = parse_year(year_text or "")
     final_url = clean_url(air_url, base_url) or base_url
 
-    if looks_like_noise(journal_or_publisher):
-        journal_or_publisher = ""
 
     return {
         "title": title,
@@ -436,8 +469,8 @@ def csv_row_to_item(row: dict[str, Any], member_name: str, base_url: str) -> dic
     air_url = first_value(row, URL_KEYS)
     doi = extract_doi(row)
 
-    journal = first_value(row, JOURNAL_KEYS)
-    publisher = first_value(row, PUBLISHER_KEYS)
+    journal = clean_venue(first_value(row, JOURNAL_KEYS))
+    publisher = clean_venue(first_value(row, PUBLISHER_KEYS))
     abstract = first_value(row, ABSTRACT_KEYS)
 
     return build_item(
@@ -752,13 +785,12 @@ def fetch_item_page_details(url: str | None, cache: dict[str, dict[str, str]]) -
         soup = BeautifulSoup(resp.text, "html.parser")
         metadata = extract_metadata_from_full_page(soup)
 
-        venue = normalize_space(
-            first_metadata_value(metadata, PAGE_SOURCE_KEYS)
-            or first_metadata_value(metadata, PAGE_PUBLISHER_KEYS)
+        venue = first_venue_metadata_value(
+            metadata, PAGE_SOURCE_KEYS, PAGE_PUBLISHER_KEYS
         )
         abstract = clean_abstract(first_metadata_value(metadata, PAGE_ABSTRACT_KEYS))
 
-        if venue and not looks_like_noise(venue):
+        if venue:
             details["journal_or_publisher"] = venue
         if abstract:
             details["abstract"] = abstract
@@ -774,6 +806,7 @@ def enrich_items_from_item_pages(items: list[dict[str, Any]]) -> list[dict[str, 
     cache: dict[str, dict[str, str]] = {}
 
     for item in items:
+        item["journal_or_publisher"] = clean_venue(item.get("journal_or_publisher"))
         if item.get("abstract") and item.get("journal_or_publisher"):
             continue
 

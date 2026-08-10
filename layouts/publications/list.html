@@ -129,12 +129,14 @@
             <h3 class="publication-authors">{{ . }}</h3>
           {{ end }}
 
-          {{ if or .journal_or_publisher .year }}
+          {{ $venue := .journal_or_publisher | default "" }}
+          {{ $venueIsLanguage := in (slice "en" "eng" "en-us" "english" "inglese" "it" "ita" "it-it" "italian" "italiano" "und") (lower $venue) }}
+          {{ if or (and $venue (not $venueIsLanguage)) .year }}
             <p class="publication-venue">
-              {{ with .journal_or_publisher }}
-                <span class="publication-source">{{ . }}</span>
+              {{ if and $venue (not $venueIsLanguage) }}
+                <span class="publication-source">{{ $venue }}</span>
               {{ end }}
-              {{ if and .journal_or_publisher .year }}
+              {{ if and $venue (not $venueIsLanguage) .year }}
                 <span aria-hidden="true"> · </span>
               {{ end }}
               {{ with .year }}
@@ -156,3 +158,4 @@
   {{ end }}
 </section>
 {{ end }}
+
