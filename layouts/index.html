@@ -1,6 +1,8 @@
 {{ define "main" }}
   {{ $events := first 4 (sort (where site.RegularPages "Section" "events") "Date" "desc") }} 
   {{ $seminars := first  4 (sort (where site.RegularPages "Section" "seminars") "Date" "desc") }}
+  {{ $publicationData := site.Data.publications }}
+  {{ $publications := first 5 ($publicationData.items | default (slice)) }}
 
   <section class="hero">
     <div class="container hero-grid">
@@ -15,6 +17,32 @@
 
     </div>
   </section>
+
+  {{ if gt (len $publications) 0 }}
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest publications</h2>
+          <a href="/publications/">All publications</a>
+        </div>
+        <div class="stack">
+          {{ range $publications }}
+            <article class="card seminar-row">
+              <p class="eyebrow">
+                {{ with .journal_or_publisher }}{{ . }}{{ end }}{{ if and .journal_or_publisher .year }} · {{ end }}{{ with .year }}{{ . }}{{ end }}
+              </p>
+              <h3>
+                <a href="{{ .air_url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+              </h3>
+              {{ with .authors }}
+                <p><strong>{{ . }}</strong></p>
+              {{ end }}
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
 
  
   <section class="section">
