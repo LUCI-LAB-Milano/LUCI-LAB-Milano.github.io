@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:44:04+00:00",
+  "generated_at": "2026-08-17T05:08:22+00:00",
   "member_count": 10,
   "item_count": 128,
   "warnings": [
@@ -274,7 +274,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1205398",
-      "journal_or_publisher": "Logics for New-Generation AI",
+      "journal_or_publisher": "College Publications",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -287,7 +287,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1256555",
-      "journal_or_publisher": "SSRN",
+      "journal_or_publisher": "",
       "abstract": "-",
       "members": [
         "Giuseppe Primiero"
@@ -486,7 +486,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1106190",
-      "journal_or_publisher": "5h SILFS Postgraduate Conference on Logic and Philosophy of Science",
+      "journal_or_publisher": "College Publications",
       "abstract": "-",
       "members": [
         "Ekaterina Kubyshkina"
@@ -907,7 +907,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/929465",
-      "journal_or_publisher": "The Logica Yearbook 2021",
+      "journal_or_publisher": "College Publications",
       "abstract": "-",
       "members": [
         "Paolo Baldi"
@@ -959,7 +959,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/951130",
-      "journal_or_publisher": "The Logica Yearbook",
+      "journal_or_publisher": "College Publications",
       "abstract": "-",
       "members": [
         "Marcello D'Agostino"
@@ -972,7 +972,7 @@
       "type": "Doctoral Thesis",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/931483",
-      "journal_or_publisher": "Doctoral thesis",
+      "journal_or_publisher": "Università degli Studi di Milano",
       "abstract": "-",
       "members": [
         "Alejandro J. Solares-Rojas"
@@ -1077,7 +1077,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189795",
-      "journal_or_publisher": "arXiv",
+      "journal_or_publisher": "",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -1405,7 +1405,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189515",
-      "journal_or_publisher": "17. International Workshop on Nonmonotonic Reasoning",
+      "journal_or_publisher": "Computing Research Repository (CoRR)",
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
@@ -1418,7 +1418,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/588200",
-      "journal_or_publisher": "Proceedings of IJCAI 2018",
+      "journal_or_publisher": "Iinternational Joint Conferences in Artificial Intelligence (IJCA)",
       "abstract": "-",
       "members": [
         "Marcello D'Agostino"
