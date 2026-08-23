@@ -3,10 +3,11 @@ name: Sync AIR publications
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4 * * 1'
+    - cron: '17 4 * * *'
   push:
     paths:
       - 'scripts/sync_air_publications.py'
+      - '.github/workflows/sync-publications.yml'
 
 permissions:
   contents: write
@@ -43,4 +44,3 @@ jobs:
           fi
           git commit -m "Update AIR publications data"
           git push
-
