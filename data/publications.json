@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:08:22+00:00",
+  "generated_at": "2026-08-23T07:05:13+00:00",
   "member_count": 10,
   "item_count": 128,
   "warnings": [
@@ -42,6 +42,20 @@
     "Soroush Rafiee Rad: skipped (no AIR researcher URL configured)"
   ],
   "items": [
+    {
+      "title": "An Informational Approach to Logic: Towards More Realistic Models of Logical Agents",
+      "year": 2026,
+      "authors": "Alejandro Solares-Rojas Marcello D’Agostino",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1248517",
+      "journal_or_publisher": "OUTSTANDING CONTRIBUTIONS TO LOGIC",
+      "abstract": "-",
+      "members": [
+        "Alejandro J. Solares-Rojas",
+        "Marcello D'Agostino"
+      ]
+    },
     {
       "title": "Criteria for a theory of functional responsibility for AI as sociotechnical systems",
       "year": 2026,
@@ -278,6 +292,20 @@
       "abstract": "-",
       "members": [
         "Stipe Pandžić"
+      ]
+    },
+    {
+      "title": "Towards More Realistic Models of Logical Reasoning : A Case Study in Paraconsistent Logic",
+      "year": 2025,
+      "authors": "M. D'Agostino C. Larese A. Solares-Rojas",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1248515",
+      "journal_or_publisher": "SEMINARI E CONVEGNI",
+      "abstract": "",
+      "members": [
+        "Costanza Larese",
+        "Marcello D'Agostino"
       ]
     },
     {
@@ -1005,6 +1033,19 @@
       ]
     },
     {
+      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
+      "year": 2021,
+      "authors": "Landes, J",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948210",
+      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1042,19 +1083,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1149,6 +1177,19 @@
       ]
     },
     {
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "journal_or_publisher": "STUDIA LOGICA",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1160,19 +1201,6 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Towards the entropy-limit conjecture",
-      "year": 2021,
-      "authors": "J. Landes S. R. Rad J. Williamson",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938342",
-      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1425,19 +1453,6 @@
       ]
     },
     {
-      "title": "Classical logic, argument and dialectic",
-      "year": 2018,
-      "authors": "M. D'Agostino S. Modgil",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588205",
-      "journal_or_publisher": "ARTIFICIAL INTELLIGENCE",
-      "abstract": "-",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
       "title": "Classical Proofs as Parallel Programs",
       "year": 2018,
       "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio",
@@ -1487,19 +1502,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Introduction : the Governance of Algorithms",
-      "year": 2018,
-      "authors": "D’Agostino, Marcello Durante, Massimo",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/637124",
-      "journal_or_publisher": "PHILOSOPHY & TECHNOLOGY",
-      "abstract": "-",
-      "members": [
-        "Marcello D'Agostino"
       ]
     },
     {
