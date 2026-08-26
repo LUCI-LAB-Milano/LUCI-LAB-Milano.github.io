@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:06:36+00:00",
+  "generated_at": "2026-08-26T05:01:30+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -90,6 +90,19 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1205671",
       "journal_or_publisher": "SYNTHÈSE LIBRARY",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Ethical Decision-Making for Trustworthy Autonomous Systems Under Uncertainty",
+      "year": 2026,
+      "authors": "Alison Bifolco Louise A. Dennis Giuseppe Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1267056",
+      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
       "abstract": "-",
       "members": [
         "Giuseppe Primiero"
@@ -492,19 +505,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Handling Mobility Failures by Modal Types",
-      "year": 2024,
-      "authors": "Primiero, Giuseppe",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106148",
-      "journal_or_publisher": "LOGIC, EPISTEMOLOGY, AND THE UNITY OF SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1098,19 +1098,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1199,6 +1186,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "journal_or_publisher": "STUDIA LOGICA",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
