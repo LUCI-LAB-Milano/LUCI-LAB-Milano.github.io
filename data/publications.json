@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:01:30+00:00",
+  "generated_at": "2026-08-27T15:23:43+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -1045,19 +1045,6 @@
       ]
     },
     {
-      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
-      "year": 2021,
-      "authors": "Landes, J",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1095,6 +1082,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "PLOS ONE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
