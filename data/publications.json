@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:17:26+00:00",
+  "generated_at": "2026-08-30T10:05:41+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -1110,6 +1110,19 @@
       ]
     },
     {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "PLOS ONE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1198,19 +1211,6 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
-      "journal_or_publisher": "STUDIA LOGICA",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
