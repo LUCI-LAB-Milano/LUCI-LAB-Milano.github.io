@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:09:09+00:00",
+  "generated_at": "2026-09-01T09:32:03+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -454,6 +454,19 @@
       ]
     },
     {
+      "title": "Data Quality Dimensions for Fair AI",
+      "year": 2024,
+      "authors": "C. Quaresmini G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1116708",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Depth-bounded Reasoning. Volume 1: Classical Propositional Logic",
       "year": 2024,
       "authors": "Marcello D'Agostino Dov Gabbay Costanza Larese Sanjay Modgil",
@@ -596,19 +609,6 @@
       "abstract": "-",
       "members": [
         "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
-      "year": 2024,
-      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1128039",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1110,19 +1110,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1211,6 +1198,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
