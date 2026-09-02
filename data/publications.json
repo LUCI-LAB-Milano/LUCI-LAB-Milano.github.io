@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:32:03+00:00",
+  "generated_at": "2026-09-02T08:56:10+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -1057,19 +1057,6 @@
       ]
     },
     {
-      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
-      "year": 2021,
-      "authors": "Landes, J",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1208,6 +1195,19 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/938995",
       "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "The variety of evidence thesis and its independence of degrees of independence",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938994",
+      "journal_or_publisher": "SYNTHESE",
       "abstract": "-",
       "members": [
         "Jürgen Landes"
