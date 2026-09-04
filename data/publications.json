@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:08:28+00:00",
+  "generated_at": "2026-09-04T08:58:08+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -612,6 +612,19 @@
       ]
     },
     {
+      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
+      "year": 2024,
+      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1128039",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Quasi-Matrix (Quasi-Functional) Logic",
       "year": 2024,
       "authors": "E. Kubyshkina Book Part (translator)",
@@ -622,19 +635,6 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
-      "year": 2023,
-      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024250",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
