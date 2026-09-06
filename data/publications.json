@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:26:25+00:00",
+  "generated_at": "2026-09-06T08:53:35+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 129,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -507,19 +507,6 @@
       ]
     },
     {
-      "title": "Handling Mobility Failures by Modal Types",
-      "year": 2024,
-      "authors": "Primiero, Giuseppe",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1106148",
-      "journal_or_publisher": "LOGIC, EPISTEMOLOGY, AND THE UNITY OF SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
       "title": "How to write a good paper: An interview with Wendy Parker, Kenny Easwaran and Thomas Reydon",
       "year": 2024,
       "authors": "J. Landes W. Parker K. Easwaran T. Reydon",
@@ -608,7 +595,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1097,19 +1085,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1201,13 +1176,26 @@
       ]
     },
     {
-      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
       "year": 2021,
       "authors": "J. Landes",
       "type": "Article (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938995",
-      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
+      "air_url": "https://air.unimi.it/handle/2434/938991",
+      "journal_or_publisher": "STUDIA LOGICA",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
+      "title": "The variety of evidence thesis and its independence of degrees of independence",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938994",
+      "journal_or_publisher": "SYNTHESE",
       "abstract": "-",
       "members": [
         "Jürgen Landes"
