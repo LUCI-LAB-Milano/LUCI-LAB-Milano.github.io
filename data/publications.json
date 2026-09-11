@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T09:01:48+00:00",
+  "generated_at": "2026-09-11T09:02:15+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -383,8 +383,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -414,6 +413,19 @@
       ]
     },
     {
+      "title": "A Pragmatic Theory of Computational Artefacts",
+      "year": 2024,
+      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1018488",
+      "journal_or_publisher": "MINDS AND MACHINES",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring",
       "year": 2024,
       "authors": "A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero",
@@ -437,6 +449,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Causality Problems in Machine Learning Systems",
+      "year": 2024,
+      "authors": "A. Termine G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "journal_or_publisher": "Routledge",
+      "abstract": "-",
+      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -609,19 +634,6 @@
       "abstract": "-",
       "members": [
         "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
-      "year": 2024,
-      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1128039",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -1057,6 +1069,19 @@
       ]
     },
     {
+      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
+      "year": 2021,
+      "authors": "Landes, J",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948210",
+      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1185,19 +1210,6 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1464,19 +1476,6 @@
       ]
     },
     {
-      "title": "A Study of Argumentative Characterisations of Preferred Subtheories",
-      "year": 2018,
-      "authors": "M. D'Agostino S. Modgil",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588200",
-      "journal_or_publisher": "Iinternational Joint Conferences in Artificial Intelligence (IJCA)",
-      "abstract": "-",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
       "title": "Classical Proofs as Parallel Programs",
       "year": 2018,
       "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio",
@@ -1526,6 +1525,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Introduction : the Governance of Algorithms",
+      "year": 2018,
+      "authors": "D’Agostino, Marcello Durante, Massimo",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/637124",
+      "journal_or_publisher": "PHILOSOPHY & TECHNOLOGY",
+      "abstract": "-",
+      "members": [
+        "Marcello D'Agostino"
       ]
     },
     {
