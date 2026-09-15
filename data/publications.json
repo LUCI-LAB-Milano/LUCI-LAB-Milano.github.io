@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T09:59:17+00:00",
+  "generated_at": "2026-09-15T09:31:02+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 129,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -410,7 +410,8 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -437,19 +438,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Causality Problems in Machine Learning Systems",
-      "year": 2024,
-      "authors": "A. Termine G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1154395",
-      "journal_or_publisher": "Routledge",
-      "abstract": "-",
-      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -1084,6 +1072,19 @@
       ]
     },
     {
+      "title": "Artificial intelligence methods for a Bayesian epistemology-powered evidence evaluation",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, Jürgen Peden, William",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948198",
+      "journal_or_publisher": "JOURNAL OF EVALUATION IN CLINICAL PRACTICE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Bilattice CADIAG-II: Theory and Experimental Results",
       "year": 2021,
       "authors": "Baldi P. Ciabattoni A. Adlassnig K. -P.",
@@ -1198,19 +1199,6 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
