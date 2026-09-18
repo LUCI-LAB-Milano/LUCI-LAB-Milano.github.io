@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:31:53+00:00",
+  "generated_at": "2026-09-18T09:06:12+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -1189,19 +1189,6 @@
       ]
     },
     {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1213,6 +1200,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
