@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T08:53:10+00:00",
+  "generated_at": "2026-09-20T09:21:32+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 129,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -409,7 +409,8 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -436,19 +437,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco",
-        "Giuseppe Primiero"
-      ]
-    },
-    {
-      "title": "Causality Problems in Machine Learning Systems",
-      "year": 2024,
-      "authors": "A. Termine G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1154395",
-      "journal_or_publisher": "Routledge",
-      "abstract": "-",
-      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -1672,6 +1660,19 @@
       ]
     },
     {
+      "title": "Standard Completeness for Uninorm-Based Logics",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A.",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875477",
+      "journal_or_publisher": "PROCEEDINGS - INTERNATIONAL SYMPOSIUM ON MULTIPLE-VALUED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
       "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
       "year": 2015,
       "authors": "M. Giaquinta H. Hosni",
@@ -1682,19 +1683,6 @@
       "abstract": "",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A.",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875482",
-      "journal_or_publisher": "THEORETICAL COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Paolo Baldi"
       ]
     },
     {
