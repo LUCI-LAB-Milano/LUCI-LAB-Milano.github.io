@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T09:21:32+00:00",
+  "generated_at": "2026-09-21T10:04:08+00:00",
   "member_count": 10,
-  "item_count": 129,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -409,8 +409,7 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -623,6 +622,19 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "year": 2023,
+      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024250",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
