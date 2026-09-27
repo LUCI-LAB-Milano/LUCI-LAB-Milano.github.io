@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:26:04+00:00",
+  "generated_at": "2026-09-27T10:05:33+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -413,6 +413,19 @@
       ]
     },
     {
+      "title": "A Pragmatic Theory of Computational Artefacts",
+      "year": 2024,
+      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1018488",
+      "journal_or_publisher": "MINDS AND MACHINES",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring",
       "year": 2024,
       "authors": "A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero",
@@ -622,19 +635,6 @@
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
-      ]
-    },
-    {
-      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
-      "year": 2023,
-      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
-      "type": "Book (editor)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1024250",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
