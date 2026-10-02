@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T11:02:15+00:00",
+  "generated_at": "2026-10-02T10:36:00+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -435,8 +435,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -608,6 +607,19 @@
       "abstract": "-",
       "members": [
         "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
+      "year": 2024,
+      "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1128039",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "",
+      "members": [
         "Giuseppe Primiero"
       ]
     },
@@ -1464,19 +1476,6 @@
       ]
     },
     {
-      "title": "Classical logic, argument and dialectic",
-      "year": 2018,
-      "authors": "M. D'Agostino S. Modgil",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588205",
-      "journal_or_publisher": "ARTIFICIAL INTELLIGENCE",
-      "abstract": "-",
-      "members": [
-        "Marcello D'Agostino"
-      ]
-    },
-    {
       "title": "Classical Proofs as Parallel Programs",
       "year": 2018,
       "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio",
@@ -1526,6 +1525,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Introduction : the Governance of Algorithms",
+      "year": 2018,
+      "authors": "D’Agostino, Marcello Durante, Massimo",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/637124",
+      "journal_or_publisher": "PHILOSOPHY & TECHNOLOGY",
+      "abstract": "-",
+      "members": [
+        "Marcello D'Agostino"
       ]
     },
     {
@@ -1672,19 +1684,6 @@
       ]
     },
     {
-      "title": "Standard Completeness for Uninorm-Based Logics",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A.",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875477",
-      "journal_or_publisher": "PROCEEDINGS - INTERNATIONAL SYMPOSIUM ON MULTIPLE-VALUED LOGIC",
-      "abstract": "-",
-      "members": [
-        "Paolo Baldi"
-      ]
-    },
-    {
       "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
       "year": 2015,
       "authors": "M. Giaquinta H. Hosni",
@@ -1695,6 +1694,19 @@
       "abstract": "",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A.",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875482",
+      "journal_or_publisher": "THEORETICAL COMPUTER SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Paolo Baldi"
       ]
     },
     {
