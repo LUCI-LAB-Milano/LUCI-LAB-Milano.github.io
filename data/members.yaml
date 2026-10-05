@@ -122,7 +122,8 @@
   sort_name: "Ceragioli, Leonardo"
   category: "affiliated"
   role: "Affiliated researcher"
-  website: "/images/members/leonardoceragioli.jpg"
+  website: "https://unimi.academia.edu/LeonardoCeragioli"
+  image: "/images/members/leonardoceragioli.jpg"
   interests: "Proof theory, proof-theoretic semantics, non-classical logics, logics in computer science, philosophy of logic and rationality."
 
 - name: "Greta Coraglia"
