@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:39:18+00:00",
+  "generated_at": "2026-10-05T11:37:35+00:00",
   "member_count": 10,
   "item_count": 131,
   "warnings": [
@@ -435,7 +435,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco"
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -606,8 +607,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
