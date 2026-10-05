@@ -62,6 +62,14 @@
   image: "https://philtech.unimi.it/wp-content/uploads/sites/70/2023/09/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"
   interests: "Bias and risk mitigation in generative AI, formal and experimental methods for complex systems, and the logics and pragmatics of information and computation."
 
+-  name: "Ferdinando Fugazza Calda"
+   sort_name: "Fugazza Calda, Ferdinando"
+   category: "phd"
+   role: "PhD student"
+   website: ""
+   image: "/images/members/fugazza.jpg"
+   interests: "Neurosymbolic AI, Probabilistic Temporal Logic."
+
 - name: "Francesco Ponti"
   sort_name: "Ponti, Francesco"
   category: "phd"
