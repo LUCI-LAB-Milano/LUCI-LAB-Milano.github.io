@@ -193,10 +193,10 @@
 - name: "Melissa Antonelli"
   sort_name: "Antonelli, Melissa"
   category: "visiting"
-  role: "Visiting member"
-  website: "https://www.hiit.fi/hiit-alumni/melissa-antonelli"
+  role: "Visiting Researcher"
+  website: "https://uni-tuebingen.de/forschung/zentren-und-institute/carl-friedrich-von-weizsaecker-zentrum/ueber-uns/team/dr-melissa-antonelli/"
   image: "https://www.hiit.fi/sites/default/files/styles/o_288w_ah_n/public/2025-06/Melissa.png?itok=0oT_yBp1"
-  affiliation: "University of Verona"
+  affiliation: "University of Tuebingen"
   interests: "Logical approaches to quantitative computation."
   source: "2025 event: Melissa Antonelli is visiting PhilTech and giving 3 talks at PhilTech and LUCI."
 
