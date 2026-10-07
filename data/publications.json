@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:22:23+00:00",
+  "generated_at": "2026-10-07T11:24:21+00:00",
   "member_count": 10,
   "item_count": 131,
   "warnings": [
@@ -419,8 +419,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1106169",
-      "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -432,8 +432,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1127941",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco",
         "Giuseppe Primiero"
@@ -446,8 +446,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1024264",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -459,8 +459,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1078801",
-      "journal_or_publisher": "JOURNAL OF CAUSAL INFERENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -472,8 +472,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1116708",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
@@ -485,8 +485,8 @@
       "type": "Book (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1019663",
-      "journal_or_publisher": "STUDIES IN LOGIC",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
@@ -499,8 +499,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1123616",
-      "journal_or_publisher": "FRONTIERS IN ARTIFICIAL INTELLIGENCE AND APPLICATIONS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -512,8 +512,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1075468",
-      "journal_or_publisher": "JOURNAL OF APPLIED NON-CLASSICAL LOGICS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -525,7 +525,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1022714",
-      "journal_or_publisher": "THE REASONER",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Jürgen Landes"
@@ -538,8 +538,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1106190",
-      "journal_or_publisher": "College Publications",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -551,8 +551,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1047128",
-      "journal_or_publisher": "CRITICAL PUBLIC HEALTH",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -564,8 +564,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1194155",
-      "journal_or_publisher": "LOGIC, ARGUMENTATION & REASONING",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes",
         "Paolo Baldi"
@@ -578,7 +578,7 @@
       "type": "Book (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1057168",
-      "journal_or_publisher": "PICCOLA BIBLIOTECA EINAUDI. MAPPE",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Marcello D'Agostino"
@@ -591,8 +591,8 @@
       "type": "Book (editor)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1106211",
-      "journal_or_publisher": "SYNTHÈSE LIBRARY",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -604,8 +604,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1127777",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -617,7 +617,7 @@
       "type": "Book (editor)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1128039",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Giuseppe Primiero"
@@ -630,7 +630,7 @@
       "type": "",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1163796",
-      "journal_or_publisher": "SYNTHÈSE LIBRARY",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
@@ -643,8 +643,8 @@
       "type": "Book (editor)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1024250",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Giuseppe Primiero"
       ]
@@ -656,8 +656,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/976228",
-      "journal_or_publisher": "ERKENNTNIS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -669,8 +669,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/952756",
-      "journal_or_publisher": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL RESEARCH AND PUBLIC HEALTH",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -682,8 +682,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/956480",
-      "journal_or_publisher": "JOURNAL FOR GENERAL PHILOSOPHY OF SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -695,8 +695,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1017688",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese"
       ]
@@ -708,8 +708,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/978811",
-      "journal_or_publisher": "OPEN MATHEMATICS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -721,7 +721,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1035148",
-      "journal_or_publisher": "THE REASONER",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Francesco A. Genco"
@@ -734,8 +734,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/978869",
-      "journal_or_publisher": "LOGICA UNIVERSALIS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -747,7 +747,7 @@
       "type": "",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1019661",
-      "journal_or_publisher": "Edizioni della Normale",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Costanza Larese"
@@ -760,8 +760,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/947889",
-      "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -773,7 +773,7 @@
       "type": "",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1026472",
-      "journal_or_publisher": "JOURNAL OF APPLIED LOGICS",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Costanza Larese",
@@ -787,8 +787,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1020429",
-      "journal_or_publisher": "JOURNAL OF LOGIC AND COMPUTATION",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Alejandro J. Solares-Rojas",
         "Marcello D'Agostino"
@@ -801,8 +801,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/951585",
-      "journal_or_publisher": "BRITISH JOURNAL FOR THE PHILOSOPHY OF SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -814,8 +814,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189784",
-      "journal_or_publisher": "ARGUMENT & COMPUTATION",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
@@ -827,8 +827,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/926523",
-      "journal_or_publisher": "JOURNAL OF LOGIC AND COMPUTATION",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni",
         "Paolo Baldi"
@@ -841,7 +841,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/945277",
-      "journal_or_publisher": "KRITERION",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Jürgen Landes"
@@ -854,8 +854,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189777",
-      "journal_or_publisher": "PROCEEDINGS OF THE INTERNATIONAL JOINT CONFERENCE ON AUTONOMOUS AGENTS AND MULTIAGENT SYSTEMS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
@@ -867,8 +867,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/977629",
-      "journal_or_publisher": "LOGIC, EPISTEMOLOGY, AND THE UNITY OF SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -880,8 +880,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/938149",
-      "journal_or_publisher": "ERKENNTNIS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -893,8 +893,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/940786",
-      "journal_or_publisher": "JOURNAL OF PHILOSOPHICAL LOGIC",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -906,8 +906,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/938992",
-      "journal_or_publisher": "JOURNAL OF EVALUATION IN CLINICAL PRACTICE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -919,7 +919,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1026524",
-      "journal_or_publisher": "THE REASONER",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Costanza Larese"
@@ -932,8 +932,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1017708",
-      "journal_or_publisher": "ARGUMENTA",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese"
       ]
@@ -945,8 +945,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/937846",
-      "journal_or_publisher": "THE JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -958,8 +958,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/948199",
-      "journal_or_publisher": "HUMAN PERSPECTIVES IN HEALTH SCIENCES AND TECHNOLOGY",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -971,8 +971,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/929465",
-      "journal_or_publisher": "College Publications",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -984,7 +984,7 @@
       "type": "Book (editor)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/948032",
-      "journal_or_publisher": "FernUniversität in Hagen",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Jürgen Landes"
@@ -997,8 +997,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1024395",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -1010,8 +1010,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189782",
-      "journal_or_publisher": "ANNALS OF MATHEMATICS AND OF ARTIFICIAL INTELLIGENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
@@ -1023,8 +1023,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/951130",
-      "journal_or_publisher": "College Publications",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -1036,8 +1036,8 @@
       "type": "Doctoral Thesis",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/931483",
-      "journal_or_publisher": "Università degli Studi di Milano",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Alejandro J. Solares-Rojas"
       ]
@@ -1049,8 +1049,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/978235",
-      "journal_or_publisher": "LOGIQUE ET ANALYSE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Ekaterina Kubyshkina"
       ]
@@ -1062,7 +1062,7 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/928484",
-      "journal_or_publisher": "THE REASONER",
+      "journal_or_publisher": "",
       "abstract": "",
       "members": [
         "Paolo Baldi"
@@ -1075,8 +1075,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -1088,8 +1088,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1026523",
-      "journal_or_publisher": "JOURNAL OF APPLIED LOGICS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
@@ -1102,8 +1102,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/917265",
-      "journal_or_publisher": "STUDIES IN COMPUTATIONAL INTELLIGENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1115,8 +1115,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1036351",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1128,8 +1128,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Jürgen Landes"
       ]
@@ -1141,8 +1141,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/976268",
-      "journal_or_publisher": "JOURNAL OF APPLIED NON-CLASSICAL LOGICS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1155,7 +1155,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189795",
       "journal_or_publisher": "",
-      "abstract": "-",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
@@ -1167,8 +1167,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/976208",
-      "journal_or_publisher": "JOURNAL OF PHILOSOPHICAL LOGIC",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1180,8 +1180,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/901310",
-      "journal_or_publisher": "IJCAI Organization",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1193,8 +1193,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/875475",
-      "journal_or_publisher": "PROCEEDINGS OF MACHINE LEARNING RESEARCH",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
@@ -1206,8 +1206,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/869454",
-      "journal_or_publisher": "FOUNDATIONS OF SCIENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Marcello D'Agostino"
       ]
@@ -1219,8 +1219,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/871297",
-      "journal_or_publisher": "LECTURE NOTES IN ARTIFICIAL INTELLIGENCE",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
@@ -1232,8 +1232,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/828073",
-      "journal_or_publisher": "THE IFCOLOG JOURNAL OF LOGICS AND THEIR APPLICATIONS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
@@ -1246,8 +1246,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/856476",
-      "journal_or_publisher": "PROCEEDINGS OF MACHINE LEARNING RESEARCH",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni"
       ]
