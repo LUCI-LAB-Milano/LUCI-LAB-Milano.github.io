@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:29:04+00:00",
+  "generated_at": "2026-10-09T11:24:13+00:00",
   "member_count": 10,
   "item_count": 132,
   "warnings": [
@@ -1134,19 +1134,6 @@
       ]
     },
     {
-      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
-      "year": 2021,
-      "authors": "De Pretis, Francesco Landes, J",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938996",
-      "journal_or_publisher": "PLOS ONE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Formal explanations as logical derivations",
       "year": 2021,
       "authors": "Genco F. A.",
@@ -1235,6 +1222,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
