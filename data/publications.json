@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T11:24:13+00:00",
+  "generated_at": "2026-10-10T10:42:08+00:00",
   "member_count": 10,
-  "item_count": 132,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -426,19 +426,6 @@
       ]
     },
     {
-      "title": "A Pragmatic Theory of Computational Artefacts",
-      "year": 2024,
-      "authors": "Buda, Alessandro G. Primiero, Giuseppe",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1018488",
-      "journal_or_publisher": "MINDS AND MACHINES",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
-      ]
-    },
-    {
       "title": "Bias Amplification Chains in ML-based Systems with an Application to Credit Scoring",
       "year": 2024,
       "authors": "A. G. Buda G. Coraglia F. A. Genco C. Manganini G. Primiero",
@@ -465,6 +452,19 @@
       ]
     },
     {
+      "title": "Causality Problems in Machine Learning Systems",
+      "year": 2024,
+      "authors": "A. Termine G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "journal_or_publisher": "Routledge",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Current philosophical perspectives on drug approval in the real world",
       "year": 2024,
       "authors": "Landes, Jürgen Auker-Howlett, Daniel J.",
@@ -475,19 +475,6 @@
       "abstract": "-",
       "members": [
         "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "Data Quality Dimensions for Fair AI",
-      "year": 2024,
-      "authors": "C. Quaresmini G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1116708",
-      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -619,7 +606,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1696,6 +1684,19 @@
       ]
     },
     {
+      "title": "Standard Completeness for Uninorm-Based Logics",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A.",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875477",
+      "journal_or_publisher": "PROCEEDINGS - INTERNATIONAL SYMPOSIUM ON MULTIPLE-VALUED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
       "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
       "year": 2015,
       "authors": "M. Giaquinta H. Hosni",
@@ -1706,19 +1707,6 @@
       "abstract": "",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A.",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875482",
-      "journal_or_publisher": "THEORETICAL COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Paolo Baldi"
       ]
     },
     {
