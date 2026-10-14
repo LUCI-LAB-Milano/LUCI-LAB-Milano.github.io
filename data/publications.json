@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:55:20+00:00",
+  "generated_at": "2026-10-14T09:36:46+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -396,8 +396,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -423,7 +422,8 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1201,19 +1201,6 @@
       ]
     },
     {
-      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938995",
-      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1225,6 +1212,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
