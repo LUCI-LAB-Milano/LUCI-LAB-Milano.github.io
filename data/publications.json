@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:36:46+00:00",
+  "generated_at": "2026-10-15T09:14:41+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -396,7 +396,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -422,8 +423,7 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
