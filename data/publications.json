@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T08:40:14+00:00",
+  "generated_at": "2026-10-18T08:55:45+00:00",
   "member_count": 10,
-  "item_count": 131,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -396,7 +396,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -435,7 +436,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco"
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -449,19 +451,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Causality Problems in Machine Learning Systems",
-      "year": 2024,
-      "authors": "A. Termine G. Primiero",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/1154395",
-      "journal_or_publisher": "Routledge",
-      "abstract": "-",
-      "members": [
-        "Giuseppe Primiero"
       ]
     },
     {
@@ -606,8 +595,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -1069,19 +1057,6 @@
       ]
     },
     {
-      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
-      "year": 2021,
-      "authors": "Landes, J",
-      "type": "Book Part (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/948210",
-      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1210,6 +1185,19 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
+      ]
+    },
+    {
+      "title": "The Principal Principle, admissibility, and normal informal standards of what is reasonable",
+      "year": 2021,
+      "authors": "J. Landes",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938995",
+      "journal_or_publisher": "EUROPEAN JOURNAL FOR PHILOSOPHY OF SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
@@ -1476,6 +1464,19 @@
       ]
     },
     {
+      "title": "Classical logic, argument and dialectic",
+      "year": 2018,
+      "authors": "M. D'Agostino S. Modgil",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/588205",
+      "journal_or_publisher": "ARTIFICIAL INTELLIGENCE",
+      "abstract": "-",
+      "members": [
+        "Marcello D'Agostino"
+      ]
+    },
+    {
       "title": "Classical Proofs as Parallel Programs",
       "year": 2018,
       "authors": "Aschieri, Federico Ciabattoni, Agata Genco, Francesco Antonio",
@@ -1525,19 +1526,6 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
-      ]
-    },
-    {
-      "title": "Introduction : the Governance of Algorithms",
-      "year": 2018,
-      "authors": "D’Agostino, Marcello Durante, Massimo",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/637124",
-      "journal_or_publisher": "PHILOSOPHY & TECHNOLOGY",
-      "abstract": "-",
-      "members": [
-        "Marcello D'Agostino"
       ]
     },
     {
