@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:26:07+00:00",
+  "generated_at": "2026-10-24T08:58:19+00:00",
   "member_count": 10,
   "item_count": 130,
   "warnings": [
@@ -423,8 +423,7 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -595,7 +594,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1084,6 +1084,19 @@
       ]
     },
     {
+      "title": "Artificial intelligence methods for a Bayesian epistemology-powered evidence evaluation",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, Jürgen Peden, William",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948198",
+      "journal_or_publisher": "JOURNAL OF EVALUATION IN CLINICAL PRACTICE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Bilattice CADIAG-II: Theory and Experimental Results",
       "year": 2021,
       "authors": "Baldi P. Ciabattoni A. Adlassnig K. -P.",
@@ -1198,19 +1211,6 @@
       "abstract": "-",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1464,13 +1464,13 @@
       ]
     },
     {
-      "title": "Classical logic, argument and dialectic",
+      "title": "A Study of Argumentative Characterisations of Preferred Subtheories",
       "year": 2018,
       "authors": "M. D'Agostino S. Modgil",
-      "type": "Article (author)",
+      "type": "Book Part (author)",
       "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/588205",
-      "journal_or_publisher": "ARTIFICIAL INTELLIGENCE",
+      "air_url": "https://air.unimi.it/handle/2434/588200",
+      "journal_or_publisher": "Iinternational Joint Conferences in Artificial Intelligence (IJCA)",
       "abstract": "-",
       "members": [
         "Marcello D'Agostino"
