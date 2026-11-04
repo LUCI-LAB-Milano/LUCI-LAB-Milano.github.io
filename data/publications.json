@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:02:07+00:00",
+  "generated_at": "2026-11-04T12:23:00+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -30,12 +30,12 @@
     "Alejandro J. Solares-Rojas: BIBTEX export failed (BibTeX export for Alejandro J. Solares-Rojas did not yield any items)",
     "Alejandro J. Solares-Rojas: RIS export failed (RIS export for Alejandro J. Solares-Rojas did not yield any items)",
     "Esther Anna Corsi: skipped (no AIR researcher URL configured)",
-    "Francesco A. Genco: CSV export failed (CSV export for Francesco A. Genco did not yield any items)",
+    "Francesco A. Genco: CSV export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
     "Francesco A. Genco: BIBTEX export failed (BibTeX export for Francesco A. Genco did not yield any items)",
     "Francesco A. Genco: RIS export failed (RIS export for Francesco A. Genco did not yield any items)",
     "Jürgen Landes: CSV export failed (CSV export for Jürgen Landes did not yield any items)",
-    "Jürgen Landes: BIBTEX export failed (BibTeX export for Jürgen Landes did not yield any items)",
-    "Jürgen Landes: RIS export failed (RIS export for Jürgen Landes did not yield any items)",
+    "Jürgen Landes: BIBTEX export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
+    "Jürgen Landes: RIS export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
     "Paolo Baldi: CSV export failed (CSV export for Paolo Baldi did not yield any items)",
     "Paolo Baldi: BIBTEX export failed (BibTeX export for Paolo Baldi did not yield any items)",
     "Paolo Baldi: RIS export failed (RIS export for Paolo Baldi did not yield any items)",
@@ -1052,7 +1052,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1026523",
       "journal_or_publisher": "JOURNAL OF APPLIED LOGICS",
-      "abstract": "-",
+      "abstract": "",
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
@@ -1066,7 +1066,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/917265",
       "journal_or_publisher": "STUDIES IN COMPUTATIONAL INTELLIGENCE",
-      "abstract": "-",
+      "abstract": "",
       "members": [
         "Paolo Baldi"
       ]
