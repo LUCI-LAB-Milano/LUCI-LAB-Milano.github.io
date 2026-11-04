@@ -38,14 +38,6 @@
   image: "/images/members/costanza-larese.jpeg"
   interests: "Depth-bounded logic, philosophy of logic, and data-driven reasoning."
 
-- name: "Ekaterina Kubyshkina"
-  sort_name: "Kubyshkina, Ekaterina"
-  category: "postdoc"
-  role: "Postdoctoral researcher"
-  website: "https://philtech.unimi.it/profilo/ekaterina-kubyshkina/"
-  image: "https://apps.unimi.it/ws/chiedove/media/image/ekaterina_kubyshkina"
-  interests: "Formal epistemology, logic for AI, and fair and trustworthy AI."
-
 - name: "Stipe Pandžić"
   sort_name: "Pandzic, Stipe"
   category: "postdoc"
