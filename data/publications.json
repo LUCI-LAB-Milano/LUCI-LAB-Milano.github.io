@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T12:37:21+00:00",
+  "generated_at": "2026-11-06T12:18:39+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
-    "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
+    "Giuseppe Primiero: CSV export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: RIS export failed (RIS export for Giuseppe Primiero did not yield any items)",
     "Hykel Hosni: CSV export failed (CSV export for Hykel Hosni did not yield any items)",
-    "Hykel Hosni: BIBTEX export failed (BibTeX export for Hykel Hosni did not yield any items)",
+    "Hykel Hosni: BIBTEX export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
     "Hykel Hosni: RIS export failed (RIS export for Hykel Hosni did not yield any items)",
     "Marcello D'Agostino: CSV export failed (CSV export for Marcello D'Agostino did not yield any items)",
     "Marcello D'Agostino: BIBTEX export failed (BibTeX export for Marcello D'Agostino did not yield any items)",
@@ -15,7 +15,7 @@
     "Costanza Larese: CSV export failed (CSV export for Costanza Larese did not yield any items)",
     "Costanza Larese: BIBTEX export failed (BibTeX export for Costanza Larese did not yield any items)",
     "Costanza Larese: RIS export failed (RIS export for Costanza Larese did not yield any items)",
-    "Ekaterina Kubyshkina: CSV export failed (CSV export for Ekaterina Kubyshkina did not yield any items)",
+    "Ekaterina Kubyshkina: CSV export failed (HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
     "Ekaterina Kubyshkina: BIBTEX export failed (BibTeX export for Ekaterina Kubyshkina did not yield any items)",
     "Ekaterina Kubyshkina: RIS export failed (RIS export for Ekaterina Kubyshkina did not yield any items)",
     "Luca Ausili: skipped (no AIR researcher URL configured)",
@@ -763,8 +763,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1020429",
-      "journal_or_publisher": "",
-      "abstract": "",
+      "journal_or_publisher": "JOURNAL OF LOGIC AND COMPUTATION",
+      "abstract": "-",
       "members": [
         "Alejandro J. Solares-Rojas",
         "Marcello D'Agostino"
@@ -778,7 +778,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/951585",
       "journal_or_publisher": "BRITISH JOURNAL FOR THE PHILOSOPHY OF SCIENCE",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Jürgen Landes"
       ]
@@ -791,7 +791,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189784",
       "journal_or_publisher": "ARGUMENT & COMPUTATION",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Stipe Pandžić"
       ]
@@ -803,8 +803,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/926523",
-      "journal_or_publisher": "JOURNAL OF LOGIC AND COMPUTATION",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Hykel Hosni",
         "Paolo Baldi"
@@ -830,8 +830,8 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1189777",
-      "journal_or_publisher": "PROCEEDINGS OF THE INTERNATIONAL JOINT CONFERENCE ON AUTONOMOUS AGENTS AND MULTIAGENT SYSTEMS",
-      "abstract": "-",
+      "journal_or_publisher": "",
+      "abstract": "",
       "members": [
         "Stipe Pandžić"
       ]
@@ -1524,7 +1524,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/514432",
       "journal_or_publisher": "THE JOURNAL OF SYMBOLIC LOGIC",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Hykel Hosni"
       ]
@@ -1537,7 +1537,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/875460",
       "journal_or_publisher": "ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Paolo Baldi"
       ]
@@ -1550,7 +1550,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/1035230",
       "journal_or_publisher": "PROCEEDINGS - SYMPOSIUM ON LOGIC IN COMPUTER SCIENCE",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1627,8 +1627,8 @@
       "type": "Article (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/326168",
-      "journal_or_publisher": "",
-      "abstract": "",
+      "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
+      "abstract": "-",
       "members": [
         "Hykel Hosni"
       ]
