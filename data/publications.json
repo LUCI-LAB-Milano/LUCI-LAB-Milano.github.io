@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:00:18+00:00",
+  "generated_at": "2026-11-10T12:46:27+00:00",
   "member_count": 10,
   "item_count": 129,
   "warnings": [
@@ -436,7 +436,8 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco"
+        "Francesco A. Genco",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -449,8 +450,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
