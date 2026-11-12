@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T12:03:44+00:00",
+  "generated_at": "2026-11-12T12:53:25+00:00",
   "member_count": 10,
-  "item_count": 122,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -15,7 +15,9 @@
     "Costanza Larese: CSV export failed (CSV export for Costanza Larese did not yield any items)",
     "Costanza Larese: BIBTEX export failed (BibTeX export for Costanza Larese did not yield any items)",
     "Costanza Larese: RIS export failed (RIS export for Costanza Larese did not yield any items)",
-    "Ekaterina Kubyshkina: failed (https://air.unimi.it/cris/rp/rp153933: HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45) | https://air.unimi.it/cris/rp/rp153933?open=all: HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45) | https://air.unimi.it/cris/rp/rp153933;type=all: HTTPSConnectionPool(host='air.unimi.it', port=443): Read timed out. (read timeout=45))",
+    "Ekaterina Kubyshkina: CSV export failed (CSV export for Ekaterina Kubyshkina did not yield any items)",
+    "Ekaterina Kubyshkina: BIBTEX export failed (BibTeX export for Ekaterina Kubyshkina did not yield any items)",
+    "Ekaterina Kubyshkina: RIS export failed (RIS export for Ekaterina Kubyshkina did not yield any items)",
     "Luca Ausili: skipped (no AIR researcher URL configured)",
     "Stipe Pandžić: CSV export failed (CSV export for Stipe Pandžić did not yield any items)",
     "Stipe Pandžić: BIBTEX export failed (BibTeX export for Stipe Pandžić did not yield any items)",
@@ -394,6 +396,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
+        "Ekaterina Kubyshkina",
         "Giuseppe Primiero"
       ]
     },
@@ -408,6 +411,19 @@
       "abstract": "-",
       "members": [
         "Paolo Baldi"
+      ]
+    },
+    {
+      "title": "A possible worlds semantics for trustworthy non-deterministic computations",
+      "year": 2024,
+      "authors": "Kubyshkina, Ekaterina Primiero, Giuseppe",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106169",
+      "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -517,6 +533,19 @@
       ]
     },
     {
+      "title": "Ignorance and its formal limits",
+      "year": 2024,
+      "authors": "Ekaterina Kubyshkina Mattia Petrolo",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106190",
+      "journal_or_publisher": "College Publications",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
       "title": "Individual consent in cluster randomised trials for non-pharmaceutical interventions: going beyond the Ottawa statement",
       "year": 2024,
       "authors": "LeBlanc, Marissa Williamson, Jon De Pretis, Francesco Landes, Jürgen Rocca, Elena",
@@ -557,6 +586,32 @@
       ]
     },
     {
+      "title": "Many-valued Semantics and Modal Logics: Essays in Honour of Yuriy Vasilievich Ivlev",
+      "year": 2024,
+      "authors": "Marcelo Esteban Coniglio Ekaterina Kubyshkina Dmitry Zaitsev",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1106211",
+      "journal_or_publisher": "SYNTHÈSE LIBRARY",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
+      "title": "Prior to Trust: Frequentist and Bayesian views of Trust in AI",
+      "year": 2024,
+      "authors": "M. Petrolo E. Kubyshkina G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1127777",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
       "title": "Proceedings of the 3rd Workshop on Bias, Ethical AI, Explainability and the role of Logic and Logic Programming co-located with the 23rd International Conference of the Italian Association for Artificial Intelligence (AIxIA 2024)",
       "year": 2024,
       "authors": "G. Coraglia F. A. D'Asaro A. Dyoub F. A. Lisi G. Primiero",
@@ -567,6 +622,19 @@
       "abstract": "",
       "members": [
         "Giuseppe Primiero"
+      ]
+    },
+    {
+      "title": "Quasi-Matrix (Quasi-Functional) Logic",
+      "year": 2024,
+      "authors": "E. Kubyshkina Book Part (translator)",
+      "type": "",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1163796",
+      "journal_or_publisher": "SYNTHÈSE LIBRARY",
+      "abstract": "",
+      "members": [
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -645,6 +713,19 @@
       "abstract": "",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Revising the Elenchus via Belief Revision",
+      "year": 2023,
+      "authors": "Kubyshkina, E Petrolo, M",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/978869",
+      "journal_or_publisher": "LOGICA UNIVERSALIS",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -898,6 +979,19 @@
       ]
     },
     {
+      "title": "Reasoning about algorithmic opacity",
+      "year": 2022,
+      "authors": "Ekaterina Kubyshkina Mattia Petrolo",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024395",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
+      ]
+    },
+    {
       "title": "Structured argumentation dynamics: Undermining attacks in default justification logic",
       "year": 2022,
       "authors": "Pandzic S.",
@@ -934,6 +1028,19 @@
       "abstract": "-",
       "members": [
         "Alejandro J. Solares-Rojas"
+      ]
+    },
+    {
+      "title": "What is normal?",
+      "year": 2022,
+      "authors": "Kubyshkina, E Petrolo, M",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/978235",
+      "journal_or_publisher": "LOGIQUE ET ANALYSE",
+      "abstract": "-",
+      "members": [
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -1311,7 +1418,7 @@
       "type": "Book Part (author)",
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/726683",
-      "journal_or_publisher": "",
+      "journal_or_publisher": "I QUADERNI DELLA ASSOCIAZIONE FRANCESCO BARONE",
       "abstract": "",
       "members": [
         "Marcello D'Agostino"
