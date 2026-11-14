@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T12:20:08+00:00",
+  "generated_at": "2026-11-14T11:37:02+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -436,8 +436,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -451,6 +450,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "Causality Problems in Machine Learning Systems",
+      "year": 2024,
+      "authors": "A. Termine G. Primiero",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1154395",
+      "journal_or_publisher": "Routledge",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -1071,6 +1083,19 @@
       ]
     },
     {
+      "title": "Artificial intelligence methods for a Bayesian epistemology-powered evidence evaluation",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, Jürgen Peden, William",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948198",
+      "journal_or_publisher": "JOURNAL OF EVALUATION IN CLINICAL PRACTICE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Bilattice CADIAG-II: Theory and Experimental Results",
       "year": 2021,
       "authors": "Baldi P. Ciabattoni A. Adlassnig K. -P.",
@@ -1188,32 +1213,6 @@
       ]
     },
     {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
-      "journal_or_publisher": "STUDIA LOGICA",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
-      "title": "The variety of evidence thesis and its independence of degrees of independence",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938994",
-      "journal_or_publisher": "SYNTHESE",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1225,6 +1224,19 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Towards the entropy-limit conjecture",
+      "year": 2021,
+      "authors": "J. Landes S. R. Rad J. Williamson",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938342",
+      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
