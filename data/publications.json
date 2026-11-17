@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T12:54:27+00:00",
+  "generated_at": "2026-11-17T13:35:15+00:00",
   "member_count": 10,
-  "item_count": 130,
+  "item_count": 131,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -396,8 +396,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina",
-        "Giuseppe Primiero"
+        "Ekaterina Kubyshkina"
       ]
     },
     {
@@ -423,7 +422,8 @@
       "journal_or_publisher": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
       "abstract": "-",
       "members": [
-        "Ekaterina Kubyshkina"
+        "Ekaterina Kubyshkina",
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -436,8 +436,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
@@ -638,6 +637,19 @@
       ]
     },
     {
+      "title": "BEWARE 2023 : Bias, Ethical AI, Explainability and the role of Logic and Logic Programming",
+      "year": 2023,
+      "authors": "2024 Guido Boella Fabio Aurelio D'Asaro Abeer Dyoub Laura Gorrieri Francesca A. Lisi Chiara Manganini Giuseppe Primiero",
+      "type": "Book (editor)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1024250",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
+      ]
+    },
+    {
       "title": "Conceptual (and hence mathematical) explanation, conceptual grounding and proof",
       "year": 2023,
       "authors": "Francesco Antonio Genco Francesca Poggiolesi",
@@ -645,7 +657,7 @@
       "doi": "",
       "air_url": "https://air.unimi.it/handle/2434/976228",
       "journal_or_publisher": "ERKENNTNIS",
-      "abstract": "",
+      "abstract": "-",
       "members": [
         "Francesco A. Genco"
       ]
@@ -1057,6 +1069,19 @@
       ]
     },
     {
+      "title": "A Triple Uniqueness of the Maximum Entropy Approach",
+      "year": 2021,
+      "authors": "Landes, J",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/948210",
+      "journal_or_publisher": "LECTURE NOTES IN COMPUTER SCIENCE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
+      ]
+    },
+    {
       "title": "Advancing the Boundaries of Formal Argumentation: Reflections on the AI3 2021 Special Issue",
       "year": 2021,
       "authors": "2023 Fabio Aurelio D'Asaro Marcello D'Agostino Costanza Larese",
@@ -1094,6 +1119,19 @@
       "abstract": "-",
       "members": [
         "Francesco A. Genco"
+      ]
+    },
+    {
+      "title": "EA³: A softmax algorithm for evidence appraisal aggregation [EA(3): A softmax algorithm for evidence appraisal aggregation]",
+      "year": 2021,
+      "authors": "De Pretis, Francesco Landes, J",
+      "type": "Article (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/938996",
+      "journal_or_publisher": "PLOS ONE",
+      "abstract": "-",
+      "members": [
+        "Jürgen Landes"
       ]
     },
     {
@@ -1188,19 +1226,6 @@
       ]
     },
     {
-      "title": "The Entropy-Limit (Conjecture) for Σ₂-Premisses [The Entropy-Limit (Conjecture) for Sigma(2)-Premisses]",
-      "year": 2021,
-      "authors": "J. Landes",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938991",
-      "journal_or_publisher": "STUDIA LOGICA",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
-      ]
-    },
-    {
       "title": "Towards Depth-Bounded Natural Deduction for Classical First-order Logic",
       "year": 2021,
       "authors": "M. D'Agostino C. Larese S. Modgil",
@@ -1212,19 +1237,6 @@
       "members": [
         "Costanza Larese",
         "Marcello D'Agostino"
-      ]
-    },
-    {
-      "title": "Towards the entropy-limit conjecture",
-      "year": 2021,
-      "authors": "J. Landes S. R. Rad J. Williamson",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/938342",
-      "journal_or_publisher": "ANNALS OF PURE AND APPLIED LOGIC",
-      "abstract": "-",
-      "members": [
-        "Jürgen Landes"
       ]
     },
     {
@@ -1672,6 +1684,19 @@
       ]
     },
     {
+      "title": "Standard Completeness for Uninorm-Based Logics",
+      "year": 2015,
+      "authors": "Baldi P. Ciabattoni A.",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/875477",
+      "journal_or_publisher": "PROCEEDINGS - INTERNATIONAL SYMPOSIUM ON MULTIPLE-VALUED LOGIC",
+      "abstract": "-",
+      "members": [
+        "Paolo Baldi"
+      ]
+    },
+    {
       "title": "Teoria della scelta sociale e teorema fondamentale dell'economia del benessere",
       "year": 2015,
       "authors": "M. Giaquinta H. Hosni",
@@ -1682,19 +1707,6 @@
       "abstract": "",
       "members": [
         "Hykel Hosni"
-      ]
-    },
-    {
-      "title": "Uniform proofs of standard completeness for extensions of first-order MTL",
-      "year": 2015,
-      "authors": "Baldi P. Ciabattoni A.",
-      "type": "Article (author)",
-      "doi": "",
-      "air_url": "https://air.unimi.it/handle/2434/875482",
-      "journal_or_publisher": "THEORETICAL COMPUTER SCIENCE",
-      "abstract": "-",
-      "members": [
-        "Paolo Baldi"
       ]
     },
     {
