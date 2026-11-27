@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T14:00:29+00:00",
+  "generated_at": "2026-11-27T13:59:42+00:00",
   "member_count": 10,
-  "item_count": 129,
+  "item_count": 130,
   "warnings": [
     "Giuseppe Primiero: CSV export failed (CSV export for Giuseppe Primiero did not yield any items)",
     "Giuseppe Primiero: BIBTEX export failed (BibTeX export for Giuseppe Primiero did not yield any items)",
@@ -54,6 +54,19 @@
       "members": [
         "Alejandro J. Solares-Rojas",
         "Marcello D'Agostino"
+      ]
+    },
+    {
+      "title": "Counting Worlds Branching Time Semantics for Post-Hoc Bias Mitigation in Generative AI",
+      "year": 2026,
+      "authors": "Alessandro G. Buda Giuseppe Primiero Leonardo Ceragioli Melissa Antonelli",
+      "type": "Book Part (author)",
+      "doi": "",
+      "air_url": "https://air.unimi.it/handle/2434/1278295",
+      "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
+      "abstract": "-",
+      "members": [
+        "Giuseppe Primiero"
       ]
     },
     {
@@ -449,8 +462,7 @@
       "journal_or_publisher": "CEUR WORKSHOP PROCEEDINGS",
       "abstract": "-",
       "members": [
-        "Francesco A. Genco",
-        "Giuseppe Primiero"
+        "Francesco A. Genco"
       ]
     },
     {
